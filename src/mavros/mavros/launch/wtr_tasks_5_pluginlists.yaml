@@ -1,0 +1,16 @@
+plugin_blacklist:
+# common
+- safety_area
+# extras
+- image_pub
+- vibration
+- distance_sensor
+- rangefinder
+- wheel_odometry
+- gps_input
+- 3dr_radio
+- actuator_control
+
+
+plugin_whitelist: []
+#- 'sys_*'

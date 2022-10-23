@@ -1,0 +1,14 @@
+make[2]: *** [CMakeFiles/storm32.xml-v1.0.dir/build.make:63：include/v1.0/storm32/storm32.h] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/storm32.xml-v1.0.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/ardupilotmega.xml-v1.0.dir/build.make:63：include/v1.0/ardupilotmega/ardupilotmega.h] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:369：CMakeFiles/ardupilotmega.xml-v1.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/all.xml-v1.0.dir/build.make:63：include/v1.0/all/all.h] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:342：CMakeFiles/all.xml-v1.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/all.xml-v2.0.dir/build.make:63：all-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:396：CMakeFiles/all.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/ardupilotmega.xml-v2.0.dir/build.make:63：ardupilotmega-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:639：CMakeFiles/ardupilotmega.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/storm32.xml-v2.0.dir/build.make:63：storm32-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:450：CMakeFiles/storm32.xml-v2.0.dir/all] 错误 2
+make: *** [Makefile:118：all] 错误 2

@@ -1,0 +1,16 @@
+make[2]: *** [CMakeFiles/ASLUAV.xml-v2.0.dir/build.make:63：ASLUAV-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:288：CMakeFiles/ASLUAV.xml-v2.0.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/uAvionix.xml-v2.0.dir/build.make:63：uAvionix-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:315：CMakeFiles/uAvionix.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/ualberta.xml-v2.0.dir/build.make:63：ualberta-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:531：CMakeFiles/ualberta.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/all.xml-v2.0.dir/build.make:63：all-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:396：CMakeFiles/all.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/storm32.xml-v2.0.dir/build.make:63：storm32-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:450：CMakeFiles/storm32.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/AVSSUAS.xml-v2.0.dir/build.make:63：AVSSUAS-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:558：CMakeFiles/AVSSUAS.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/standard.xml-v2.0.dir/build.make:63：standard-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:585：CMakeFiles/standard.xml-v2.0.dir/all] 错误 2
+make: *** [Makefile:118：all] 错误 2

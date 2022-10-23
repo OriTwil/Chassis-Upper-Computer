@@ -1,0 +1,10 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K In member function ‘[01m[Kvirtual void mavros::std_plugins::SpeedControlPlugin::initialize(mavros::UAS&)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:32:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksp_nh[m[K’ was not declared in this scope
+   32 |   if (![01;31m[Ksp_nh[m[K.getParam("thrust_scaling", thrust_scaling))
+      |        [01;31m[K^~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:32:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kthrust_scaling[m[K’ was not declared in this scope
+   32 |   if (!sp_nh.getParam("thrust_scaling", [01;31m[Kthrust_scaling[m[K))
+      |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mavros_plugins.dir/build.make:453：CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:543：CMakeFiles/mavros_plugins.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

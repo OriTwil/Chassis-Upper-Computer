@@ -1,0 +1,24 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K In member function ‘[01m[Kvoid mavros::std_plugins::SpeedControlPlugin::handle_speed_control(const mavlink_message_t*, mavlink::common::msg::SPEED_CONTROL_STATUS&)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:50:8:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Kspeed_control_msg[m[K’
+   50 |   auto [01;31m[Kspeed_control_msg[m[K = boost::make_shared<mavros_msgs::SpeedControlStatus>();
+      |        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_control_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kspeed_control_nh[m[K’?
+   53 |   [01;31m[Kspeed_control_msg[m[K->vx_state = speed_control.vx_state;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Kspeed_control_nh[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K In member function ‘[01m[Kbool mavros::std_plugins::SpeedControlPlugin::send_cb(mavros_msgs::SpeedControlSet::Request&, mavros_msgs::SpeedControlSet::Response&)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:66:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mavlink::common::msg::SPEED_CONTROL_SET[m[K’ has no member named ‘[01m[Kv[m[K’
+   66 |   msg.[01;31m[Kv[m[K = req.vx_set;
+      |       [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:67:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mavlink::common::msg::SPEED_CONTROL_SET[m[K’ has no member named ‘[01m[Kvx_speed_set[m[K’
+   67 |   msg.[01;31m[Kvx_speed_set[m[K = req.vx_set;
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:68:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mavlink::common::msg::SPEED_CONTROL_SET[m[K’ has no member named ‘[01m[Kvy_speed_set[m[K’
+   68 |   msg.[01;31m[Kvy_speed_set[m[K = req.vy_set;
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:69:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mavlink::common::msg::SPEED_CONTROL_SET[m[K’ has no member named ‘[01m[Kvw_speed_set[m[K’
+   69 |   msg.[01;31m[Kvw_speed_set[m[K = req.vw_set;
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mavros_plugins.dir/build.make:453：CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:543：CMakeFiles/mavros_plugins.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

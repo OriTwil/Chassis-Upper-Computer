@@ -1,0 +1,8 @@
+mavros/mavros_extras
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_extras/cmake.lock /home/szf/ROS/catkin_ws_3/devel/./cmake.lock
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake /home/szf/ROS/catkin_ws_3/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig.cmake /home/szf/ROS/catkin_ws_3/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_extras/lib/libmavros_extras.so /home/szf/ROS/catkin_ws_3/devel/lib/libmavros_extras.so
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_extras/lib/pkgconfig/mavros_extras.pc /home/szf/ROS/catkin_ws_3/devel/lib/pkgconfig/mavros_extras.pc
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher /home/szf/ROS/catkin_ws_3/devel/lib/mavros_extras/servo_state_publisher
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_extras/lib/mavros_extras/visualization /home/szf/ROS/catkin_ws_3/devel/lib/mavros_extras/visualization

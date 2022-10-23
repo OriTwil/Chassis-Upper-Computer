@@ -1,0 +1,66 @@
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:15[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:27:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ does not name a type
+   27 | namespace mavros {[01;31m[Ks[m[K
+      |                   [01;31m[K^[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:15[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros.h:57:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kplugin[m[K’ was not declared in this scope; did you mean ‘[01m[Kpluginlib[m[K’?
+   57 |  pluginlib::ClassLoader<[01;31m[Kplugin[m[K::PluginBase> plugin_loader;
+      |                         [01;31m[K^~~~~~[m[K
+      |                         [32m[Kpluginlib[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros.h:57:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   57 |  pluginlib::ClassLoader<plugin::PluginBase[01;31m[K>[m[K plugin_loader;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros.h:58:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kplugin[m[K’ was not declared in this scope; did you mean ‘[01m[Kpluginlib[m[K’?
+   58 |  std::vector<[01;31m[Kplugin[m[K::PluginBase::Ptr> loaded_plugins;
+      |              [01;31m[K^~~~~~[m[K
+      |              [32m[Kpluginlib[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros.h:58:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   58 |  std::vector<plugin::PluginBase::Ptr[01;31m[K>[m[K loaded_plugins;
+      |                                     [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros.h:58:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros.h:61:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kplugin[m[K’ was not declared in this scope; did you mean ‘[01m[Kpluginlib[m[K’?
+   61 |  std::unordered_map<mavlink::msgid_t, [01;31m[Kplugin[m[K::PluginBase::Subscriptions> plugin_subscriptions;
+      |                                       [01;31m[K^~~~~~[m[K
+      |                                       [32m[Kpluginlib[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros.h:61:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   61 |  std::unordered_map<mavlink::msgid_t, plugin::PluginBase::Subscriptions[01;31m[K>[m[K plugin_subscriptions;
+      |                                                                        [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros.h:61:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:30:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kplugin[m[K’ has not been declared
+   30 | using [01;31m[Kplugin[m[K::PluginBase;
+      |       [01;31m[K^~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:[m[K In constructor ‘[01m[Kmavros::MavRos::MavRos()[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:40:23:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in mem-initializer [[01;31m[K-fpermissive[m[K]
+   40 |  plugin_subscriptions{[01;31m[K}[m[K
+      |                       [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:40:23:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:139:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetDeclaredClasses[m[K’ in ‘[01m[K((mavros::MavRos*)this)->mavros::MavRos::plugin_loader[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  139 |  for (auto &name : plugin_loader.[01;31m[KgetDeclaredClasses[m[K())
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:[m[K In member function ‘[01m[Kvoid mavros::MavRos::plugin_route_cb(const mavlink_message_t*, mavconn::Framing)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:256:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kfind[m[K’ in ‘[01m[K((mavros::MavRos*)this)->mavros::MavRos::plugin_subscriptions[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  256 |  auto it = plugin_subscriptions.[01;31m[Kfind[m[K(mmsg->msgid);
+      |                                 [01;31m[K^~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:257:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[K((mavros::MavRos*)this)->mavros::MavRos::plugin_subscriptions[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  257 |  if (it == plugin_subscriptions.[01;31m[Kend[m[K())
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:[m[K In member function ‘[01m[Kvoid mavros::MavRos::add_plugin(std::string&, ros::V_string&, ros::V_string&)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:324:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KcreateInstance[m[K’ in ‘[01m[K((mavros::MavRos*)this)->mavros::MavRos::plugin_loader[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  324 |   auto plugin = plugin_loader.[01;31m[KcreateInstance[m[K(pl_name);
+      |                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:342:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kfind[m[K’ in ‘[01m[K((mavros::MavRos*)this)->mavros::MavRos::plugin_subscriptions[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  342 |    auto it = plugin_subscriptions.[01;31m[Kfind[m[K(msgid);
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:343:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[K((mavros::MavRos*)this)->mavros::MavRos::plugin_subscriptions[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  343 |    if (it == plugin_subscriptions.[01;31m[Kend[m[K()) {
+      |                                   [01;31m[K^~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:347:35:[m[K [01;31m[Kerror: [m[K‘[01m[KPluginBase[m[K’ has not been declared
+  347 |     plugin_subscriptions[msgid] = [01;31m[KPluginBase[m[K::Subscriptions{{info}};
+      |                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp:374:18:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((mavros::MavRos*)this)->mavros::MavRos::loaded_plugins[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  374 |   loaded_plugins.[01;31m[Kpush_back[m[K(plugin);
+      |                  [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mavros.dir/build.make:128：CMakeFiles/mavros.dir/src/lib/mavros.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:1293：CMakeFiles/mavros.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

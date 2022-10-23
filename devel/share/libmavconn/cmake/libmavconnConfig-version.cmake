@@ -1,0 +1,1 @@
+/home/szf/ROS/catkin_ws_3/devel/.private/libmavconn/share/libmavconn/cmake/libmavconnConfig-version.cmake

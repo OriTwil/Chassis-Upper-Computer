@@ -1,0 +1,301 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:61:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\344[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS[01;31m[K�[m[K��自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:62:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\270[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS�[01;31m[K�[m[K�自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:63:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\272[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS�[01;31m[K�[m[K自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:64:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\350[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为[01;31m[K�[m[K��动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:65:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\207[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为�[01;31m[K�[m[K�动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:66:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\252[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为�[01;31m[K�[m[K动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:67:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自[01;31m[K�[m[K��生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:68:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\212[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自�[01;31m[K�[m[K�生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:69:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\250[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自�[01;31m[K�[m[K生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:70:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\347[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动[01;31m[K�[m[K��成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:71:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\224[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动�[01;31m[K�[m[K�成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:72:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\237[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动�[01;31m[K�[m[K成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                        [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:73:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生[01;31m[K�[m[K��的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:74:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\210[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生�[01;31m[K�[m[K�的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                          [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:75:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\220[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生�[01;31m[K�[m[K的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:76:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\347[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成[01;31m[K�[m[K��消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                            [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:77:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\232[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成�[01;31m[K�[m[K�消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:78:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\204[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成�[01;31m[K�[m[K消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                              [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:79:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的[01;31m[K�[m[K��息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                               [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:80:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\266[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的�[01;31m[K�[m[K�息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:81:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\210[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的�[01;31m[K�[m[K息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:82:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消[01;31m[K�[m[K��头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                  [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:83:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\201[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消�[01;31m[K�[m[K�头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                   [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:84:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\257[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消�[01;31m[K�[m[K头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                    [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:85:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息[01;31m[K�[m[K��文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                     [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:86:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\244[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息�[01;31m[K�[m[K�文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:87:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\264[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息�[01;31m[K�[m[K文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                       [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:88:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头[01;31m[K�[m[K��件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                        [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:89:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\226[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头�[01;31m[K�[m[K�件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                         [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:90:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\207[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头�[01;31m[K�[m[K件中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                          [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:91:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\344[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文[01;31m[K�[m[K��中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                           [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:92:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\273[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文�[01;31m[K�[m[K�中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                            [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:93:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\266[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文�[01;31m[K�[m[K中所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:94:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\344[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件[01;31m[K�[m[K��所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                              [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:95:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\270[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件�[01;31m[K�[m[K�所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                               [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:96:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\255[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件�[01;31m[K�[m[K所定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                                [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:97:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中[01;31m[K�[m[K��定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                                 [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:98:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\211[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中�[01;31m[K�[m[K�定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                                  [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:99:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\200[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中�[01;31m[K�[m[K定义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                                   [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:100:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所[01;31m[K�[m[K��义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                                    [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:101:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\256[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所�[01;31m[K�[m[K�义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                                     [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:102:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\232[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所�[01;31m[K�[m[K义的，也是依据此来解析收到的mavlink消息。
+      |                                                                                                      [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:103:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\344[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定[01;31m[K�[m[K��的，也是依据此来解析收到的mavlink消息。
+      |                                                                                                       [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:104:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\271[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定�[01;31m[K�[m[K�的，也是依据此来解析收到的mavlink消息。
+      |                                                                                                        [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:105:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\211[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定�[01;31m[K�[m[K的，也是依据此来解析收到的mavlink消息。
+      |                                                                                                         [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:106:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\347[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义[01;31m[K�[m[K��，也是依据此来解析收到的mavlink消息。
+      |                                                                                                          [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:107:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\232[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义�[01;31m[K�[m[K�，也是依据此来解析收到的mavlink消息。
+      |                                                                                                           [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:108:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\204[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义�[01;31m[K�[m[K，也是依据此来解析收到的mavlink消息。
+      |                                                                                                            [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:109:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\357[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的[01;31m[K�[m[K��也是依据此来解析收到的mavlink消息。
+      |                                                                                                             [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:110:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\274[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的�[01;31m[K�[m[K�也是依据此来解析收到的mavlink消息。
+      |                                                                                                              [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:111:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\214[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的�[01;31m[K�[m[K也是依据此来解析收到的mavlink消息。
+      |                                                                                                               [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:112:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\344[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，[01;31m[K�[m[K��是依据此来解析收到的mavlink消息。
+      |                                                                                                                [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:113:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\271[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，�[01;31m[K�[m[K�是依据此来解析收到的mavlink消息。
+      |                                                                                                                 [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:114:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\237[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，�[01;31m[K�[m[K是依据此来解析收到的mavlink消息。
+      |                                                                                                                  [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:115:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也[01;31m[K�[m[K��依据此来解析收到的mavlink消息。
+      |                                                                                                                   [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:116:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\230[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也�[01;31m[K�[m[K�依据此来解析收到的mavlink消息。
+      |                                                                                                                    [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:117:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\257[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也�[01;31m[K�[m[K依据此来解析收到的mavlink消息。
+      |                                                                                                                     [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:118:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\344[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是[01;31m[K�[m[K��据此来解析收到的mavlink消息。
+      |                                                                                                                      [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:119:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\276[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是�[01;31m[K�[m[K�据此来解析收到的mavlink消息。
+      |                                                                                                                       [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:120:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\235[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是�[01;31m[K�[m[K据此来解析收到的mavlink消息。
+      |                                                                                                                        [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:121:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依[01;31m[K�[m[K��此来解析收到的mavlink消息。
+      |                                                                                                                         [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:122:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\215[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依�[01;31m[K�[m[K�此来解析收到的mavlink消息。
+      |                                                                                                                          [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:123:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\256[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依�[01;31m[K�[m[K此来解析收到的mavlink消息。
+      |                                                                                                                           [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:124:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据[01;31m[K�[m[K��来解析收到的mavlink消息。
+      |                                                                                                                            [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:125:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\255[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据�[01;31m[K�[m[K�来解析收到的mavlink消息。
+      |                                                                                                                             [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:126:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\244[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据�[01;31m[K�[m[K来解析收到的mavlink消息。
+      |                                                                                                                              [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:127:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此[01;31m[K�[m[K��解析收到的mavlink消息。
+      |                                                                                                                               [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:128:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\235[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此�[01;31m[K�[m[K�解析收到的mavlink消息。
+      |                                                                                                                                [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:129:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\245[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此�[01;31m[K�[m[K解析收到的mavlink消息。
+      |                                                                                                                                 [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:130:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\350[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来[01;31m[K�[m[K��析收到的mavlink消息。
+      |                                                                                                                                  [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:131:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\247[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来�[01;31m[K�[m[K�析收到的mavlink消息。
+      |                                                                                                                                   [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:132:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\243[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来�[01;31m[K�[m[K析收到的mavlink消息。
+      |                                                                                                                                    [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:133:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解[01;31m[K�[m[K��收到的mavlink消息。
+      |                                                                                                                                     [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:134:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\236[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解�[01;31m[K�[m[K�收到的mavlink消息。
+      |                                                                                                                                      [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:135:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\220[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解�[01;31m[K�[m[K收到的mavlink消息。
+      |                                                                                                                                       [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:136:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析[01;31m[K�[m[K��到的mavlink消息。
+      |                                                                                                                                        [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:137:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\224[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析�[01;31m[K�[m[K�到的mavlink消息。
+      |                                                                                                                                         [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:138:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\266[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析�[01;31m[K�[m[K到的mavlink消息。
+      |                                                                                                                                          [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:139:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收[01;31m[K�[m[K��的mavlink消息。
+      |                                                                                                                                           [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:140:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\210[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收�[01;31m[K�[m[K�的mavlink消息。
+      |                                                                                                                                            [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:141:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\260[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收�[01;31m[K�[m[K的mavlink消息。
+      |                                                                                                                                             [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:142:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\347[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到[01;31m[K�[m[K��mavlink消息。
+      |                                                                                                                                              [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:143:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\232[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到�[01;31m[K�[m[K�mavlink消息。
+      |                                                                                                                                               [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:144:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\204[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到�[01;31m[K�[m[Kmavlink消息。
+      |                                                                                                                                                [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:152:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink[01;31m[K�[m[K��息。
+      |                                                                                                                                                        [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:153:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\266[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink�[01;31m[K�[m[K�息。
+      |                                                                                                                                                         [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:154:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\210[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink�[01;31m[K�[m[K息。
+      |                                                                                                                                                          [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:155:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消[01;31m[K�[m[K��。
+      |                                                                                                                                                           [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:156:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\201[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消�[01;31m[K�[m[K�。
+      |                                                                                                                                                            [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:157:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\257[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消�[01;31m[K�[m[K。
+      |                                                                                                                                                             [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:158:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\343[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息[01;31m[K�[m[K��
+      |                                                                                                                                                              [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:159:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\200[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息�[01;31m[K�[m[K�
+      |                                                                                                                                                               [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:160:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\202[m[K’ in program
+   53 |     mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息�[01;31m[K�[m[K
+      |                                                                                                                                                                [01;31m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:53:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcrawl_control_status[m[K’ in namespace ‘[01m[Kmavlink[m[K’ does not name a type
+   53 |     mavlink::[01;31m[Kcrawl_control_status[m[K::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K In member function ‘[01m[Kvirtual void mavros::std_plugins::SpeedControlPlugin::initialize(mavros::UAS&)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:32:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksp_nh[m[K’ was not declared in this scope
+   32 |   if (![01;31m[Ksp_nh[m[K.getParam("thrust_scaling", thrust_scaling))
+      |        [01;31m[K^~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:32:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kthrust_scaling[m[K’ was not declared in this scope
+   32 |   if (!sp_nh.getParam("thrust_scaling", [01;31m[Kthrust_scaling[m[K))
+      |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K In member function ‘[01m[Kvirtual mavros::plugin::PluginBase::Subscriptions mavros::std_plugins::SpeedControlPlugin::get_subscriptions()[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:42:38:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_speed_control[m[K’ is not a member of ‘[01m[Kmavros::std_plugins::SpeedControlPlugin[m[K’
+   42 |    make_handler(&SpeedControlPlugin::[01;31m[Khandle_speed_control[m[K),
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:43:3:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{<expression error>}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kmavros::plugin::PluginBase::Subscriptions[m[K’ {aka ‘[01m[Kstd::vector<std::tuple<unsigned int, const char*, long unsigned int, std::function<void(const mavlink::__mavlink_message*, mavconn::Framing)> > >[m[K’}
+   43 |   [01;31m[K}[m[K;
+      |   [01;31m[K^[m[K
+      |   [01;31m[K|[m[K
+      |   [01;31m[K<brace-enclosed initializer list>[m[K
+make[2]: *** [CMakeFiles/mavros_plugins.dir/build.make:453：CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:543：CMakeFiles/mavros_plugins.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

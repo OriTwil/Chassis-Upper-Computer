@@ -1,0 +1,370 @@
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+    if not expand_oneiteration():
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+    mavgen.mavgen(args, args.definitions)
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    if not expand_oneiteration():
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+Traceback (most recent call last):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/tools/mavgen.py", line 31, in <module>
+    mavgen.mavgen(args, args.definitions)
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 240, in mavgen
+    expand_includes()
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 116, in expand_includes
+    if not expand_oneiteration():
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 103, in expand_oneiteration
+    if not mavgen_validate(fname):
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/pymavlink/generator/mavgen.py", line 201, in mavgen_validate
+    xmldocument = etree.parse(f)
+  File "src/lxml/etree.pyx", line 3519, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1860, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1880, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1775, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1187, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "/home/szf/ROS/catkin_ws_3/src/mavlink-gbp-release/message_definitions/v1.0/common.xml", line 7489
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: messages line 4855 and mavlink, line 7489, column 12
+make[2]: *** [CMakeFiles/uAvionix.xml-v1.0.dir/build.make:63：include/v1.0/uAvionix/uAvionix.h] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:180：CMakeFiles/uAvionix.xml-v1.0.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/ASLUAV.xml-v2.0.dir/build.make:63：ASLUAV-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:288：CMakeFiles/ASLUAV.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/paparazzi.xml-v1.0.dir/build.make:63：include/v1.0/paparazzi/paparazzi.h] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:234：CMakeFiles/paparazzi.xml-v1.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/ualberta.xml-v2.0.dir/build.make:63：ualberta-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:531：CMakeFiles/ualberta.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/all.xml-v1.0.dir/build.make:63：include/v1.0/all/all.h] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:342：CMakeFiles/all.xml-v1.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/ASLUAV.xml-v1.0.dir/build.make:63：include/v1.0/ASLUAV/ASLUAV.h] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:504：CMakeFiles/ASLUAV.xml-v1.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/storm32.xml-v1.0.dir/build.make:63：include/v1.0/storm32/storm32.h] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/storm32.xml-v1.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/all.xml-v2.0.dir/build.make:63：all-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:396：CMakeFiles/all.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/ualberta.xml-v1.0.dir/build.make:63：include/v1.0/ualberta/ualberta.h] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:126：CMakeFiles/ualberta.xml-v1.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/ardupilotmega.xml-v1.0.dir/build.make:63：include/v1.0/ardupilotmega/ardupilotmega.h] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:369：CMakeFiles/ardupilotmega.xml-v1.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/AVSSUAS.xml-v2.0.dir/build.make:63：AVSSUAS-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:558：CMakeFiles/AVSSUAS.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/standard.xml-v1.0.dir/build.make:63：include/v1.0/standard/standard.h] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:261：CMakeFiles/standard.xml-v1.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/storm32.xml-v2.0.dir/build.make:63：storm32-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:450：CMakeFiles/storm32.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/uAvionix.xml-v2.0.dir/build.make:63：uAvionix-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:315：CMakeFiles/uAvionix.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/standard.xml-v2.0.dir/build.make:63：standard-v2.0-cxx-stamp] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:585：CMakeFiles/standard.xml-v2.0.dir/all] 错误 2
+make[2]: *** [CMakeFiles/development.xml-v1.0.dir/build.make:63：include/v1.0/development/development.h] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:477：CMakeFiles/development.xml-v1.0.dir/all] 错误 2
+make: *** [Makefile:118：all] 错误 2

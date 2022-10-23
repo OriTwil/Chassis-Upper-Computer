@@ -1,0 +1,8 @@
+prefix=/home/szf/ROS/catkin_ws_3/devel
+exec_prefix=/home/szf/ROS/catkin_ws_3/devel
+includedir=${prefix}/include
+
+Name: mavlink
+Description: MAVLink micro air vehicle marshalling / communication library
+Version: 2022.8.8
+Cflags: -I${includedir}

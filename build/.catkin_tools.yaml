@@ -1,0 +1,6 @@
+devel_space: /home/szf/ROS/catkin_ws_3/devel
+install: false
+install_space: /home/szf/ROS/catkin_ws_3/install
+profile: default
+source_space: /home/szf/ROS/catkin_ws_3/src
+workspace: /home/szf/ROS/catkin_ws_3

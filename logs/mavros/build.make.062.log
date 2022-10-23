@@ -1,0 +1,210 @@
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target diagnostic_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target mavros_msgs_generate_messages_eus
+[  0%] Built target diagnostic_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target uuid_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target uuid_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target diagnostic_msgs_generate_messages_lisp
+[  0%] Built target uuid_msgs_generate_messages_eus
+[  0%] Built target mavros_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geographic_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target geographic_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target diagnostic_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target geographic_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target geographic_msgs_generate_messages_py
+[  0%] Built target geographic_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target uuid_msgs_generate_messages_py
+[  0%] Built target mavros_msgs_generate_messages_lisp
+[  0%] Built target uuid_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target mavros_msgs_generate_messages_cpp
+[  0%] Built target mavros_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[ 23%] Built target mavros
+[ 27%] Built target gcs_bridge
+[ 31%] Built target mavros_node
+[ 34%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o[0m
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K In member function ‘[01m[Kbool mavros::std_plugins::SpeedControlPlugin::send_cb(mavros_msgs::SpeedControlSet::Request&, mavros_msgs::SpeedControlSet::Response&)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:73:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_speed_control_set_t[m[K’ was not declared in this scope
+   73 |   [01;31m[Kmavlink_speed_control_set_t[m[K msg;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:75:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   75 |   [01;31m[Kmsg[m[K.vx_set = req.vx_set;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:75:3:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/common.hpp:2389[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:26[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/./mavlink_msg_sys_status.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::common::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/../minimal/minimal.hpp:311[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/common.hpp:2610[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:26[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/../minimal/./mavlink_msg_heartbeat.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::minimal::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/ardupilotmega/ardupilotmega.hpp:939[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:27[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/ardupilotmega/./mavlink_msg_sensor_offsets.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::ardupilotmega::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/ardupilotmega/../uAvionix/uAvionix.hpp:154[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/ardupilotmega/ardupilotmega.hpp:1007[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:27[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/ardupilotmega/../uAvionix/./mavlink_msg_uavionix_adsb_out_cfg.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::uAvionix::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/ardupilotmega/../icarous/icarous.hpp:63[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/ardupilotmega/ardupilotmega.hpp:1008[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:27[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/ardupilotmega/../icarous/./mavlink_msg_icarous_heartbeat.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::icarous::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/ASLUAV/ASLUAV.hpp:61[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:28[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/ASLUAV/./mavlink_msg_command_int_stamped.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::ASLUAV::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/AVSSUAS/AVSSUAS.hpp:84[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:29[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/AVSSUAS/./mavlink_msg_avss_prs_sys_status.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::AVSSUAS::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/../development/development.hpp:393[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/all.hpp:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:30[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/../development/./mavlink_msg_param_ack_transaction.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::development::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/../python_array_test/python_array_test.hpp:39[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/all.hpp:48[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:30[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/../python_array_test/./mavlink_msg_array_test_0.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::python_array_test::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/../test/test.hpp:39[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/all.hpp:50[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:30[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/../test/./mavlink_msg_test_types.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::test::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/../ualberta/ualberta.hpp:74[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/all.hpp:51[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:30[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/../ualberta/./mavlink_msg_nav_filter_bias.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::ualberta::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/../storm32/storm32.hpp:244[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/all.hpp:53[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:30[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/all/../storm32/./mavlink_msg_storm32_gimbal_device_status.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::storm32::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/matrixpilot/matrixpilot.hpp:254[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:33[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/matrixpilot/./mavlink_msg_flexifunction_set.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::matrixpilot::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/paparazzi/paparazzi.hpp:39[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:34[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/paparazzi/./mavlink_msg_script_item.hpp:7:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::paparazzi::msg[m[K’
+    7 | namespace [01;36m[Kmsg[m[K {
+      |           [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/mavros_plugins.dir/build.make:453：CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:543：CMakeFiles/mavros_plugins.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

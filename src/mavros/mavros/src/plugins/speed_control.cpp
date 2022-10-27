@@ -1,15 +1,12 @@
 /**
  * @brief CrawlControls plugin
  * @file crawl_controls.cpp
- * @author Yanfeng <962353916@qq.com>
+ * @author szf
  *
  * @addtogroup plugin
  */
  
 #include <mavros/mavros_plugin.h>
-#include <mavros_msgs/SpeedControlStatus.h>
-#include <mavros_msgs/SpeedControlSet.h>
-
 
 namespace mavros {
 namespace std_plugins {
@@ -39,7 +36,7 @@ public:
 	}
     //用来获取mavlink解析到的消息
 	Subscriptions get_subscriptions() {
-		ROS_INFO("HIHI");
+		ROS_INFO("get_subscriptions success!");
 		return {
 			make_handler(&SpeedControlPlugin::handle_speed_control),
 		};
@@ -56,20 +53,19 @@ private:
 	void handle_speed_control(const mavlink::mavlink_message_t *msg, mavlink::common::msg::SPEED_CONTROL_STATUS &speed_control)
 	{
 		auto speed_control_msg = boost::make_shared<mavros_msgs::SpeedControlStatus>();
-		ROS_INFO("HAHA");
 		// crawl_control_msg->header.stamp = ros::Time::now();
 		speed_control_msg->vx_state = speed_control.vx_state;
 		speed_control_msg->vy_state = speed_control.vy_state;
 		speed_control_msg->vx_state = speed_control.vw_state;
 		//将解析到的消息发布至topic
 		control_pub.publish(speed_control_msg);
+		ROS_INFO("handle_speed_control success!");
 	}
  
 	/* -*- callbacks -*- */
  
 	bool send_cb(mavros_msgs::SpeedControlSet::Request &req, mavros_msgs::SpeedControlSet::Response &responce)
 	{
-		ROS_INFO("HEHE");
 		mavlink::common::msg::SPEED_CONTROL_SET msg;
 		// mavlink_speed_control_set_t msg;
 		//讲server收到的request赋值给mavlink消息
@@ -80,6 +76,7 @@ private:
 		responce.send_success = true;
 		//调用mavlink消息发送API
 		UAS_FCU(m_uas)->send_message_ignore_drop(msg);
+		ROS_INFO("send_cb succcess!");
 		return true;
 	}
 };

@@ -12,4 +12,5 @@ export LD_LIBRARY_PATH="/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib:$LD_
 export PKG_CONFIG_PATH="/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/szf/ROS/catkin_ws_3/build/mavros'
 export PYTHONPATH="/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/szf/ROS/catkin_ws_3/devel/.private/mavros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/szf/ROS/catkin_ws_3/src/mavros/mavros:$ROS_PACKAGE_PATH"

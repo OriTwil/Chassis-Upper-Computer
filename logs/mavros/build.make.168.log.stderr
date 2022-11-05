@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/SpeedControlSet_pub.dir/src/SpeedControlSet_pub.cpp.o: in function `ShowPath_ref()':
+SpeedControlSet_pub.cpp:(.text+0x9a8): undefined reference to `tf::TransformBroadcaster::TransformBroadcaster()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/SpeedControlSet_pub.dir/build.make:121：/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib/mavros/SpeedControlSet_pub] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:530：CMakeFiles/SpeedControlSet_pub.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

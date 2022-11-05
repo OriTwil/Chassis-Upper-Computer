@@ -47,6 +47,8 @@
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/clean_test_results.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/geographic_msgs_generate_messages_cpp.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/tests.dir
+/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_SetMode.dir
+/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_FileRemoveDir.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_LogRequestList.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_CommandHome.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
@@ -143,12 +145,11 @@
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_StatusText.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_FileTruncate.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_LogRequestEnd.dir
+/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_SpeedControlSet_sub.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamGet.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_CommandTriggerInterval.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamPush.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamSet.dir
-/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_FileRemoveDir.dir
-/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_SetMode.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/gtest/CMakeFiles/install/strip.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/gtest/CMakeFiles/install/local.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/gtest/CMakeFiles/install.dir

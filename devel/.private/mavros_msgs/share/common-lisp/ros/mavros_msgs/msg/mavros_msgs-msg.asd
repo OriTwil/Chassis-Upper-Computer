@@ -107,6 +107,8 @@
     (:file "_package_RTKBaseline" :depends-on ("_package"))
     (:file "RadioStatus" :depends-on ("_package_RadioStatus"))
     (:file "_package_RadioStatus" :depends-on ("_package"))
+    (:file "SpeedControlSet_sub" :depends-on ("_package_SpeedControlSet_sub"))
+    (:file "_package_SpeedControlSet_sub" :depends-on ("_package"))
     (:file "SpeedControlStatus" :depends-on ("_package_SpeedControlStatus"))
     (:file "_package_SpeedControlStatus" :depends-on ("_package"))
     (:file "State" :depends-on ("_package_State"))

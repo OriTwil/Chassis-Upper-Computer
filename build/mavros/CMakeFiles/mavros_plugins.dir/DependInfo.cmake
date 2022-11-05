@@ -56,6 +56,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include"
   "/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include"
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/include"
+  "/home/szf/ROS/catkin_ws/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

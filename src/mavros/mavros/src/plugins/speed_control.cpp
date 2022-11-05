@@ -7,6 +7,9 @@
  */
  
 #include <mavros/mavros_plugin.h>
+#include <mavros_msgs/SpeedControlStatus.h>
+#include <mavros_msgs/SpeedControlSet.h>
+#include "mavros_msgs/SpeedControlSet_sub.h"
 
 namespace mavros {
 namespace std_plugins {
@@ -25,15 +28,10 @@ public:
 
 		control_pub = speed_control_nh.advertise<mavros_msgs::SpeedControlStatus>("status", 10);
 		send_service = speed_control_nh.advertiseService("send", &SpeedControlPlugin::send_cb, this);
-
-		// // Set Thrust scaling in px4_config.yaml, setpoint_raw block.
-		// if (!speed_control_nh.getParam("thrust_scaling", thrust_scaling))
-		// {
-		// 	ROS_WARN_THROTTLE_NAMED(5, "setpoint_raw", "thrust_scaling parameter is unset. Attitude (and angular rate/thrust) setpoints will be ignored.");
-		// 	thrust_scaling = -1.0;
-		// }//add
+		send_subscriber = speed_control_nh.subscribe<mavros_msgs::SpeedControlSet_sub>("send_topic", 10, &SpeedControlPlugin::send_callback, this);
 
 	}
+
     //用来获取mavlink解析到的消息
 	Subscriptions get_subscriptions() {
 		ROS_INFO("get_subscriptions success!");
@@ -47,6 +45,7 @@ private:
  
 	ros::Publisher control_pub;
 	ros::ServiceServer send_service;
+	ros::Subscriber send_subscriber;
  
 	/* -*- rx handlers -*- */
     // mavlink::crawl_control_status::msg::CRAWL_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息。
@@ -59,12 +58,12 @@ private:
 		speed_control_msg->vx_state = speed_control.vw_state;
 		//将解析到的消息发布至topic
 		control_pub.publish(speed_control_msg);
-		ROS_INFO("handle_speed_control success!");
+		// ROS_INFO("handle_speed_control success!");
 	}
  
 	/* -*- callbacks -*- */
  
-	bool send_cb(mavros_msgs::SpeedControlSet::Request &req, mavros_msgs::SpeedControlSet::Response &responce)
+	bool send_cb(mavros_msgs::SpeedControlSet::Request &req , mavros_msgs::SpeedControlSet::Response &responce)
 	{
 		mavlink::common::msg::SPEED_CONTROL_SET msg;
 		// mavlink_speed_control_set_t msg;
@@ -76,9 +75,20 @@ private:
 		responce.send_success = true;
 		//调用mavlink消息发送API
 		UAS_FCU(m_uas)->send_message_ignore_drop(msg);
-		ROS_INFO("send_cb succcess!");
+		// ROS_INFO("send_cb succcess!");
 		return true;
 	}
+
+	void send_callback(const mavros_msgs::SpeedControlSet_sub::ConstPtr& speed_p)
+	{
+		mavlink::common::msg::SPEED_CONTROL_SET msg;
+		msg.vw_set = speed_p->vw_set_sub;
+		msg.vy_set = speed_p->vy_set_sub;
+		msg.vx_set = speed_p->vx_set_sub;
+		ROS_INFO("send_callback succcess!");
+		UAS_FCU(m_uas)->send_message_ignore_drop(msg);
+
+	} 
 };
 }	// namespace std_plugins
 }	// namespace mavros

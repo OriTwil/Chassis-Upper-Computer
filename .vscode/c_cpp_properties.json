@@ -1,3 +1,27 @@
+// {
+//     "configurations": [
+//         {
+//             "browse": {
+//                 "databaseFilename": "",
+//                 "limitSymbolsToIncludedHeaders": true
+//             },
+//             "name": "Linux",
+//             "includePath": [
+//                 "${workspaceFolder}/**",
+//                 // "/home/szf/ROS/catkin_ws_3/build/mavlink/include/**",
+//                 // "/home/szf/ROS/catkin_ws_3/devel/include/**",
+//             ],
+//             "defines": [],
+//             "compilerPath": "/usr/bin/gcc",
+//             "cStandard": "gnu11",
+//             "cppStandard": "c++17",
+//             "intelliSenseMode": "linux-gcc-x64",
+//             "configurationProvider": "ms-vscode.makefile-tools"
+//             // "configurationProvider": "ms-vscode.cmake-tools"
+//         }
+//     ],
+//     "version": 4
+// }
 {
     "configurations": [
         {
@@ -5,19 +29,19 @@
                 "databaseFilename": "",
                 "limitSymbolsToIncludedHeaders": true
             },
-            "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                // "/home/szf/ROS/catkin_ws_3/build/mavlink/include/**",
-                // "/home/szf/ROS/catkin_ws_3/devel/include/**",
-            ],
-            "defines": [],
+                "/opt/ros/noetic/include/**",
+                "/usr/include/**",
+                "/home/szf/ROS/catkin_ws_3/devel/include/**",
+                "/home/szf/ROS/catkin_ws_3/build/mavlink/include/**",
+                "/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/**"
+
+],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
             "compilerPath": "/usr/bin/gcc",
-            "cStandard": "gnu11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "linux-gcc-x64",
-            "configurationProvider": "ms-vscode.makefile-tools"
-            // "configurationProvider": "ms-vscode.cmake-tools"
+            "cStandard": "c11",
+            "cppStandard": "c++17"
         }
     ],
     "version": 4

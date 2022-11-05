@@ -1,0 +1,7 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:93:5:[m[K [01;31m[Kerror: [m[K‘[01m[KShowPath_ref[m[K’ was not declared in this scope
+   93 |     [01;31m[KShowPath_ref[m[K;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/SpeedControlSet_pub.dir/build.make:63：CMakeFiles/SpeedControlSet_pub.dir/src/SpeedControlSet_pub.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:530：CMakeFiles/SpeedControlSet_pub.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

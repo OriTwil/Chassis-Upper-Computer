@@ -1,0 +1,24 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_client.cpp:16[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_client.cpp:53:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros_msgs::SpeedControlSet::Response[m[K’ {aka ‘[01m[Kstruct mavros_msgs::SpeedControlSetResponse_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+   53 |         ROS_INFO("请求正常处理,响应结果:%d",ai.response.[01;31m[Ksum[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_client.cpp:53:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   53 |         [01;36m[KROS_INFO[m[K("请求正常处理,响应结果:%d",ai.response.sum);
+      |         [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/SpeedControlSet_client.dir/build.make:63：CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:1124：CMakeFiles/SpeedControlSet_client.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

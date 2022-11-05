@@ -50,6 +50,7 @@ file(REMOVE_RECURSE
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/RTCM.l"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/RTKBaseline.l"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/RadioStatus.l"
+  "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/SpeedControlSet_sub.l"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/SpeedControlStatus.l"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/State.l"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/StatusText.l"

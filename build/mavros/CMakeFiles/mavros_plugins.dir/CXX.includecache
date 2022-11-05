@@ -1850,6 +1850,22 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
+/home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/SpeedControlSet_sub.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/SpeedControlStatus.h
 string
 -
@@ -2021,6 +2037,8 @@ mavros_msgs/SpeedControlStatus.h
 -
 mavros_msgs/SpeedControlSet.h
 -
+mavros_msgs/SpeedControlSet_sub.h
+/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/mavros_msgs/SpeedControlSet_sub.h
 pluginlib/class_list_macros.h
 -
 

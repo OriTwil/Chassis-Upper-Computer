@@ -20610,6 +20610,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/cat
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/SpeedControlSet.h
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/SpeedControlSetRequest.h
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/SpeedControlSetResponse.h
+CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/SpeedControlSet_sub.h
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/SpeedControlStatus.h
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h

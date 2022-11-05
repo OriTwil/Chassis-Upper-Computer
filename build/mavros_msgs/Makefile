@@ -766,6 +766,32 @@ tests/fast:
 .PHONY : tests/fast
 
 #=============================================================================
+# Target rules for targets named _mavros_msgs_generate_messages_check_deps_SetMode
+
+# Build rule for target.
+_mavros_msgs_generate_messages_check_deps_SetMode: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mavros_msgs_generate_messages_check_deps_SetMode
+.PHONY : _mavros_msgs_generate_messages_check_deps_SetMode
+
+# fast build rule for target.
+_mavros_msgs_generate_messages_check_deps_SetMode/fast:
+	$(MAKE) -f CMakeFiles/_mavros_msgs_generate_messages_check_deps_SetMode.dir/build.make CMakeFiles/_mavros_msgs_generate_messages_check_deps_SetMode.dir/build
+.PHONY : _mavros_msgs_generate_messages_check_deps_SetMode/fast
+
+#=============================================================================
+# Target rules for targets named _mavros_msgs_generate_messages_check_deps_FileRemoveDir
+
+# Build rule for target.
+_mavros_msgs_generate_messages_check_deps_FileRemoveDir: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mavros_msgs_generate_messages_check_deps_FileRemoveDir
+.PHONY : _mavros_msgs_generate_messages_check_deps_FileRemoveDir
+
+# fast build rule for target.
+_mavros_msgs_generate_messages_check_deps_FileRemoveDir/fast:
+	$(MAKE) -f CMakeFiles/_mavros_msgs_generate_messages_check_deps_FileRemoveDir.dir/build.make CMakeFiles/_mavros_msgs_generate_messages_check_deps_FileRemoveDir.dir/build
+.PHONY : _mavros_msgs_generate_messages_check_deps_FileRemoveDir/fast
+
+#=============================================================================
 # Target rules for targets named _mavros_msgs_generate_messages_check_deps_LogRequestList
 
 # Build rule for target.
@@ -1962,6 +1988,19 @@ _mavros_msgs_generate_messages_check_deps_LogRequestEnd/fast:
 .PHONY : _mavros_msgs_generate_messages_check_deps_LogRequestEnd/fast
 
 #=============================================================================
+# Target rules for targets named _mavros_msgs_generate_messages_check_deps_SpeedControlSet_sub
+
+# Build rule for target.
+_mavros_msgs_generate_messages_check_deps_SpeedControlSet_sub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mavros_msgs_generate_messages_check_deps_SpeedControlSet_sub
+.PHONY : _mavros_msgs_generate_messages_check_deps_SpeedControlSet_sub
+
+# fast build rule for target.
+_mavros_msgs_generate_messages_check_deps_SpeedControlSet_sub/fast:
+	$(MAKE) -f CMakeFiles/_mavros_msgs_generate_messages_check_deps_SpeedControlSet_sub.dir/build.make CMakeFiles/_mavros_msgs_generate_messages_check_deps_SpeedControlSet_sub.dir/build
+.PHONY : _mavros_msgs_generate_messages_check_deps_SpeedControlSet_sub/fast
+
+#=============================================================================
 # Target rules for targets named _mavros_msgs_generate_messages_check_deps_ParamGet
 
 # Build rule for target.
@@ -2012,32 +2051,6 @@ _mavros_msgs_generate_messages_check_deps_ParamSet: cmake_check_build_system
 _mavros_msgs_generate_messages_check_deps_ParamSet/fast:
 	$(MAKE) -f CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamSet.dir/build.make CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamSet.dir/build
 .PHONY : _mavros_msgs_generate_messages_check_deps_ParamSet/fast
-
-#=============================================================================
-# Target rules for targets named _mavros_msgs_generate_messages_check_deps_FileRemoveDir
-
-# Build rule for target.
-_mavros_msgs_generate_messages_check_deps_FileRemoveDir: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _mavros_msgs_generate_messages_check_deps_FileRemoveDir
-.PHONY : _mavros_msgs_generate_messages_check_deps_FileRemoveDir
-
-# fast build rule for target.
-_mavros_msgs_generate_messages_check_deps_FileRemoveDir/fast:
-	$(MAKE) -f CMakeFiles/_mavros_msgs_generate_messages_check_deps_FileRemoveDir.dir/build.make CMakeFiles/_mavros_msgs_generate_messages_check_deps_FileRemoveDir.dir/build
-.PHONY : _mavros_msgs_generate_messages_check_deps_FileRemoveDir/fast
-
-#=============================================================================
-# Target rules for targets named _mavros_msgs_generate_messages_check_deps_SetMode
-
-# Build rule for target.
-_mavros_msgs_generate_messages_check_deps_SetMode: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _mavros_msgs_generate_messages_check_deps_SetMode
-.PHONY : _mavros_msgs_generate_messages_check_deps_SetMode
-
-# fast build rule for target.
-_mavros_msgs_generate_messages_check_deps_SetMode/fast:
-	$(MAKE) -f CMakeFiles/_mavros_msgs_generate_messages_check_deps_SetMode.dir/build.make CMakeFiles/_mavros_msgs_generate_messages_check_deps_SetMode.dir/build
-.PHONY : _mavros_msgs_generate_messages_check_deps_SetMode/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -2146,6 +2159,8 @@ help:
 	@echo "... clean_test_results"
 	@echo "... geographic_msgs_generate_messages_cpp"
 	@echo "... tests"
+	@echo "... _mavros_msgs_generate_messages_check_deps_SetMode"
+	@echo "... _mavros_msgs_generate_messages_check_deps_FileRemoveDir"
 	@echo "... _mavros_msgs_generate_messages_check_deps_LogRequestList"
 	@echo "... _mavros_msgs_generate_messages_check_deps_CommandHome"
 	@echo "... geometry_msgs_generate_messages_lisp"
@@ -2242,12 +2257,11 @@ help:
 	@echo "... _mavros_msgs_generate_messages_check_deps_StatusText"
 	@echo "... _mavros_msgs_generate_messages_check_deps_FileTruncate"
 	@echo "... _mavros_msgs_generate_messages_check_deps_LogRequestEnd"
+	@echo "... _mavros_msgs_generate_messages_check_deps_SpeedControlSet_sub"
 	@echo "... _mavros_msgs_generate_messages_check_deps_ParamGet"
 	@echo "... _mavros_msgs_generate_messages_check_deps_CommandTriggerInterval"
 	@echo "... _mavros_msgs_generate_messages_check_deps_ParamPush"
 	@echo "... _mavros_msgs_generate_messages_check_deps_ParamSet"
-	@echo "... _mavros_msgs_generate_messages_check_deps_FileRemoveDir"
-	@echo "... _mavros_msgs_generate_messages_check_deps_SetMode"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"

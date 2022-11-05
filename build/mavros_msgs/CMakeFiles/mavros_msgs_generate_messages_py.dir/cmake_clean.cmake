@@ -49,6 +49,7 @@ file(REMOVE_RECURSE
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_RTCM.py"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_RTKBaseline.py"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_RadioStatus.py"
+  "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_SpeedControlSet_sub.py"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_SpeedControlStatus.py"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_State.py"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_StatusText.py"

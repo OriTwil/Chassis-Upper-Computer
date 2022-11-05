@@ -1,0 +1,27 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros_msgs::SpeedControlSet_sub[m[K’ {aka ‘[01m[Kstruct mavros_msgs::SpeedControlSet_sub_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvw_set_pub[m[K’; did you mean ‘[01m[Kvw_set_sub[m[K’?
+   15 |     pub.[01;31m[Kvw_set_pub[m[K = 500;
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Kvw_set_sub[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros_msgs::SpeedControlSet_sub[m[K’ {aka ‘[01m[Kstruct mavros_msgs::SpeedControlSet_sub_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvx_set_pub[m[K’; did you mean ‘[01m[Kvx_set_sub[m[K’?
+   16 |     pub.[01;31m[Kvx_set_pub[m[K = 0;
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Kvx_set_sub[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros_msgs::SpeedControlSet_sub[m[K’ {aka ‘[01m[Kstruct mavros_msgs::SpeedControlSet_sub_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvy_set_pub[m[K’; did you mean ‘[01m[Kvy_set_sub[m[K’?
+   17 |     pub.[01;31m[Kvy_set_pub[m[K = 0;
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Kvy_set_sub[m[K
+make[2]: *** [CMakeFiles/SpeedControlSet_pub.dir/build.make:63：CMakeFiles/SpeedControlSet_pub.dir/src/SpeedControlSet_pub.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:528：CMakeFiles/SpeedControlSet_pub.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K In member function ‘[01m[Kvirtual void mavros::std_plugins::SpeedControlPlugin::initialize(mavros::UAS&)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:31:92:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid mavros::std_plugins::SpeedControlPlugin::send_callback(const ConstPtr&)[m[K’
+   31 |   send_subscriber = speed_control_nh.subscribe<mavros_msgs::SpeedControlSet_sub>("send",10,[01;31m[Ksend_callback[m[K);
+      |                                                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:80:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   80 |  void [01;36m[Ksend_callback[m[K(const mavros_msgs::SpeedControlSet_sub::ConstPtr& speed_p)
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mavros_plugins.dir/build.make:453：CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:555：CMakeFiles/mavros_plugins.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

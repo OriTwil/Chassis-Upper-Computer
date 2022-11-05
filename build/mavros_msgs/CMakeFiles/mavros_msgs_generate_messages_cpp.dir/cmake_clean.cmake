@@ -81,6 +81,7 @@ file(REMOVE_RECURSE
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/SetMavFrame.h"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/SetMode.h"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/SpeedControlSet.h"
+  "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/SpeedControlSet_sub.h"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/SpeedControlStatus.h"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/State.h"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/StatusText.h"

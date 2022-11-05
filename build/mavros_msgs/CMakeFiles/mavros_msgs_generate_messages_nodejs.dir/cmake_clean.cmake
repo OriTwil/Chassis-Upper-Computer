@@ -49,6 +49,7 @@ file(REMOVE_RECURSE
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/RTCM.js"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/RTKBaseline.js"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/RadioStatus.js"
+  "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/SpeedControlSet_sub.js"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/SpeedControlStatus.js"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/State.js"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/StatusText.js"

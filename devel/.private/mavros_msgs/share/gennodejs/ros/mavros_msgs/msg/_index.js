@@ -50,6 +50,7 @@ let NavControllerOutput = require('./NavControllerOutput.js');
 let OverrideRCIn = require('./OverrideRCIn.js');
 let LandingTarget = require('./LandingTarget.js');
 let Vibration = require('./Vibration.js');
+let SpeedControlSet_sub = require('./SpeedControlSet_sub.js');
 let ESCInfoItem = require('./ESCInfoItem.js');
 let HilActuatorControls = require('./HilActuatorControls.js');
 let FileEntry = require('./FileEntry.js');
@@ -117,6 +118,7 @@ module.exports = {
   OverrideRCIn: OverrideRCIn,
   LandingTarget: LandingTarget,
   Vibration: Vibration,
+  SpeedControlSet_sub: SpeedControlSet_sub,
   ESCInfoItem: ESCInfoItem,
   HilActuatorControls: HilActuatorControls,
   FileEntry: FileEntry,

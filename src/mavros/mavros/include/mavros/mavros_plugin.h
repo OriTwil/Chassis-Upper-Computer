@@ -108,8 +108,6 @@ protected:
 			       [bfn](const mavlink::mavlink_message_t *msg, const mavconn::Framing framing) {
 				       if (framing != mavconn::Framing::ok)
 					       return;
-						   ROS_INFO("HHHH");
-
 				       mavlink::MsgMap map(msg);
 				       _T obj;
 				       obj.deserialize(map);

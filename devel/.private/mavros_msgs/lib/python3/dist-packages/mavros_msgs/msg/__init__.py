@@ -48,6 +48,7 @@ from ._RCOut import *
 from ._RTCM import *
 from ._RTKBaseline import *
 from ._RadioStatus import *
+from ._SpeedControlSet_sub import *
 from ._SpeedControlStatus import *
 from ._State import *
 from ._StatusText import *

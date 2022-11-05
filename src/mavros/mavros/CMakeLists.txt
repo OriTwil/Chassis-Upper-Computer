@@ -23,6 +23,9 @@ find_package(catkin REQUIRED COMPONENTS
   tf2_eigen
   tf2_ros
   trajectory_msgs
+  wtr_tasks_final
+  message_generation
+  tf
 )
 
 ## System dependencies are found with CMake's conventions
@@ -179,6 +182,25 @@ add_executable(gcs_bridge
 )
 target_link_libraries(gcs_bridge
   mavros
+  ${catkin_LIBRARIES}
+)
+
+add_executable(SpeedControlSet_pub
+  src/SpeedControlSet_pub.cpp
+)
+target_link_libraries(SpeedControlSet_pub
+  mavros
+  ${catkin_LIBRARIES}
+)
+
+
+add_executable(SpeedControlSet_client src/SpeedControlSet_client.cpp)
+
+
+add_dependencies(SpeedControlSet_client ${PROJECT_NAME}_gencpp)
+
+
+target_link_libraries(SpeedControlSet_client
   ${catkin_LIBRARIES}
 )
 

@@ -1984,6 +1984,8 @@ sensor_msgs/Imu.h
 sensor_msgs/NavSatFix.h
 -
 
+/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/px4_custom_mode.h
+
 /home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/utils.h
 Eigen/Geometry
 -
@@ -1994,6 +1996,10 @@ mavros_msgs/mavlink_convert.h
 mavconn/mavlink_dialect.h
 -
 ros/console.h
+-
+
+/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavlink_diag.cpp
+mavros/mavlink_diag.h
 -
 
 /home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/mavros.cpp
@@ -2012,6 +2018,46 @@ mavconn/mavlink_dialect.h
 mavconn/udp.h
 -
 std_msgs/String.h
+-
+
+/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/uas_data.cpp
+array
+-
+unordered_map
+-
+stdexcept
+-
+mavros/mavros_uas.h
+-
+mavros/utils.h
+-
+mavros/px4_custom_mode.h
+-
+
+/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/uas_stringify.cpp
+array
+-
+unordered_map
+-
+stdexcept
+-
+mavros/mavros_uas.h
+-
+mavros/px4_custom_mode.h
+-
+
+/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/uas_timesync.cpp
+array
+-
+unordered_map
+-
+stdexcept
+-
+mavros/mavros_uas.h
+-
+mavros/utils.h
+-
+mavros/px4_custom_mode.h
 -
 
 /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h

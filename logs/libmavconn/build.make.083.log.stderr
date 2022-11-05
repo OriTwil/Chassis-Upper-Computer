@@ -1,0 +1,51 @@
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/common.hpp:2596[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:26[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/build/libmavconn/catkin_generated/src/mavlink_helpers.cpp:21[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/./mavlink_msg_speed_control_set.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmessage.hpp: 没有那个文件或目录
+    4 | #include [01;31m[K"message.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/common.hpp:2596[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:26[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/src/interface.cpp:22[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/./mavlink_msg_speed_control_set.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmessage.hpp: 没有那个文件或目录
+    4 | #include [01;31m[K"message.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+make[2]: *** [CMakeFiles/mavconn.dir/build.make:63：CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/mavconn.dir/build.make:76：CMakeFiles/mavconn.dir/src/interface.cpp.o] 错误 1
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/common.hpp:2596[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:26[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/udp.h:22[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/src/udp.cpp:22[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/./mavlink_msg_speed_control_set.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmessage.hpp: 没有那个文件或目录
+    4 | #include [01;31m[K"message.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mavconn.dir/build.make:115：CMakeFiles/mavconn.dir/src/udp.cpp.o] 错误 1
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/common.hpp:2596[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:26[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/serial.h:22[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/src/serial.cpp:22[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/./mavlink_msg_speed_control_set.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmessage.hpp: 没有那个文件或目录
+    4 | #include [01;31m[K"message.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mavconn.dir/build.make:89：CMakeFiles/mavconn.dir/src/serial.cpp.o] 错误 1
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/common.hpp:2596[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:26[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/tcp.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/src/tcp.cpp:22[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/./mavlink_msg_speed_control_set.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmessage.hpp: 没有那个文件或目录
+    4 | #include [01;31m[K"message.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mavconn.dir/build.make:102：CMakeFiles/mavconn.dir/src/tcp.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:257：CMakeFiles/mavconn.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

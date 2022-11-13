@@ -26,12 +26,16 @@ struct SpeedControlSet_sub_
   SpeedControlSet_sub_()
     : vx_set_sub(0.0)
     , vy_set_sub(0.0)
-    , vw_set_sub(0.0)  {
+    , vw_set_sub(0.0)
+    , x_set_sub(0.0)
+    , y_set_sub(0.0)  {
     }
   SpeedControlSet_sub_(const ContainerAllocator& _alloc)
     : vx_set_sub(0.0)
     , vy_set_sub(0.0)
-    , vw_set_sub(0.0)  {
+    , vw_set_sub(0.0)
+    , x_set_sub(0.0)
+    , y_set_sub(0.0)  {
   (void)_alloc;
     }
 
@@ -45,6 +49,12 @@ struct SpeedControlSet_sub_
 
    typedef float _vw_set_sub_type;
   _vw_set_sub_type vw_set_sub;
+
+   typedef float _x_set_sub_type;
+  _x_set_sub_type x_set_sub;
+
+   typedef float _y_set_sub_type;
+  _y_set_sub_type y_set_sub;
 
 
 
@@ -77,7 +87,9 @@ bool operator==(const ::mavros_msgs::SpeedControlSet_sub_<ContainerAllocator1> &
 {
   return lhs.vx_set_sub == rhs.vx_set_sub &&
     lhs.vy_set_sub == rhs.vy_set_sub &&
-    lhs.vw_set_sub == rhs.vw_set_sub;
+    lhs.vw_set_sub == rhs.vw_set_sub &&
+    lhs.x_set_sub == rhs.x_set_sub &&
+    lhs.y_set_sub == rhs.y_set_sub;
 }
 
 template<typename ContainerAllocator1, typename ContainerAllocator2>
@@ -134,12 +146,12 @@ struct MD5Sum< ::mavros_msgs::SpeedControlSet_sub_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "09372848c4245dfd0a6169928f0d8a97";
+    return "ad82db84ef54bcd533c01136895f6b3e";
   }
 
   static const char* value(const ::mavros_msgs::SpeedControlSet_sub_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x09372848c4245dfdULL;
-  static const uint64_t static_value2 = 0x0a6169928f0d8a97ULL;
+  static const uint64_t static_value1 = 0xad82db84ef54bcd5ULL;
+  static const uint64_t static_value2 = 0x33c01136895f6b3eULL;
 };
 
 template<class ContainerAllocator>
@@ -161,6 +173,9 @@ struct Definition< ::mavros_msgs::SpeedControlSet_sub_<ContainerAllocator> >
     return "float32 vx_set_sub\n"
 "float32 vy_set_sub\n"
 "float32 vw_set_sub\n"
+"\n"
+"float32 x_set_sub\n"
+"float32 y_set_sub\n"
 ;
   }
 
@@ -182,6 +197,8 @@ namespace serialization
       stream.next(m.vx_set_sub);
       stream.next(m.vy_set_sub);
       stream.next(m.vw_set_sub);
+      stream.next(m.x_set_sub);
+      stream.next(m.y_set_sub);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
@@ -206,6 +223,10 @@ struct Printer< ::mavros_msgs::SpeedControlSet_sub_<ContainerAllocator> >
     Printer<float>::stream(s, indent + "  ", v.vy_set_sub);
     s << indent << "vw_set_sub: ";
     Printer<float>::stream(s, indent + "  ", v.vw_set_sub);
+    s << indent << "x_set_sub: ";
+    Printer<float>::stream(s, indent + "  ", v.x_set_sub);
+    s << indent << "y_set_sub: ";
+    Printer<float>::stream(s, indent + "  ", v.y_set_sub);
   }
 };
 

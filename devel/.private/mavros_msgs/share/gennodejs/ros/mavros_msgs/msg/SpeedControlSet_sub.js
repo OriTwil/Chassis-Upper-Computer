@@ -21,6 +21,8 @@ class SpeedControlSet_sub {
       this.vx_set_sub = null;
       this.vy_set_sub = null;
       this.vw_set_sub = null;
+      this.x_set_sub = null;
+      this.y_set_sub = null;
     }
     else {
       if (initObj.hasOwnProperty('vx_set_sub')) {
@@ -41,6 +43,18 @@ class SpeedControlSet_sub {
       else {
         this.vw_set_sub = 0.0;
       }
+      if (initObj.hasOwnProperty('x_set_sub')) {
+        this.x_set_sub = initObj.x_set_sub
+      }
+      else {
+        this.x_set_sub = 0.0;
+      }
+      if (initObj.hasOwnProperty('y_set_sub')) {
+        this.y_set_sub = initObj.y_set_sub
+      }
+      else {
+        this.y_set_sub = 0.0;
+      }
     }
   }
 
@@ -52,6 +66,10 @@ class SpeedControlSet_sub {
     bufferOffset = _serializer.float32(obj.vy_set_sub, buffer, bufferOffset);
     // Serialize message field [vw_set_sub]
     bufferOffset = _serializer.float32(obj.vw_set_sub, buffer, bufferOffset);
+    // Serialize message field [x_set_sub]
+    bufferOffset = _serializer.float32(obj.x_set_sub, buffer, bufferOffset);
+    // Serialize message field [y_set_sub]
+    bufferOffset = _serializer.float32(obj.y_set_sub, buffer, bufferOffset);
     return bufferOffset;
   }
 
@@ -65,11 +83,15 @@ class SpeedControlSet_sub {
     data.vy_set_sub = _deserializer.float32(buffer, bufferOffset);
     // Deserialize message field [vw_set_sub]
     data.vw_set_sub = _deserializer.float32(buffer, bufferOffset);
+    // Deserialize message field [x_set_sub]
+    data.x_set_sub = _deserializer.float32(buffer, bufferOffset);
+    // Deserialize message field [y_set_sub]
+    data.y_set_sub = _deserializer.float32(buffer, bufferOffset);
     return data;
   }
 
   static getMessageSize(object) {
-    return 12;
+    return 20;
   }
 
   static datatype() {
@@ -79,7 +101,7 @@ class SpeedControlSet_sub {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '09372848c4245dfd0a6169928f0d8a97';
+    return 'ad82db84ef54bcd533c01136895f6b3e';
   }
 
   static messageDefinition() {
@@ -88,6 +110,9 @@ class SpeedControlSet_sub {
     float32 vx_set_sub
     float32 vy_set_sub
     float32 vw_set_sub
+    
+    float32 x_set_sub
+    float32 y_set_sub
     `;
   }
 
@@ -116,6 +141,20 @@ class SpeedControlSet_sub {
     }
     else {
       resolved.vw_set_sub = 0.0
+    }
+
+    if (msg.x_set_sub !== undefined) {
+      resolved.x_set_sub = msg.x_set_sub;
+    }
+    else {
+      resolved.x_set_sub = 0.0
+    }
+
+    if (msg.y_set_sub !== undefined) {
+      resolved.y_set_sub = msg.y_set_sub;
+    }
+    else {
+      resolved.y_set_sub = 0.0
     }
 
     return resolved;

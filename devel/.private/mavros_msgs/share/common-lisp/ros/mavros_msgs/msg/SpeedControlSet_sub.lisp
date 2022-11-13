@@ -21,6 +21,16 @@
     :reader vw_set_sub
     :initarg :vw_set_sub
     :type cl:float
+    :initform 0.0)
+   (x_set_sub
+    :reader x_set_sub
+    :initarg :x_set_sub
+    :type cl:float
+    :initform 0.0)
+   (y_set_sub
+    :reader y_set_sub
+    :initarg :y_set_sub
+    :type cl:float
     :initform 0.0))
 )
 
@@ -46,6 +56,16 @@
 (cl:defmethod vw_set_sub-val ((m <SpeedControlSet_sub>))
   (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader mavros_msgs-msg:vw_set_sub-val is deprecated.  Use mavros_msgs-msg:vw_set_sub instead.")
   (vw_set_sub m))
+
+(cl:ensure-generic-function 'x_set_sub-val :lambda-list '(m))
+(cl:defmethod x_set_sub-val ((m <SpeedControlSet_sub>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader mavros_msgs-msg:x_set_sub-val is deprecated.  Use mavros_msgs-msg:x_set_sub instead.")
+  (x_set_sub m))
+
+(cl:ensure-generic-function 'y_set_sub-val :lambda-list '(m))
+(cl:defmethod y_set_sub-val ((m <SpeedControlSet_sub>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader mavros_msgs-msg:y_set_sub-val is deprecated.  Use mavros_msgs-msg:y_set_sub instead.")
+  (y_set_sub m))
 (cl:defmethod roslisp-msg-protocol:serialize ((msg <SpeedControlSet_sub>) ostream)
   "Serializes a message object of type '<SpeedControlSet_sub>"
   (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'vx_set_sub))))
@@ -59,6 +79,16 @@
     (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
   (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'vw_set_sub))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
+  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'x_set_sub))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
+  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'y_set_sub))))
     (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
@@ -84,6 +114,18 @@
       (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
     (cl:setf (cl:slot-value msg 'vw_set_sub) (roslisp-utils:decode-single-float-bits bits)))
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'x_set_sub) (roslisp-utils:decode-single-float-bits bits)))
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'y_set_sub) (roslisp-utils:decode-single-float-bits bits)))
   msg
 )
 (cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql '<SpeedControlSet_sub>)))
@@ -94,18 +136,20 @@
   "mavros_msgs/SpeedControlSet_sub")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<SpeedControlSet_sub>)))
   "Returns md5sum for a message object of type '<SpeedControlSet_sub>"
-  "09372848c4245dfd0a6169928f0d8a97")
+  "ad82db84ef54bcd533c01136895f6b3e")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'SpeedControlSet_sub)))
   "Returns md5sum for a message object of type 'SpeedControlSet_sub"
-  "09372848c4245dfd0a6169928f0d8a97")
+  "ad82db84ef54bcd533c01136895f6b3e")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<SpeedControlSet_sub>)))
   "Returns full string definition for message of type '<SpeedControlSet_sub>"
-  (cl:format cl:nil "float32 vx_set_sub~%float32 vy_set_sub~%float32 vw_set_sub~%~%"))
+  (cl:format cl:nil "float32 vx_set_sub~%float32 vy_set_sub~%float32 vw_set_sub~%~%float32 x_set_sub~%float32 y_set_sub~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'SpeedControlSet_sub)))
   "Returns full string definition for message of type 'SpeedControlSet_sub"
-  (cl:format cl:nil "float32 vx_set_sub~%float32 vy_set_sub~%float32 vw_set_sub~%~%"))
+  (cl:format cl:nil "float32 vx_set_sub~%float32 vy_set_sub~%float32 vw_set_sub~%~%float32 x_set_sub~%float32 y_set_sub~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <SpeedControlSet_sub>))
   (cl:+ 0
+     4
+     4
      4
      4
      4
@@ -116,4 +160,6 @@
     (cl:cons ':vx_set_sub (vx_set_sub msg))
     (cl:cons ':vy_set_sub (vy_set_sub msg))
     (cl:cons ':vw_set_sub (vw_set_sub msg))
+    (cl:cons ':x_set_sub (x_set_sub msg))
+    (cl:cons ':y_set_sub (y_set_sub msg))
 ))

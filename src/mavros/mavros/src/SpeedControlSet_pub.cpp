@@ -21,7 +21,7 @@
 
 #define PI 3.141592653
 #define P_speed_y -0
-#define P_pose_y -0
+#define P_pose_y -1.3105
 #define P_speed_x -0
 #define P_pose_x -0
 
@@ -172,10 +172,17 @@ int main(int argc,char *argv[])
     xbox_sub = speed_control_nh.subscribe<geometry_msgs::Twist>("xbox",10,xboxCallback);
     //初始化被发布消息
     mavros_msgs::SpeedControlSet_sub pub;
+    mavros_msgs::SpeedControlSet_sub ref;
     pub.vw_set_sub= 0;
     pub.vx_set_sub = 0.25;
     pub.vy_set_sub = 0;
-   
+    //初始化参考消息
+    ref.vx_set_sub = 0.25;
+    ref.vy_set_sub = 0;
+    ref.vw_set_sub = 0;
+    ref.x_set_sub = 0;
+    ref.y_set_sub = 0;
+
     //时间
     int t = 0;
 
@@ -207,11 +214,17 @@ int main(int argc,char *argv[])
         //前半段时间
         if(t < 400)
         {
-            // pub.vx_set_sub = pub.vx_set_sub + P_speed_x*(speed[0] - 0.25);
-            pose_ref[1] = 0.8 * sin(t*0.02*PI/2);//y参考坐标
+            //ref
+            ref.vx_set_sub = 0.25;
+            ref.vy_set_sub = 0.2 * PI*cos(t*0.02*PI/2);
+            ref.vw_set_sub = 0;
+            ref.x_set_sub = 0.25*t*0.02;
+            ref.y_set_sub = 0.4 * sin(t*0.02*PI/2);
+            ref_publisher.publish(ref);
+            //pub
+            pub.vx_set_sub = 0.25;
             pub.vy_set_sub = 0.2 * PI*cos(t*0.02*PI/2) 
-                            + P_pose_y * (-pose[1] - pose_ref[1]) 
-                            + P_speed_y*(-speed[1] - 0.2*PI*cos(t*0.02*PI/2));
+                            + P_pose_y * (-pose[1] - ref.y_set_sub);
 
             //发布速度控制底盘
             send_publisher.publish(pub);
@@ -223,8 +236,17 @@ int main(int argc,char *argv[])
         }
         else if(t > 400 && t <800)
         {
-            // pub.vx_set_sub = pub.vx_set_sub + P_speed_x*(speed[0] + 0.25);
-            pub.vy_set_sub = 0.2*PI*cos(t*0.02*PI/2);
+            //ref
+            ref.vx_set_sub = -0.25;
+            ref.vy_set_sub = 0.2 * PI*cos(t*0.02*PI/2);
+            ref.vw_set_sub = 0;
+            ref.x_set_sub = 2 - 0.25*(t-400)*0.02;
+            ref.y_set_sub = 0.4 * sin(t*0.02*PI/2);
+            ref_publisher.publish(ref);
+            //pubs
+            pub.vx_set_sub = -0.25;
+            pub.vy_set_sub = 0.2 * PI*cos(t*0.02*PI/2) 
+                            + P_pose_y * (-pose[1] - ref.y_set_sub);
             //发布速度控制底盘
             send_publisher.publish(pub);
             ROS_INFO("control successfully!");

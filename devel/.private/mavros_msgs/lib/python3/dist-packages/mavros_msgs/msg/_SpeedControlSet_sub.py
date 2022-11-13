@@ -8,14 +8,17 @@ import struct
 
 
 class SpeedControlSet_sub(genpy.Message):
-  _md5sum = "09372848c4245dfd0a6169928f0d8a97"
+  _md5sum = "ad82db84ef54bcd533c01136895f6b3e"
   _type = "mavros_msgs/SpeedControlSet_sub"
   _has_header = False  # flag to mark the presence of a Header object
   _full_text = """float32 vx_set_sub
 float32 vy_set_sub
-float32 vw_set_sub"""
-  __slots__ = ['vx_set_sub','vy_set_sub','vw_set_sub']
-  _slot_types = ['float32','float32','float32']
+float32 vw_set_sub
+
+float32 x_set_sub
+float32 y_set_sub"""
+  __slots__ = ['vx_set_sub','vy_set_sub','vw_set_sub','x_set_sub','y_set_sub']
+  _slot_types = ['float32','float32','float32','float32','float32']
 
   def __init__(self, *args, **kwds):
     """
@@ -25,7 +28,7 @@ float32 vw_set_sub"""
     changes.  You cannot mix in-order arguments and keyword arguments.
 
     The available fields are:
-       vx_set_sub,vy_set_sub,vw_set_sub
+       vx_set_sub,vy_set_sub,vw_set_sub,x_set_sub,y_set_sub
 
     :param args: complete set of field values, in .msg order
     :param kwds: use keyword arguments corresponding to message field names
@@ -40,10 +43,16 @@ float32 vw_set_sub"""
         self.vy_set_sub = 0.
       if self.vw_set_sub is None:
         self.vw_set_sub = 0.
+      if self.x_set_sub is None:
+        self.x_set_sub = 0.
+      if self.y_set_sub is None:
+        self.y_set_sub = 0.
     else:
       self.vx_set_sub = 0.
       self.vy_set_sub = 0.
       self.vw_set_sub = 0.
+      self.x_set_sub = 0.
+      self.y_set_sub = 0.
 
   def _get_types(self):
     """
@@ -58,7 +67,7 @@ float32 vw_set_sub"""
     """
     try:
       _x = self
-      buff.write(_get_struct_3f().pack(_x.vx_set_sub, _x.vy_set_sub, _x.vw_set_sub))
+      buff.write(_get_struct_5f().pack(_x.vx_set_sub, _x.vy_set_sub, _x.vw_set_sub, _x.x_set_sub, _x.y_set_sub))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -73,8 +82,8 @@ float32 vw_set_sub"""
       end = 0
       _x = self
       start = end
-      end += 12
-      (_x.vx_set_sub, _x.vy_set_sub, _x.vw_set_sub,) = _get_struct_3f().unpack(str[start:end])
+      end += 20
+      (_x.vx_set_sub, _x.vy_set_sub, _x.vw_set_sub, _x.x_set_sub, _x.y_set_sub,) = _get_struct_5f().unpack(str[start:end])
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill
@@ -88,7 +97,7 @@ float32 vw_set_sub"""
     """
     try:
       _x = self
-      buff.write(_get_struct_3f().pack(_x.vx_set_sub, _x.vy_set_sub, _x.vw_set_sub))
+      buff.write(_get_struct_5f().pack(_x.vx_set_sub, _x.vy_set_sub, _x.vw_set_sub, _x.x_set_sub, _x.y_set_sub))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -104,8 +113,8 @@ float32 vw_set_sub"""
       end = 0
       _x = self
       start = end
-      end += 12
-      (_x.vx_set_sub, _x.vy_set_sub, _x.vw_set_sub,) = _get_struct_3f().unpack(str[start:end])
+      end += 20
+      (_x.vx_set_sub, _x.vy_set_sub, _x.vw_set_sub, _x.x_set_sub, _x.y_set_sub,) = _get_struct_5f().unpack(str[start:end])
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill
@@ -114,9 +123,9 @@ _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_3f = None
-def _get_struct_3f():
-    global _struct_3f
-    if _struct_3f is None:
-        _struct_3f = struct.Struct("<3f")
-    return _struct_3f
+_struct_5f = None
+def _get_struct_5f():
+    global _struct_5f
+    if _struct_5f is None:
+        _struct_5f = struct.Struct("<5f")
+    return _struct_5f

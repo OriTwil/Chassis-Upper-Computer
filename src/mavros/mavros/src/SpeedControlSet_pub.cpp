@@ -1,9 +1,16 @@
+/**
+ * @brief 底盘控制 发布者的实现
+ * @file SpeedControlSet_pub.cpp
+ * @author szf
+ *
+ * @addtogroup src
+ */
+
 #include <ros/ros.h>
 #include "mavros_msgs/SpeedControlSet_sub.h"
 #include <mavros_msgs/SpeedControlStatus.h>
 #include <mavros_msgs/SpeedControlSet.h>
 #include <math.h>
-
 #include <ros/console.h>
 #include <nav_msgs/Path.h>
 #include <nav_msgs/Odometry.h>
@@ -15,7 +22,6 @@
 #include <tf2_ros/static_transform_broadcaster.h>
 #include <tf/transform_datatypes.h>
 #include <ros/console.h>
-
 #include<geometry_msgs/Twist.h>
 #include<iostream>
 
@@ -26,19 +32,38 @@
 #define P_pose_x -0
 #define P_pose_z 1.7
 
+/**
+ * @brief 实例化发布者、订阅者对象
+ * 
+ */
 ros::Publisher path_pub;
 ros::Publisher path_ref_pub; 
 ros::Publisher send_publisher;
 ros::Publisher ref_publisher;
 ros::Subscriber xbox_sub;
-nav_msgs::Path path_real;
-nav_msgs::Path path_reference;
-float speed[3];
-float pose[3];
-geometry_msgs::Quaternion orientation;
-geometry_msgs::Quaternion orientation_ref;
-bool safe = true;
+ros::Subscriber odomSub;
 
+/**
+ * @brief 创建变量
+ * 
+ */
+
+nav_msgs::Path path_real;//用来接收T265的里程计数据，便于在rviz可视化
+nav_msgs::Path path_reference;//用来在rviz中画参考路径
+geometry_msgs::Quaternion orientation;//用来接收T265的位姿数据
+geometry_msgs::Quaternion orientation_ref;//暂时没用到
+mavros_msgs::SpeedControlSet_sub pub;//自定义的mavros消息
+mavros_msgs::SpeedControlSet_sub ref;
+bool safe = true;//用来设置急刹车
+float speed[3];
+float pose[3];//用来接收T265的里程计数据，做闭环控制
+int t = 0;//时间
+
+/**
+ * @brief callbacks
+ * 
+ * @param xbox 
+ */
 
 void xboxCallback(const geometry_msgs::Twist::ConstPtr& xbox)
 {
@@ -80,11 +105,16 @@ void odomCallback(const nav_msgs::Odometry::ConstPtr& odom)
     speed[0] = odom -> twist.twist.linear.x;
     speed[1] = odom -> twist.twist.linear.y;
     speed[2] = odom -> twist.twist.linear.z;
+
     //获取四元数
     orientation.z = odom -> pose.pose.orientation.z;
 
 }
 
+/**
+ * @brief 在rviz中画参考路径
+ * 
+ */
 void ShowPath_ref()
 {
      
@@ -108,7 +138,7 @@ void ShowPath_ref()
         ROS_INFO("drawing...");
         t1 ++;
         current_time = ros::Time::now();
-        //compute odometry in a typical way given the velocities of the robot
+ 
         //路径
         if(t1 == 800)
         {
@@ -153,7 +183,13 @@ void ShowPath_ref()
     }
 }
 
-
+/**
+ * @brief 主函数
+ * 
+ * @param argc 
+ * @param argv 
+ * @return int 
+ */
 int main(int argc,char *argv[])
 {
     setlocale(LC_ALL,"");
@@ -168,32 +204,29 @@ int main(int argc,char *argv[])
     send_publisher = speed_control_nh.advertise<mavros_msgs::SpeedControlSet_sub>("/mavros/speed_control/send_topic",1000);
     path_ref_pub = speed_control_nh.advertise<nav_msgs::Path>("trajectory_ref", 10, true);
     ref_publisher = speed_control_nh.advertise<mavros_msgs::SpeedControlSet_sub>("ref_topic",1000);
-    //订阅t265，并发布
+
+    //订阅t265里程计话题信息，并发布
     path_pub = speed_control_nh.advertise<nav_msgs::Path>("trajectory", 10, true);
-    ros::Subscriber odomSub = speed_control_nh.subscribe<nav_msgs::Odometry>("/camera/odom/sample", 10, odomCallback);  //订阅t265里程计话题信息
+    odomSub = speed_control_nh.subscribe<nav_msgs::Odometry>("/camera/odom/sample", 10, odomCallback); 
+
     //订阅xbox
     xbox_sub = speed_control_nh.subscribe<geometry_msgs::Twist>("xbox",10,xboxCallback);
+   
     //初始化被发布消息
-    mavros_msgs::SpeedControlSet_sub pub;
-    mavros_msgs::SpeedControlSet_sub ref;
     pub.vw_set_sub= 0;
     pub.vx_set_sub = 0.5;
     pub.vy_set_sub = 0;
+   
     //初始化参考消息
     ref.vx_set_sub = 0.5;
     ref.vy_set_sub = 0;
     ref.vw_set_sub = 0;
     ref.x_set_sub = 0;
     ref.y_set_sub = 0;
-
-    //时间
-    int t = 0;
-    //定初始方向
-    orientation_ref.w = orientation.w;
-
+  
     // 发布参考路径
     ShowPath_ref();
- 
+   
     //组织被发布消息
     ros::Rate r(50);//两次sleep之间0.02s
     while(ros::ok())
@@ -211,7 +244,7 @@ int main(int argc,char *argv[])
             ROS_INFO("emergency braking!");
             break;
         }
-        //前半段时间
+        //前半程
         if(t < 800)
         {
             //ref
@@ -224,17 +257,19 @@ int main(int argc,char *argv[])
             //pub
             pub.vx_set_sub = 0.5;
             pub.vy_set_sub = 0.25 * PI*cos(t*0.02*PI/4) 
-                            + P_pose_y * (pose[1] - ref.y_set_sub);
+                            + P_pose_y * (pose[1] - ref.y_set_sub);//闭环控制
             pub.vw_set_sub = 0 + P_pose_z * (orientation.z - 0);
 
             //发布速度控制底盘
             send_publisher.publish(pub);
             ROS_INFO("control successfully!");
         }
+        //调头
         else if(t == 800)
         {
             pub.vx_set_sub = -pub.vx_set_sub;
         }
+        //后半程
         else if(t > 800 && t <1600)
         {
             //ref
@@ -253,7 +288,8 @@ int main(int argc,char *argv[])
             send_publisher.publish(pub);
             ROS_INFO("control successfully!");
         }
-        else if(t >= 800 )//完成任务后停车
+        //完成任务后停车
+        else if(t >= 800 )
         {
             pub.vw_set_sub = 0;
             pub.vx_set_sub = 0;
@@ -262,6 +298,7 @@ int main(int argc,char *argv[])
             ROS_INFO("control end!");
             break;
         }
+
         r.sleep();
         ros::spinOnce();
 

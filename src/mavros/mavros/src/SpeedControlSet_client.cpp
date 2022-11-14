@@ -1,18 +1,11 @@
-/*
-    需求: 
-        编写两个节点实现服务通信，客户端节点需要提交两个整数到服务器
-        服务器需要解析客户端提交的数据，相加后，将结果响应回客户端，
-        客户端再解析
+/**
+ * @brief 服务端的实现
+ * @file SpeedControlSet_client.cpp
+ * @author szf
+ *
+ * @addtogroup src
+ */
 
-    服务器实现:
-        1.包含头文件
-        2.初始化 ROS 节点
-        3.创建 ROS 句柄
-        4.创建 客户端 对象
-        5.请求服务，接收响应
-
-*/
-// 1.包含头文件
 #include "ros/ros.h"
 #include "mavros_msgs/SpeedControlSet.h"
 #include <mavros/mavros_plugin.h>
@@ -46,7 +39,7 @@ int main(int argc, char *argv[])
     // ai.request.vw_set = atoll(argv[1]);
     // ai.request.vx_set = atoll(argv[2]);
     // ai.request.vy_set = atoll(argv[3]);
-    ai.request.vw_set = 300;
+    ai.request.vw_set = 0;
     ai.request.vx_set = 0;
     ai.request.vy_set = 0;
 

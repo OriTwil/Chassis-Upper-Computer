@@ -1,6 +1,6 @@
 # Underpan-upper-computer
 底盘的上位机
-#### 项目移植说明
+### 项目移植说明
 1. [配置环境并自定义MAVLINK消息](https://mavlink.io/zh/getting_started/ros.html)
   - 按照MAVROS 源安装说明，安装官方专门为ROS发布的mavlink 库——mavlink-gbp-release，可以不用wstool，直接克隆此仓库中/src/mavlink-gbp-release和/src/mavros
 
@@ -58,6 +58,10 @@
   卡尔曼滤波：roslaunch robot_pose_ekf robot_pose_ekf.launch 运动控制：rosrun mavros xxx 可以通过plotjugger测试滤波效果
   - tips：①记得添加功能包依赖 ②添加头文件 <geometry_msgs/PoseWithCovarianceStamped.h> ③robot_pose_ekf只适用于平面上的轮式移动机器人
   
+### 项目文件说明
+### 效果展示
+  - 11.16
+   ![11.16 y坐标](https://github.com/szf01/Underpan-upper-computer/raw/master/img_storage/df4808fcfc458988658241c942bb094.jpg)
  
   
   

@@ -1,0 +1,7 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:28:9:[m[K [01;31m[Kfatal error: [m[Krobot.h: 没有那个文件或目录
+   28 | #include[01;31m[K<robot.h>[m[K
+      |         [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/SpeedControlSet_pub.dir/build.make:63：CMakeFiles/SpeedControlSet_pub.dir/src/SpeedControlSet_pub.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:535：CMakeFiles/SpeedControlSet_pub.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

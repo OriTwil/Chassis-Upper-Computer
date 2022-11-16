@@ -180,9 +180,9 @@ CMakeFiles/mavros_msgs_generate_messages_eus: /home/szf/ROS/catkin_ws_3/devel/.p
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/AttitudeTarget.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/AttitudeTarget.l: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/AttitudeTarget.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/AttitudeTarget.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/AttitudeTarget.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/AttitudeTarget.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/AttitudeTarget.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from mavros_msgs/AttitudeTarget.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/AttitudeTarget.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg
 
@@ -205,8 +205,8 @@ CMakeFiles/mavros_msgs_generate_messages_eus: /home/szf/ROS/catkin_ws_3/devel/.p
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/CameraImageCaptured.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/CameraImageCaptured.l: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/CameraImageCaptured.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/CameraImageCaptured.l: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/CameraImageCaptured.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/CameraImageCaptured.l: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp code from mavros_msgs/CameraImageCaptured.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg
 
@@ -291,8 +291,8 @@ CMakeFiles/mavros_msgs_generate_messages_eus: /home/szf/ROS/catkin_ws_3/devel/.p
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/GlobalPositionTarget.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/GlobalPositionTarget.l: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/GlobalPositionTarget.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/GlobalPositionTarget.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/GlobalPositionTarget.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/GlobalPositionTarget.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating EusLisp code from mavros_msgs/GlobalPositionTarget.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/GlobalPositionTarget.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg
 
@@ -335,36 +335,36 @@ CMakeFiles/mavros_msgs_generate_messages_eus: /home/szf/ROS/catkin_ws_3/devel/.p
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HilSensor.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HilSensor.l: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HilSensor.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HilSensor.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HilSensor.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating EusLisp code from mavros_msgs/HilSensor.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HilStateQuaternion.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HilStateQuaternion.l: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HilStateQuaternion.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HilStateQuaternion.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HilStateQuaternion.l: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HilStateQuaternion.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HilStateQuaternion.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HilStateQuaternion.l: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating EusLisp code from mavros_msgs/HilStateQuaternion.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HomePosition.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HomePosition.l: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HomePosition.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HomePosition.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HomePosition.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HomePosition.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HomePosition.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/HomePosition.l: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating EusLisp code from mavros_msgs/HomePosition.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/LandingTarget.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/LandingTarget.l: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/LandingTarget.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/LandingTarget.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/LandingTarget.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/LandingTarget.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/LandingTarget.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/LandingTarget.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating EusLisp code from mavros_msgs/LandingTarget.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/LandingTarget.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg
 
@@ -440,9 +440,9 @@ CMakeFiles/mavros_msgs_generate_messages_eus: /home/szf/ROS/catkin_ws_3/devel/.p
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/PositionTarget.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/PositionTarget.l: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/PositionTarget.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/PositionTarget.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/PositionTarget.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/PositionTarget.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating EusLisp code from mavros_msgs/PositionTarget.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg
 
@@ -508,9 +508,9 @@ CMakeFiles/mavros_msgs_generate_messages_eus: /home/szf/ROS/catkin_ws_3/devel/.p
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/Trajectory.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/Trajectory.l: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Trajectory.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/Trajectory.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/Trajectory.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/Trajectory.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/Trajectory.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/Trajectory.l: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating EusLisp code from mavros_msgs/Trajectory.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Trajectory.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg
@@ -534,8 +534,8 @@ CMakeFiles/mavros_msgs_generate_messages_eus: /home/szf/ROS/catkin_ws_3/devel/.p
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/Vibration.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/Vibration.l: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Vibration.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/Vibration.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/Vibration.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/Vibration.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating EusLisp code from mavros_msgs/Vibration.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Vibration.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg
 

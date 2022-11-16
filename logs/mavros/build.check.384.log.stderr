@@ -1,0 +1,31 @@
+CMake Warning (dev) at CMakeLists.txt:2 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    CMAKE_PROJECT_VERSION
+    CMAKE_PROJECT_VERSION_MAJOR
+    CMAKE_PROJECT_VERSION_MINOR
+    CMAKE_PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[31m[1mCMake Error[0m at /home/szf/ROS/catkin_ws_3/src/mavros/mavros/CMakeLists.txt:48 (find_package):
+  By not providing "FindGeographicLib.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "GeographicLib", but CMake did not find one.
+
+  Could not find a package configuration file provided by "GeographicLib"
+  with any of the following names:
+
+    GeographicLibConfig.cmake
+    geographiclib-config.cmake
+
+  Add the installation prefix of "GeographicLib" to CMAKE_PREFIX_PATH or set
+  "GeographicLib_DIR" to a directory containing one of the above files.  If
+  "GeographicLib" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+make: *** [Makefile:3230：cmake_check_build_system] 错误 1

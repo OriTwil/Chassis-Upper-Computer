@@ -341,6 +341,9 @@ GTEST_MAIN_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libgtest_main.a
 //Path to a library.
 GTEST_MAIN_LIBRARY_DEBUG:FILEPATH=GTEST_MAIN_LIBRARY_DEBUG-NOTFOUND
 
+//The directory containing a CMake configuration file for GeographicLib.
+GeographicLib_DIR:PATH=GeographicLib_DIR-NOTFOUND
+
 //Path to a library.
 GeographicLib_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libGeographic.so
 
@@ -534,6 +537,9 @@ nav_msgs_DIR:PATH=/opt/ros/noetic/share/nav_msgs/cmake
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/noetic/share/pluginlib/cmake
+
+//The directory containing a CMake configuration file for robot_pose_ekf.
+robot_pose_ekf_DIR:PATH=/opt/ros/noetic/share/robot_pose_ekf/cmake
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake

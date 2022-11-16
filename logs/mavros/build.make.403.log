@@ -1,0 +1,113 @@
+[  0%] Built target wtr_tasks_final_generate_messages_eus
+[  0%] Built target turtlesim_generate_messages_lisp
+[  0%] Built target turtlesim_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target wtr_tasks_final_generate_messages_py
+[  0%] Built target wtr_tasks_final_generate_messages_nodejs
+[  0%] Built target robot_pose_ekf_generate_messages_nodejs
+[  0%] Built target wtr_tasks_final_generate_messages_lisp
+[  0%] Built target robot_pose_ekf_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target turtlesim_generate_messages_cpp
+[  0%] Built target diagnostic_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target robot_pose_ekf_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target diagnostic_msgs_generate_messages_cpp
+[  0%] Built target mavros_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target diagnostic_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[  0%] Built target uuid_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target robot_pose_ekf_generate_messages_eus
+[  0%] Built target uuid_msgs_generate_messages_cpp
+[  0%] Built target uuid_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target mavros_msgs_generate_messages_py
+[  0%] Built target turtlesim_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target geographic_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target diagnostic_msgs_generate_messages_py
+[  0%] Built target geographic_msgs_generate_messages_eus
+[  0%] Built target geographic_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target robot_pose_ekf_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target geographic_msgs_generate_messages_py
+[  0%] Built target geographic_msgs_generate_messages_nodejs
+[  0%] Built target uuid_msgs_generate_messages_py
+[  0%] Built target wtr_tasks_final_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target uuid_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target mavros_msgs_generate_messages_nodejs
+[  0%] Built target mavros_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target turtlesim_generate_messages_nodejs
+[  0%] Built target mavros_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  3%] Built target SpeedControlSet_client
+[ 25%] Built target mavros
+[35m[1mScanning dependencies of target SpeedControlSet_pub[0m
+[ 29%] Built target gcs_bridge
+[ 33%] Built target mavros_node
+[ 35%] [32mBuilding CXX object CMakeFiles/SpeedControlSet_pub.dir/src/SpeedControlSet_pub.cpp.o[0m
+[ 98%] Built target mavros_plugins
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:[m[K In function ‘[01m[Kvoid efk_Callback(const PoseWithCovarianceStampedConstPtr&)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:114:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _pose_type[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  114 |     pose[0] = efk -> pose.[01;31m[Kposition[m[K.x;
+      |                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:115:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _pose_type[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  115 |     pose[1] = efk -> pose.[01;31m[Kposition[m[K.y;
+      |                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:116:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _pose_type[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  116 |     pose[2] = efk -> pose.[01;31m[Kposition[m[K.z;
+      |                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:119:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _pose_type[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+  119 |     orientation.z = efk -> pose.[01;31m[Korientation[m[K.w;
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/SpeedControlSet_pub.dir/build.make:63：CMakeFiles/SpeedControlSet_pub.dir/src/SpeedControlSet_pub.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:535：CMakeFiles/SpeedControlSet_pub.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

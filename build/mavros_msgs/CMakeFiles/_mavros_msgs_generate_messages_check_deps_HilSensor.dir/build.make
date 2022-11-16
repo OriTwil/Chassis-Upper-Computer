@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/szf/ROS/catkin_ws_3/build/mavros_msgs
 include CMakeFiles/_mavros_msgs_generate_messages_check_deps_HilSensor.dir/progress.make
 
 CMakeFiles/_mavros_msgs_generate_messages_check_deps_HilSensor:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg geometry_msgs/Vector3:std_msgs/Header
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg std_msgs/Header:geometry_msgs/Vector3
 
 _mavros_msgs_generate_messages_check_deps_HilSensor: CMakeFiles/_mavros_msgs_generate_messages_check_deps_HilSensor
 _mavros_msgs_generate_messages_check_deps_HilSensor: CMakeFiles/_mavros_msgs_generate_messages_check_deps_HilSensor.dir/build.make

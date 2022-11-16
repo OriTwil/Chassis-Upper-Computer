@@ -13,6 +13,7 @@ CMakeFiles/SpeedControlSet_pub.dir/src/SpeedControlSet_pub.cpp.o
  /opt/ros/noetic/include/geometry_msgs/Pose.h
  /opt/ros/noetic/include/geometry_msgs/PoseStamped.h
  /opt/ros/noetic/include/geometry_msgs/PoseWithCovariance.h
+ /opt/ros/noetic/include/geometry_msgs/PoseWithCovarianceStamped.h
  /opt/ros/noetic/include/geometry_msgs/Quaternion.h
  /opt/ros/noetic/include/geometry_msgs/QuaternionStamped.h
  /opt/ros/noetic/include/geometry_msgs/Transform.h
@@ -24,6 +25,9 @@ CMakeFiles/SpeedControlSet_pub.dir/src/SpeedControlSet_pub.cpp.o
  /opt/ros/noetic/include/geometry_msgs/Vector3Stamped.h
  /opt/ros/noetic/include/nav_msgs/Odometry.h
  /opt/ros/noetic/include/nav_msgs/Path.h
+ /opt/ros/noetic/include/robot_pose_ekf/GetStatus.h
+ /opt/ros/noetic/include/robot_pose_ekf/GetStatusRequest.h
+ /opt/ros/noetic/include/robot_pose_ekf/GetStatusResponse.h
  /opt/ros/noetic/include/ros/advertise_options.h
  /opt/ros/noetic/include/ros/advertise_service_options.h
  /opt/ros/noetic/include/ros/assert.h

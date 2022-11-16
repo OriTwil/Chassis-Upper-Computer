@@ -26,6 +26,7 @@ find_package(catkin REQUIRED COMPONENTS
   wtr_tasks_final
   message_generation
   tf
+  robot_pose_ekf
 )
 
 ## System dependencies are found with CMake's conventions

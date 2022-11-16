@@ -1,0 +1,123 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:58:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseWithCovarianceStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[KPoseWithCovariancePtr[m[K’?
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::[01;31m[KPoseWithCovarianceStamped[m[K>("robot_pose_ekf/odom_combined",10,efk_Callback);
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                          [32m[KPoseWithCovariancePtr[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:58:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseWithCovarianceStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[KPoseWithCovariancePtr[m[K’?
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::[01;31m[KPoseWithCovarianceStamped[m[K>("robot_pose_ekf/odom_combined",10,efk_Callback);
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                          [32m[KPoseWithCovariancePtr[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:131:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::subscribe<<expression error> >(const char [29], int, void (&)(const ConstPtr&))[m[K’
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback[01;31m[K)[m[K;
+      |                                                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&)[m[K’
+  402 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M), T* obj,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:131:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback[01;31m[K)[m[K;
+      |                                                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, T*, const ros::TransportHints&)[m[K’
+  413 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const, T* obj,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:131:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback[01;31m[K)[m[K;
+      |                                                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), T*, const ros::TransportHints&)[m[K’
+  465 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:131:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback[01;31m[K)[m[K;
+      |                                                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, T*, const ros::TransportHints&)[m[K’
+  475 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:131:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback[01;31m[K)[m[K;
+      |                                                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  529 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M),
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:131:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback[01;31m[K)[m[K;
+      |                                                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  540 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:131:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback[01;31m[K)[m[K;
+      |                                                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  594 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:131:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback[01;31m[K)[m[K;
+      |                                                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  605 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:131:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback[01;31m[K)[m[K;
+      |                                                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&)[m[K’
+  656 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(M), const TransportHints& transport_hints = TransportHints())
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:131:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback[01;31m[K)[m[K;
+      |                                                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(const boost::shared_ptr<const M>&), const ros::TransportHints&)[m[K’
+  704 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(const boost::shared_ptr<M const>&), const TransportHints& transport_hints = TransportHints())
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:131:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback[01;31m[K)[m[K;
+      |                                                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(const boost::shared_ptr<const M>&)>&, const VoidConstPtr&, const ros::TransportHints&)[m[K’
+  750 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (const boost::shared_ptr<M const>&)>& callback,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:131:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback[01;31m[K)[m[K;
+      |                                                                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class C> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(C)>&, const VoidConstPtr&, const ros::TransportHints&)[m[K’
+  799 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (C)>& callback,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:247:131:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |     path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback[01;31m[K)[m[K;
+      |                                                                                                                                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/SpeedControlSet_pub.dir/build.make:63：CMakeFiles/SpeedControlSet_pub.dir/src/SpeedControlSet_pub.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:535：CMakeFiles/SpeedControlSet_pub.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

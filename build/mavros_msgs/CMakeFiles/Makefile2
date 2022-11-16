@@ -328,9 +328,6 @@ CMakeFiles/mavros_msgs_gennodejs.dir/clean:
 # Target rules for target CMakeFiles/mavros_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPush.dir/all
-CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPull.dir/all
-CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointClear.dir/all
 CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_VehicleInfoGet.dir/all
 CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_StreamRate.dir/all
 CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_GlobalPositionTarget.dir/all
@@ -436,6 +433,9 @@ CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mavros_msgs
 CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_CommandTriggerInterval.dir/all
 CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamPush.dir/all
 CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamSet.dir/all
+CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPush.dir/all
+CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPull.dir/all
+CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointClear.dir/all
 	$(MAKE) -f CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80 "Built target mavros_msgs_generate_messages_nodejs"
@@ -489,9 +489,6 @@ CMakeFiles/mavros_msgs_genlisp.dir/clean:
 # Target rules for target CMakeFiles/mavros_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPush.dir/all
-CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPull.dir/all
-CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointClear.dir/all
 CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_VehicleInfoGet.dir/all
 CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_StreamRate.dir/all
 CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_GlobalPositionTarget.dir/all
@@ -597,6 +594,9 @@ CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mavros_msgs_g
 CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_CommandTriggerInterval.dir/all
 CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamPush.dir/all
 CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamSet.dir/all
+CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPush.dir/all
+CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPull.dir/all
+CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointClear.dir/all
 	$(MAKE) -f CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build.make CMakeFiles/mavros_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build.make CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60 "Built target mavros_msgs_generate_messages_lisp"
@@ -623,9 +623,6 @@ CMakeFiles/mavros_msgs_generate_messages_lisp.dir/clean:
 # Target rules for target CMakeFiles/mavros_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-CMakeFiles/mavros_msgs_generate_messages_eus.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPush.dir/all
-CMakeFiles/mavros_msgs_generate_messages_eus.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPull.dir/all
-CMakeFiles/mavros_msgs_generate_messages_eus.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointClear.dir/all
 CMakeFiles/mavros_msgs_generate_messages_eus.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_VehicleInfoGet.dir/all
 CMakeFiles/mavros_msgs_generate_messages_eus.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_StreamRate.dir/all
 CMakeFiles/mavros_msgs_generate_messages_eus.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_GlobalPositionTarget.dir/all
@@ -731,6 +728,9 @@ CMakeFiles/mavros_msgs_generate_messages_eus.dir/all: CMakeFiles/_mavros_msgs_ge
 CMakeFiles/mavros_msgs_generate_messages_eus.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_CommandTriggerInterval.dir/all
 CMakeFiles/mavros_msgs_generate_messages_eus.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamPush.dir/all
 CMakeFiles/mavros_msgs_generate_messages_eus.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamSet.dir/all
+CMakeFiles/mavros_msgs_generate_messages_eus.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPush.dir/all
+CMakeFiles/mavros_msgs_generate_messages_eus.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPull.dir/all
+CMakeFiles/mavros_msgs_generate_messages_eus.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointClear.dir/all
 	$(MAKE) -f CMakeFiles/mavros_msgs_generate_messages_eus.dir/build.make CMakeFiles/mavros_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/mavros_msgs_generate_messages_eus.dir/build.make CMakeFiles/mavros_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target mavros_msgs_generate_messages_eus"
@@ -973,9 +973,6 @@ CMakeFiles/_mavros_msgs_generate_messages_check_deps_MessageInterval.dir/clean:
 # Target rules for target CMakeFiles/mavros_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPush.dir/all
-CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPull.dir/all
-CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointClear.dir/all
 CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_VehicleInfoGet.dir/all
 CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_StreamRate.dir/all
 CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_GlobalPositionTarget.dir/all
@@ -1081,6 +1078,9 @@ CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mavros_msgs_ge
 CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_CommandTriggerInterval.dir/all
 CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamPush.dir/all
 CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamSet.dir/all
+CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPush.dir/all
+CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPull.dir/all
+CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointClear.dir/all
 	$(MAKE) -f CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build.make CMakeFiles/mavros_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build.make CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target mavros_msgs_generate_messages_cpp"
@@ -1782,9 +1782,6 @@ CMakeFiles/uuid_msgs_generate_messages_lisp.dir/clean:
 # Target rules for target CMakeFiles/mavros_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-CMakeFiles/mavros_msgs_generate_messages_py.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPush.dir/all
-CMakeFiles/mavros_msgs_generate_messages_py.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPull.dir/all
-CMakeFiles/mavros_msgs_generate_messages_py.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointClear.dir/all
 CMakeFiles/mavros_msgs_generate_messages_py.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_VehicleInfoGet.dir/all
 CMakeFiles/mavros_msgs_generate_messages_py.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_StreamRate.dir/all
 CMakeFiles/mavros_msgs_generate_messages_py.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_GlobalPositionTarget.dir/all
@@ -1890,6 +1887,9 @@ CMakeFiles/mavros_msgs_generate_messages_py.dir/all: CMakeFiles/_mavros_msgs_gen
 CMakeFiles/mavros_msgs_generate_messages_py.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_CommandTriggerInterval.dir/all
 CMakeFiles/mavros_msgs_generate_messages_py.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamPush.dir/all
 CMakeFiles/mavros_msgs_generate_messages_py.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_ParamSet.dir/all
+CMakeFiles/mavros_msgs_generate_messages_py.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPush.dir/all
+CMakeFiles/mavros_msgs_generate_messages_py.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointPull.dir/all
+CMakeFiles/mavros_msgs_generate_messages_py.dir/all: CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointClear.dir/all
 	$(MAKE) -f CMakeFiles/mavros_msgs_generate_messages_py.dir/build.make CMakeFiles/mavros_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/mavros_msgs_generate_messages_py.dir/build.make CMakeFiles/mavros_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target mavros_msgs_generate_messages_py"
@@ -4427,11 +4427,11 @@ CMakeFiles/_mavros_msgs_generate_messages_check_deps_FileMakeDir.dir/clean:
 # Target rules for target CMakeFiles/mavros_msgs_generate_messages.dir
 
 # All Build rule for target.
+CMakeFiles/mavros_msgs_generate_messages.dir/all: CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all
+CMakeFiles/mavros_msgs_generate_messages.dir/all: CMakeFiles/mavros_msgs_generate_messages_py.dir/all
 CMakeFiles/mavros_msgs_generate_messages.dir/all: CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/mavros_msgs_generate_messages.dir/all: CMakeFiles/mavros_msgs_generate_messages_lisp.dir/all
 CMakeFiles/mavros_msgs_generate_messages.dir/all: CMakeFiles/mavros_msgs_generate_messages_eus.dir/all
-CMakeFiles/mavros_msgs_generate_messages.dir/all: CMakeFiles/mavros_msgs_generate_messages_cpp.dir/all
-CMakeFiles/mavros_msgs_generate_messages.dir/all: CMakeFiles/mavros_msgs_generate_messages_py.dir/all
 	$(MAKE) -f CMakeFiles/mavros_msgs_generate_messages.dir/build.make CMakeFiles/mavros_msgs_generate_messages.dir/depend
 	$(MAKE) -f CMakeFiles/mavros_msgs_generate_messages.dir/build.make CMakeFiles/mavros_msgs_generate_messages.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num= "Built target mavros_msgs_generate_messages"

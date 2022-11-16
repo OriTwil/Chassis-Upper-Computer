@@ -181,9 +181,9 @@ CMakeFiles/mavros_msgs_generate_messages_py: /home/szf/ROS/catkin_ws_3/devel/.pr
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_AttitudeTarget.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_AttitudeTarget.py: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/AttitudeTarget.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_AttitudeTarget.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_AttitudeTarget.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_AttitudeTarget.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_AttitudeTarget.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG mavros_msgs/AttitudeTarget"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/AttitudeTarget.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg
 
@@ -206,8 +206,8 @@ CMakeFiles/mavros_msgs_generate_messages_py: /home/szf/ROS/catkin_ws_3/devel/.pr
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_CameraImageCaptured.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_CameraImageCaptured.py: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_CameraImageCaptured.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_CameraImageCaptured.py: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_CameraImageCaptured.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_CameraImageCaptured.py: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG mavros_msgs/CameraImageCaptured"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg
 
@@ -292,8 +292,8 @@ CMakeFiles/mavros_msgs_generate_messages_py: /home/szf/ROS/catkin_ws_3/devel/.pr
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_GlobalPositionTarget.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_GlobalPositionTarget.py: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/GlobalPositionTarget.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_GlobalPositionTarget.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_GlobalPositionTarget.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_GlobalPositionTarget.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Python from MSG mavros_msgs/GlobalPositionTarget"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/GlobalPositionTarget.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg
 
@@ -336,36 +336,36 @@ CMakeFiles/mavros_msgs_generate_messages_py: /home/szf/ROS/catkin_ws_3/devel/.pr
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HilSensor.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HilSensor.py: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HilSensor.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HilSensor.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HilSensor.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Python from MSG mavros_msgs/HilSensor"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HilStateQuaternion.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HilStateQuaternion.py: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HilStateQuaternion.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HilStateQuaternion.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HilStateQuaternion.py: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HilStateQuaternion.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HilStateQuaternion.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HilStateQuaternion.py: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Python from MSG mavros_msgs/HilStateQuaternion"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HomePosition.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HomePosition.py: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HomePosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HomePosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HomePosition.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HomePosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HomePosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_HomePosition.py: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Python from MSG mavros_msgs/HomePosition"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_LandingTarget.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_LandingTarget.py: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/LandingTarget.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_LandingTarget.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_LandingTarget.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_LandingTarget.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_LandingTarget.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_LandingTarget.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Python from MSG mavros_msgs/LandingTarget"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/LandingTarget.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg
 
@@ -441,9 +441,9 @@ CMakeFiles/mavros_msgs_generate_messages_py: /home/szf/ROS/catkin_ws_3/devel/.pr
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_PositionTarget.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_PositionTarget.py: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_PositionTarget.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_PositionTarget.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_PositionTarget.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_PositionTarget.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating Python from MSG mavros_msgs/PositionTarget"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg
 
@@ -509,9 +509,9 @@ CMakeFiles/mavros_msgs_generate_messages_py: /home/szf/ROS/catkin_ws_3/devel/.pr
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_Trajectory.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_Trajectory.py: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Trajectory.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_Trajectory.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_Trajectory.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_Trajectory.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_Trajectory.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_Trajectory.py: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating Python from MSG mavros_msgs/Trajectory"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Trajectory.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg
@@ -535,8 +535,8 @@ CMakeFiles/mavros_msgs_generate_messages_py: /home/szf/ROS/catkin_ws_3/devel/.pr
 
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_Vibration.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_Vibration.py: /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Vibration.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_Vibration.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_Vibration.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_Vibration.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating Python from MSG mavros_msgs/Vibration"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Vibration.msg -Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg
 

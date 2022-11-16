@@ -17,6 +17,7 @@
 #include <std_msgs/String.h>
 #include <geometry_msgs/Quaternion.h>
 #include <geometry_msgs/PoseStamped.h>
+#include <geometry_msgs/PoseWithCovarianceStamped.h>
 #include <tf/tf.h>
 #include <tf/transform_broadcaster.h>
 #include <tf2_ros/static_transform_broadcaster.h>
@@ -24,6 +25,8 @@
 #include <ros/console.h>
 #include<geometry_msgs/Twist.h>
 #include<iostream>
+#include<robot_pose_ekf/GetStatus.h>
+#include<robot_pose_ekf/GetStatusRequest.h>
 
 #define PI 3.141592653
 #define P_speed_y -0
@@ -42,7 +45,7 @@ ros::Publisher send_publisher;
 ros::Publisher ref_publisher;
 ros::Subscriber xbox_sub;
 ros::Subscriber odomSub;
-
+ros::Subscriber path_ekf;
 /**
  * @brief 创建变量
  * 
@@ -56,7 +59,7 @@ mavros_msgs::SpeedControlSet_sub pub;//自定义的mavros消息
 mavros_msgs::SpeedControlSet_sub ref;
 bool safe = true;//用来设置急刹车
 float speed[3];
-float pose[3];//用来接收T265的里程计数据，做闭环控制
+float pose[3];//用来接收T265卡尔曼滤波后的里程计数据，做闭环控制
 int t = 0;//时间
 
 /**
@@ -97,17 +100,23 @@ void odomCallback(const nav_msgs::Odometry::ConstPtr& odom)
     path_real.header.frame_id = "camera_odom_frame";
     path_pub.publish(path_real);
 
-    //获取当前里程计数据
-    pose[0] = odom -> pose.pose.position.x;
-    pose[1] = odom -> pose.pose.position.y;
-    pose[2] = odom -> pose.pose.position.z;
-
     speed[0] = odom -> twist.twist.linear.x;
     speed[1] = odom -> twist.twist.linear.y;
     speed[2] = odom -> twist.twist.linear.z;
 
     //获取四元数
     orientation.z = odom -> pose.pose.orientation.z;
+
+}
+void efk_Callback(const geometry_msgs::PoseWithCovarianceStampedConstPtr& efk)
+{
+    //获取当前里程计数据
+    pose[0] = efk -> pose.pose.position.x;
+    pose[1] = efk -> pose.pose.position.y;
+    pose[2] = efk -> pose.pose.position.z;
+    ROS_INFO("pose_x = %f",pose[0]);
+    //获取四元数
+    orientation.z = efk -> pose.pose.orientation.w;
 
 }
 
@@ -209,6 +218,9 @@ int main(int argc,char *argv[])
     path_pub = speed_control_nh.advertise<nav_msgs::Path>("trajectory", 10, true);
     odomSub = speed_control_nh.subscribe<nav_msgs::Odometry>("/camera/odom/sample", 10, odomCallback); 
 
+    //订阅扩展卡尔曼滤波后的话题
+    path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback);
+
     //订阅xbox
     xbox_sub = speed_control_nh.subscribe<geometry_msgs::Twist>("xbox",10,xboxCallback);
    
@@ -255,9 +267,9 @@ int main(int argc,char *argv[])
             ref.y_set_sub = sin(t*0.02*PI/4);
             ref_publisher.publish(ref);
             //pub
-            pub.vx_set_sub = 0.5;
+            pub.vx_set_sub = 0.5 + P_pose_x * (pose[0] - ref.vx_set_sub);//还未调参
             pub.vy_set_sub = 0.25 * PI*cos(t*0.02*PI/4) 
-                            + P_pose_y * (pose[1] - ref.y_set_sub);//闭环控制
+                            + P_pose_y * (pose[1] - ref.y_set_sub);//闭环控制,修正估计 最优估计
             pub.vw_set_sub = 0 + P_pose_z * (orientation.z - 0);
 
             //发布速度控制底盘
@@ -279,8 +291,8 @@ int main(int argc,char *argv[])
             ref.x_set_sub = 8 - 0.5*(t-800)*0.02;
             ref.y_set_sub = sin(t*0.02*PI/4);
             ref_publisher.publish(ref);
-            //pubs
-            pub.vx_set_sub = -0.5;
+            //pub
+            pub.vx_set_sub = -0.5 + P_pose_x * (pose[0] - ref.vx_set_sub);
             pub.vy_set_sub = 0.25 * PI*cos(t*0.02*PI/4) 
                             + P_pose_y * (pose[1] - ref.y_set_sub);
             pub.vw_set_sub = 0 + P_pose_z * (orientation.z - 0);

@@ -324,6 +324,32 @@ mavros_plugins/fast:
 .PHONY : mavros_plugins/fast
 
 #=============================================================================
+# Target rules for targets named robot_pose_ekf_generate_messages_nodejs
+
+# Build rule for target.
+robot_pose_ekf_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot_pose_ekf_generate_messages_nodejs
+.PHONY : robot_pose_ekf_generate_messages_nodejs
+
+# fast build rule for target.
+robot_pose_ekf_generate_messages_nodejs/fast:
+	$(MAKE) -f CMakeFiles/robot_pose_ekf_generate_messages_nodejs.dir/build.make CMakeFiles/robot_pose_ekf_generate_messages_nodejs.dir/build
+.PHONY : robot_pose_ekf_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named robot_pose_ekf_generate_messages_cpp
+
+# Build rule for target.
+robot_pose_ekf_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot_pose_ekf_generate_messages_cpp
+.PHONY : robot_pose_ekf_generate_messages_cpp
+
+# fast build rule for target.
+robot_pose_ekf_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/robot_pose_ekf_generate_messages_cpp.dir/build.make CMakeFiles/robot_pose_ekf_generate_messages_cpp.dir/build
+.PHONY : robot_pose_ekf_generate_messages_cpp/fast
+
+#=============================================================================
 # Target rules for targets named turtlesim_generate_messages_lisp
 
 # Build rule for target.
@@ -844,6 +870,19 @@ mavros_node/fast:
 .PHONY : mavros_node/fast
 
 #=============================================================================
+# Target rules for targets named robot_pose_ekf_generate_messages_lisp
+
+# Build rule for target.
+robot_pose_ekf_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot_pose_ekf_generate_messages_lisp
+.PHONY : robot_pose_ekf_generate_messages_lisp
+
+# fast build rule for target.
+robot_pose_ekf_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/robot_pose_ekf_generate_messages_lisp.dir/build.make CMakeFiles/robot_pose_ekf_generate_messages_lisp.dir/build
+.PHONY : robot_pose_ekf_generate_messages_lisp/fast
+
+#=============================================================================
 # Target rules for targets named diagnostic_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -1130,6 +1169,19 @@ uuid_msgs_generate_messages_eus/fast:
 .PHONY : uuid_msgs_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named robot_pose_ekf_generate_messages_eus
+
+# Build rule for target.
+robot_pose_ekf_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot_pose_ekf_generate_messages_eus
+.PHONY : robot_pose_ekf_generate_messages_eus
+
+# fast build rule for target.
+robot_pose_ekf_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/robot_pose_ekf_generate_messages_eus.dir/build.make CMakeFiles/robot_pose_ekf_generate_messages_eus.dir/build
+.PHONY : robot_pose_ekf_generate_messages_eus/fast
+
+#=============================================================================
 # Target rules for targets named mavros_msgs_generate_messages_py
 
 # Build rule for target.
@@ -1284,6 +1336,19 @@ geographic_msgs_generate_messages_lisp: cmake_check_build_system
 geographic_msgs_generate_messages_lisp/fast:
 	$(MAKE) -f CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build
 .PHONY : geographic_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named robot_pose_ekf_generate_messages_py
+
+# Build rule for target.
+robot_pose_ekf_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot_pose_ekf_generate_messages_py
+.PHONY : robot_pose_ekf_generate_messages_py
+
+# fast build rule for target.
+robot_pose_ekf_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/robot_pose_ekf_generate_messages_py.dir/build.make CMakeFiles/robot_pose_ekf_generate_messages_py.dir/build
+.PHONY : robot_pose_ekf_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named diagnostic_msgs_generate_messages_py
@@ -2967,6 +3032,8 @@ help:
 	@echo "... libmavros-frame-conversions-test"
 	@echo "... SpeedControlSet_pub"
 	@echo "... mavros_plugins"
+	@echo "... robot_pose_ekf_generate_messages_nodejs"
+	@echo "... robot_pose_ekf_generate_messages_cpp"
 	@echo "... turtlesim_generate_messages_lisp"
 	@echo "... turtlesim_generate_messages_eus"
 	@echo "... wtr_tasks_final_generate_messages_py"
@@ -3008,6 +3075,7 @@ help:
 	@echo "... tests"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... mavros_node"
+	@echo "... robot_pose_ekf_generate_messages_lisp"
 	@echo "... diagnostic_msgs_generate_messages_eus"
 	@echo "... download_extra_data"
 	@echo "... doxygen"
@@ -3031,6 +3099,7 @@ help:
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... uuid_msgs_generate_messages_cpp"
 	@echo "... uuid_msgs_generate_messages_eus"
+	@echo "... robot_pose_ekf_generate_messages_eus"
 	@echo "... mavros_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_eus"
@@ -3043,6 +3112,7 @@ help:
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... geographic_msgs_generate_messages_lisp"
+	@echo "... robot_pose_ekf_generate_messages_py"
 	@echo "... diagnostic_msgs_generate_messages_py"
 	@echo "... nav_msgs_generate_messages_nodejs"
 	@echo "... sensor_msgs_generate_messages_cpp"

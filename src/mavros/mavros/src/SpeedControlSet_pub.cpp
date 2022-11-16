@@ -138,9 +138,9 @@ void ShowPath_ref()
     double x = 0.0;
     double y = 0.0;
     double th = 0.0;
-    double vx = 0.5;//真实速度0.25m/s
-    double vy = 0.25;//最大速度0.2m/s
-    double vth = 0.5;
+    double vx = PI * 0.25;//真实最大速度
+    double vy = PI * PI * 0.1;//最大速度
+    double vth = 1;
     ros::Rate loop_rate(50);
     while (ros::ok())
     {
@@ -149,16 +149,15 @@ void ShowPath_ref()
         current_time = ros::Time::now();
  
         //路径
-        if(t1 == 800)
-        {
-            vx = -vx;
-        }
 
         double dt = 0.02;
-        double delta_x = vx * dt;
-        double delta_y = vy * PI * cos(th*PI/2) * dt;
+        double delta_x = vx * sin(PI / 16 * th) * dt;
+        double delta_y = vy * cos(x * PI/2) * sin(PI/16 * th) * dt;
         double delta_th = vth * dt;
-
+        if(t1>=800)
+        {
+            vy = -PI * PI * 0.1;
+        }
         x += delta_x;
         y += delta_y;
         th += delta_th;
@@ -260,48 +259,43 @@ int main(int argc,char *argv[])
         if(t < 800)
         {
             //ref
-            ref.vx_set_sub = 0.5;
-            ref.vy_set_sub = 0.25 * PI*cos(t*0.02*PI/4);
+            ref.vx_set_sub = PI/4 * sin(PI/16 * t * 0.02);
+            ref.vy_set_sub = PI * PI * 0.1 * sin(PI/16*t*0.02) * cos(PI/2*ref.x_set_sub) ;
             ref.vw_set_sub = 0;
-            ref.x_set_sub = 0.5*t*0.02;
-            ref.y_set_sub = sin(t*0.02*PI/4);
+            ref.x_set_sub = PI/4 * sin(PI/16 * t*0.02) * t*0.02;
+            ref.y_set_sub = 0.8*sin(PI/2*ref.x_set_sub);
             ref_publisher.publish(ref);
             //pub
-            pub.vx_set_sub = 0.5 + P_pose_x * (pose[0] - ref.vx_set_sub);//还未调参
-            pub.vy_set_sub = 0.25 * PI*cos(t*0.02*PI/4) 
+            pub.vx_set_sub = ref.vx_set_sub + P_pose_x * (pose[0] - ref.x_set_sub);//还未调参
+            pub.vy_set_sub = ref.vy_set_sub 
                             + P_pose_y * (pose[1] - ref.y_set_sub);//闭环控制,修正估计 最优估计
-            pub.vw_set_sub = 0 + P_pose_z * (orientation.z - 0);
+            pub.vw_set_sub = ref.vw_set_sub + P_pose_z * (orientation.z - ref.vw_set_sub);
 
             //发布速度控制底盘
             send_publisher.publish(pub);
             ROS_INFO("control successfully!");
         }
-        //调头
-        else if(t == 800)
-        {
-            pub.vx_set_sub = -pub.vx_set_sub;
-        }
         //后半程
         else if(t > 800 && t <1600)
         {
             //ref
-            ref.vx_set_sub = -0.5;
-            ref.vy_set_sub = 0.25 * PI*cos(t*0.02*PI/4);
+            ref.vx_set_sub = PI/4 * sin(PI/16 * t * 0.02);
+            ref.vy_set_sub = -PI * PI * 0.1 * sin(PI/16*t*0.02) * cos(PI/2*ref.x_set_sub) ;
             ref.vw_set_sub = 0;
-            ref.x_set_sub = 8 - 0.5*(t-800)*0.02;
-            ref.y_set_sub = sin(t*0.02*PI/4);
+            ref.x_set_sub = PI/4 * sin(PI/16 * t*0.02) * t*0.02;
+            ref.y_set_sub = 0.8*sin(PI/2*ref.x_set_sub);
             ref_publisher.publish(ref);
             //pub
-            pub.vx_set_sub = -0.5 + P_pose_x * (pose[0] - ref.vx_set_sub);
-            pub.vy_set_sub = 0.25 * PI*cos(t*0.02*PI/4) 
-                            + P_pose_y * (pose[1] - ref.y_set_sub);
-            pub.vw_set_sub = 0 + P_pose_z * (orientation.z - 0);
+            pub.vx_set_sub = ref.vx_set_sub + P_pose_x * (pose[0] - ref.x_set_sub);//还未调参
+            pub.vy_set_sub = ref.vy_set_sub 
+                            + P_pose_y * (pose[1] - ref.y_set_sub);//闭环控制,修正估计 最优估计
+            pub.vw_set_sub = ref.vw_set_sub + P_pose_z * (orientation.z - ref.vw_set_sub);
             //发布速度控制底盘
             send_publisher.publish(pub);
             ROS_INFO("control successfully!");
         }
         //完成任务后停车
-        else if(t >= 800 )
+        else if(t >= 1600 )
         {
             pub.vw_set_sub = 0;
             pub.vx_set_sub = 0;

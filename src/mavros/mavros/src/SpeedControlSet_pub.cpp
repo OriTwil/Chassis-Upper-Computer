@@ -31,8 +31,8 @@
 #define PI 3.141592653
 #define P_speed_y -0
 #define P_pose_y -1.31
-#define P_speed_x -0
-#define P_pose_x -0
+#define P_speed_x -2
+#define P_pose_x 0
 #define P_pose_z 1.7
 
 /**
@@ -105,7 +105,7 @@ void odomCallback(const nav_msgs::Odometry::ConstPtr& odom)
     speed[2] = odom -> twist.twist.linear.z;
 
     //获取四元数
-    orientation.z = odom -> pose.pose.orientation.z;
+    // orientation.z = odom -> pose.pose.orientation.z;
 
 }
 void efk_Callback(const geometry_msgs::PoseWithCovarianceStampedConstPtr& efk)
@@ -116,7 +116,7 @@ void efk_Callback(const geometry_msgs::PoseWithCovarianceStampedConstPtr& efk)
     pose[2] = efk -> pose.pose.position.z;
     ROS_INFO("pose_x = %f",pose[0]);
     //获取四元数
-    orientation.z = efk -> pose.pose.orientation.w;
+    orientation.z = efk -> pose.pose.orientation.z;
 
 }
 
@@ -154,12 +154,17 @@ void ShowPath_ref()
         double delta_x = vx * sin(PI / 16 * th) * dt;
         double delta_y = vy * cos(x * PI/2) * sin(PI/16 * th) * dt;
         double delta_th = vth * dt;
-        if(t1>=800)
-        {
-            vy = -PI * PI * 0.1;
-        }
+
         x += delta_x;
-        y += delta_y;
+        if(t1 <= 800 )
+        {
+            y += delta_y;
+        }
+        else if(t1 > 800)
+        {
+            y -= delta_y;
+        }
+
         th += delta_th;
 
         geometry_msgs::PoseStamped this_pose_stamped;
@@ -225,18 +230,18 @@ int main(int argc,char *argv[])
    
     //初始化被发布消息
     pub.vw_set_sub= 0;
-    pub.vx_set_sub = 0.5;
+    pub.vx_set_sub = 0.25;
     pub.vy_set_sub = 0;
    
     //初始化参考消息
-    ref.vx_set_sub = 0.5;
+    ref.vx_set_sub = 0.25;
     ref.vy_set_sub = 0;
     ref.vw_set_sub = 0;
     ref.x_set_sub = 0;
     ref.y_set_sub = 0;
   
     // 发布参考路径
-    ShowPath_ref();
+    // ShowPath_ref();
    
     //组织被发布消息
     ros::Rate r(50);//两次sleep之间0.02s
@@ -259,43 +264,48 @@ int main(int argc,char *argv[])
         if(t < 800)
         {
             //ref
-            ref.vx_set_sub = PI/4 * sin(PI/16 * t * 0.02);
-            ref.vy_set_sub = PI * PI * 0.1 * sin(PI/16*t*0.02) * cos(PI/2*ref.x_set_sub) ;
+            ref.vx_set_sub = 0.25;
+            ref.vy_set_sub = 0.125 * PI*cos(t*0.02*PI/4);
             ref.vw_set_sub = 0;
-            ref.x_set_sub = PI/4 * sin(PI/16 * t*0.02) * t*0.02;
-            ref.y_set_sub = 0.8*sin(PI/2*ref.x_set_sub);
+            ref.x_set_sub = 0.25*t*0.02;
+            ref.y_set_sub = 0.5*sin(t*0.02*PI/4);
             ref_publisher.publish(ref);
             //pub
-            pub.vx_set_sub = ref.vx_set_sub + P_pose_x * (pose[0] - ref.x_set_sub);//还未调参
-            pub.vy_set_sub = ref.vy_set_sub 
+            pub.vx_set_sub = 0.25 + P_pose_x * (pose[0] - ref.x_set_sub);//还未调参
+            pub.vy_set_sub = 0.125 * PI*cos(t*0.02*PI/4)
                             + P_pose_y * (pose[1] - ref.y_set_sub);//闭环控制,修正估计 最优估计
-            pub.vw_set_sub = ref.vw_set_sub + P_pose_z * (orientation.z - ref.vw_set_sub);
+            pub.vw_set_sub = 0 + P_pose_z * (orientation.z - 0);
 
             //发布速度控制底盘
             send_publisher.publish(pub);
             ROS_INFO("control successfully!");
         }
+        //调头
+        else if(t == 800)
+        {
+            pub.vx_set_sub = -pub.vx_set_sub;
+        }
         //后半程
         else if(t > 800 && t <1600)
         {
             //ref
-            ref.vx_set_sub = PI/4 * sin(PI/16 * t * 0.02);
-            ref.vy_set_sub = -PI * PI * 0.1 * sin(PI/16*t*0.02) * cos(PI/2*ref.x_set_sub) ;
+            ref.vx_set_sub = -0.25;
+            ref.vy_set_sub = 0.125 * PI*cos(t*0.02*PI/4);
             ref.vw_set_sub = 0;
-            ref.x_set_sub = PI/4 * sin(PI/16 * t*0.02) * t*0.02;
-            ref.y_set_sub = 0.8*sin(PI/2*ref.x_set_sub);
+            ref.x_set_sub =4 - 0.25*(t - 800)*0.02;
+            ref.y_set_sub = 0.5*sin(t*0.02*PI/4);
             ref_publisher.publish(ref);
             //pub
-            pub.vx_set_sub = ref.vx_set_sub + P_pose_x * (pose[0] - ref.x_set_sub);//还未调参
-            pub.vy_set_sub = ref.vy_set_sub 
-                            + P_pose_y * (pose[1] - ref.y_set_sub);//闭环控制,修正估计 最优估计
-            pub.vw_set_sub = ref.vw_set_sub + P_pose_z * (orientation.z - ref.vw_set_sub);
+            pub.vx_set_sub = -0.25 + P_pose_x * (pose[0] - ref.x_set_sub);
+            pub.vy_set_sub = 0.125 * PI*cos(t*0.02*PI/4) 
+                            + P_pose_y * (pose[1] - ref.y_set_sub);
+            pub.vw_set_sub = 0 + P_pose_z * (orientation.z - 0);
             //发布速度控制底盘
             send_publisher.publish(pub);
             ROS_INFO("control successfully!");
         }
         //完成任务后停车
-        else if(t >= 1600 )
+        else if(t >= 800 )
         {
             pub.vw_set_sub = 0;
             pub.vx_set_sub = 0;

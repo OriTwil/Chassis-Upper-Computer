@@ -56,7 +56,7 @@
   - 编写发布者，订阅卡尔曼滤波后的数据：话题名称、消息类型等参考wiki或csdn上的译文
   - 测试：发布T265消息：roslaunch realsense2_camera rs_t265.launch
   卡尔曼滤波：roslaunch robot_pose_ekf robot_pose_ekf.launch 运动控制：rosrun mavros xxx 可以通过plotjugger测试滤波效果
-  - tips：①记得添加功能包依赖②添加头文件 <geometry_msgs/PoseWithCovarianceStamped.h>
+  - tips：①记得添加功能包依赖 ②添加头文件 <geometry_msgs/PoseWithCovarianceStamped.h> ③robot_pose_ekf只适用于平面上的轮式移动机器人
   
  
   

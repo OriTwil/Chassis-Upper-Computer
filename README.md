@@ -41,7 +41,7 @@
   - 定世界坐标：rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 camera_odom_frame 
   - 发布T265消息：roslaunch realsense2_camera rs_t265.launch 
   - 卡尔曼滤波：roslaunch robot_pose_ekf robot_pose_ekf.launch
-  - 启动mavros：roslaunch mavros xxx.launch 
+  - 启动mavros：roslaunch mavros wtr_tasks_5.launch 
   - 运动控制：rosrun mavros xxx
   - 可视化：rqt rviz rqt_graph rqt_tf_tree等
   - 数据可视化：rosbag + plotjugger

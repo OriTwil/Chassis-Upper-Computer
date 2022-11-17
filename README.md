@@ -38,12 +38,12 @@
   - 测试环境：大疆A板(含自定义mavlink 2.0消息收发，与上位机mavlink消息id对应)、ROS、Ubuntu
   - roscore
   - 编译 ：catkin build
-  - 可视化path：rviz
   - 定世界坐标：rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 camera_odom_frame 
   - 发布T265消息：roslaunch realsense2_camera rs_t265.launch 
-  - 参数可视化：rqt
+  - 卡尔曼滤波：roslaunch robot_pose_ekf robot_pose_ekf.launch
   - 启动mavros：roslaunch mavros xxx.launch 
   - 运动控制：rosrun mavros xxx
+  - 可视化：rqt rviz rqt_graph rqt_tf_tree等
   - 数据可视化：rosbag + plotjugger
  9. tips
   - 注意创建工作空间的时候，是catkin build
@@ -52,7 +52,7 @@
   - 说明：卡尔曼滤波的作用与算法实现可以参考[这篇文章](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures) 、b站up主"DR_CAN"、up主"421施工队"。在ROS中，可以通过robot_pose_ekf功能包，方便的使用卡尔曼滤波器，具体说明参考[wiki](http://wiki.ros.org/robot_pose_ekf)
   - 安装：安装robot_pose_ekf功能包，我是用二进制安装"sudo apt install ros-xxx-robot_pose_ekf*", 源码安装应该也可以
   - 编译与运行："roscd robot_pose_ekf" “rosmake” "roslaunch robot_pose_ekf.launch"即可对订阅话题中的数据进行处理，并发布
-  - remap进行名称重映射：robot_pose_ekf node订阅了imu、里程计 odom、视觉里程计 vo三个传感器源，node可以自动检测可用源，如果想加入自己的传感器，可以用remap进行名称重映射，例如此项目中使用T265里程计，可以将vo重映射到T265视觉里程计发布的话题：/camera/odom  具体参考[wiki上的说明](http://wiki.ros.org/robot_pose_ekf/Tutorials/AddingGpsSensor)
+  - remap进行名称重映射：robot_pose_ekf node订阅了imu、里程计 odom、视觉里程计 vo三个传感器源，node可以自动检测可用源，如果想加入自己的传感器，可以用remap进行名称重映射，例如此项目中使用T265视觉里程计，可以将vo重映射到T265视觉里程计发布的话题：/camera/odom ，也可以将imu_data、odom分别重映射，即可对数据融合，进行定位  具体参考[wiki上的说明](http://wiki.ros.org/robot_pose_ekf/Tutorials/AddingGpsSensor)
   - 编写发布者，订阅卡尔曼滤波后的数据：话题名称、消息类型等参考wiki或csdn上的译文
   - 测试：发布T265消息：roslaunch realsense2_camera rs_t265.launch
   卡尔曼滤波：roslaunch robot_pose_ekf robot_pose_ekf.launch 运动控制：rosrun mavros xxx 可以通过plotjugger测试滤波效果
@@ -62,6 +62,7 @@
 ### 效果展示
   - 11.16
    ![11.16 y坐标](https://github.com/szf01/Underpan-upper-computer/raw/master/img_storage/df4808fcfc458988658241c942bb094.jpg)
- 
+###思路
+  11月16日 需要优化控制算法（尝试PI控制器，或PID）、路径规划（不了解）、轨迹优化（结合摩擦系数估算最大加速度，设置加速减速曲线，减少打滑和速度突变）、机械结构优化（减少抖动、精确尺寸）
   
   

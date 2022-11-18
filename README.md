@@ -78,7 +78,7 @@
   ![11.16 y坐标](https://github.com/szf01/Underpan-upper-computer/raw/master/img_storage/df4808fcfc458988658241c942bb094.jpg)
   - 11.18 对x方向速度进行规划
   
-  ![11.18 x速度对比](https://github.com/szf01/Underpan-UpperComputer/raw/master/img_storage/S%E6%9B%B2%E7%BA%BF%E6%B5%8B%E8%AF%95vx%E5%AF%B9%E6%AF%94.png)
+  ![11.18 x速度对比](https://github.com/szf01/Underpan-Upper-Computer/blob/master/img_storage/S_test_vx.png)
   
   ![11.18 y速度对比](https://github.com/szf01/Underpan-UpperComputer/raw/master/img_storage/S%E6%9B%B2%E7%BA%BF%E6%B5%8B%E8%AF%95vy%E5%AF%B9%E6%AF%94.png)
 ### 优化思路

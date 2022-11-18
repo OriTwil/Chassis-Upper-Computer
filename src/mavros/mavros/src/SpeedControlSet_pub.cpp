@@ -141,21 +141,14 @@ void efk_Callback(const geometry_msgs::PoseWithCovarianceStampedConstPtr& efk)
  * @param v_target 目标速度
  * @param a_target 目标加速度
  * @param d_target 目标减速度
- * @param j_max 目标加加速度
+ * @param j_max 目标加加速度(小于系统能受到的最大冲击，反映了系统的柔性，柔性越大，过冲越大)
  */
 
 current S_type_Speed_Curve_Planning(double t,FP64 v_start,FP64 v_end,FP64 s_target,FP64 v_target,FP64 a_target,FP64 d_target,FP64 j_max)
 {
     /****************************  定义相关变量   ***********************/
     FP64 v_max = 0;     //最大速度(有匀速段时,v_max = v_target)
-    
-    /*根据需要修改*/
 
-    // FP64 s_target;   //目标位移量
-    // FP64 v_target;   //目标速度
-    // FP64 a_target;   //目标加速度
-    // FP64 d_target;   //目标减速度
-    // FP64 j_max;      //目标加加速度
 
     FP64 L;          //算出的位移量
     FP64 v_real;     //实际的最大速度
@@ -388,7 +381,7 @@ current S_type_Speed_Curve_Planning(double t,FP64 v_start,FP64 v_end,FP64 s_targ
         if (flag1 == 1 )
         {
             /*正常进行规划*/
-            t4 = (s_target - L) / v_max;
+            t4 = (s_target - s1 - s2 - s3 - s5 - s6 - s7) / v_target;//本来应该是v_max,但这里为了避开二分法
             v4 = v3;
             s4 = v4 * t4;
         }
@@ -466,7 +459,7 @@ current S_type_Speed_Curve_Planning(double t,FP64 v_start,FP64 v_end,FP64 s_targ
             cur.v_cur = v_end;
         }
     }
-    ROS_INFO("plan successfully,v_t_sum = %lf",cur.t_sum);
+
     return cur;
 }
 
@@ -599,8 +592,8 @@ int main(int argc,char *argv[])
     // ShowPath_ref();
 
     //计算
-    double t_reverse = S_type_Speed_Curve_Planning(0,0,0,4,0.25,0.05,0.125,0.005).t_sum;
-    double x_reverse = S_type_Speed_Curve_Planning(t_reverse,0,0,4,0.25,0.05,0.125,0.005).s_cur;
+    double t_reverse = S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,0.004).t_sum;
+    double x_reverse = S_type_Speed_Curve_Planning(t_reverse,0,0,4,0.25,0.1,0.2,0.004).s_cur;
     //组织被发布消息
     ros::Rate r(50);//两次sleep之间0.02s
     while(ros::ok())
@@ -621,10 +614,10 @@ int main(int argc,char *argv[])
         if(t*0.02 < t_reverse)
         {
             //ref
-            ref.vx_set_sub = S_type_Speed_Curve_Planning(t*0.02,0,0,4,0.25,0.05,0.125,0.005).v_cur;
+            ref.vx_set_sub = S_type_Speed_Curve_Planning(t*0.02,0,0,4,0.25,0.1,0.2,0.004).v_cur;
             ref.vy_set_sub = 0.5*PI*cos(PI*ref.x_set_sub)*ref.vx_set_sub;
             ref.vw_set_sub = 0;
-            ref.x_set_sub = S_type_Speed_Curve_Planning(t*0.02,0,0,4,0.25,0.05,0.125,0.005).s_cur;
+            ref.x_set_sub = S_type_Speed_Curve_Planning(t*0.02,0,0,4,0.25,0.1,0.2,0.004).s_cur;
             ref.y_set_sub = 0.5*sin(PI*ref.x_set_sub);
             ref_publisher.publish(ref);
             //pub
@@ -636,16 +629,17 @@ int main(int argc,char *argv[])
             //发布速度控制底盘
             send_publisher.publish(pub);
             ROS_INFO("control successfully!");
+            ROS_INFO("x_reverse = %lf",x_reverse);
         }
 
         //后半程
         else if(t*0.02 >= t_reverse && t*0.02 < (t_reverse*2))
         {
             //ref
-            ref.vx_set_sub = S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.05,0.125,0.005).v_cur;
+            ref.vx_set_sub = - S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,0.004).v_cur;
             ref.vy_set_sub = 0.5*PI*cos(PI*ref.x_set_sub)*ref.vx_set_sub;
             ref.vw_set_sub = 0;
-            ref.x_set_sub =x_reverse - S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.05,0.125,0.005).s_cur;
+            ref.x_set_sub =x_reverse - S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,0.004).s_cur;
             ref.y_set_sub = 0.5*sin(PI*(x_reverse - ref.x_set_sub));
             ref_publisher.publish(ref);
             //pub

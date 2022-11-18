@@ -19,21 +19,26 @@
   - 添加插件路径：/src/mavros/mavros/src/plugins
   - 参考代码：/src/mavros/mavros/src/plugins/manual_control.cpp（典型）
   或speed_control.cpp
+  
 4. 添加自定义插件到插件列表
   - 路径：~/catkin_ws/src/mavros/mavros/mavros_plugins.xml
   - 作用：用于MAVROS自动加载插件
+  
 5. 添加至CMakeLists.txt
   - 路径：~/catkin_ws/src/mavros/mavros/CMakeLists.txt
   - 作用：将插件添加至编译
   - 添加内容：add_library(mavros_plugins src/plugins/crawl_control.cpp)
+  
  6. 编写launch执行文件
   - 路径：~/catkin_ws/src/mavros/mavros/launch
   - 文件内容：.launch和.yaml文件可以仿照px4.launch编写
   - 在px4.launch文件中可以设置USB接口、波特率、系统id、mavlink版本等
   - 在px4_pluginlists.yaml中可以设置插件黑名单（不放入黑名单的插件默认执行）
+  
  7. 运动控制代码
   - 路径：~/catkin_ws/src/mavros/mavros/src/
   - 代码内容：可参考SpeedControlSet_pub.cpp（写的不太好）
+  
  8. 测试
   - 测试环境：大疆A板(含自定义mavlink 2.0消息收发，与上位机mavlink消息id对应)、ROS、Ubuntu
   - roscore
@@ -42,12 +47,15 @@
   - 发布T265消息：roslaunch realsense2_camera rs_t265.launch 
   - 卡尔曼滤波：roslaunch robot_pose_ekf robot_pose_ekf.launch
   - 启动mavros：roslaunch mavros wtr_tasks_5.launch 
+  - 安全设置：启动xbox：roslaunch wtr_tasks_3 wtr_tasks_3.launch
   - 运动控制：rosrun mavros xxx
   - 可视化：rqt rviz rqt_graph rqt_tf_tree等
   - 数据可视化：rosbag + plotjugger
+  
  9. tips
   - 注意创建工作空间的时候，是catkin build
   - 运动控制代码需要添加编译依赖等，配置CMakeLists.txt
+  
 10. 用扩展卡尔曼滤波器对imu、里程计 odom、视觉里程计的数据进行融合
   - 说明：卡尔曼滤波的作用与算法实现可以参考[这篇文章](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures) 、b站up主"DR_CAN"、up主"421施工队"。在ROS中，可以通过robot_pose_ekf功能包，方便的使用卡尔曼滤波器，具体说明参考[wiki](http://wiki.ros.org/robot_pose_ekf)
   - 安装：安装robot_pose_ekf功能包，我是用二进制安装"sudo apt install ros-xxx-robot_pose_ekf*", 源码安装应该也可以
@@ -58,10 +66,17 @@
   卡尔曼滤波：roslaunch robot_pose_ekf robot_pose_ekf.launch 运动控制：rosrun mavros xxx 可以通过plotjugger测试滤波效果
   - tips：①记得添加功能包依赖 ②添加头文件 <geometry_msgs/PoseWithCovarianceStamped.h> ③robot_pose_ekf只适用于平面上的轮式移动机器人
   
+11. 速度曲线规划
+  - 说明：S型加减速曲线较为平滑，可以减少控制过程中的冲击，并试插补过程具有柔性。理论和程序实现参考[这个文章](https://blog.csdn.net/u010632165/article/details/104951091),各种资料都很多
+  - 函数使用说明：调用时需要传入参数(当前时间 初速度 末速度 目标距离 目标速度 目标加速度 目标减速度 目标加加速度),可以根据需要修改返回值
+  - 函数作用：根据参数自动生成一条型S曲线，如果参数不合适，函数可以自动生成合适的最大速度，完成点到点的轨迹规划
+  
 ### 项目文件说明
 ### 效果展示
-  - 11.16
+  - 11.16 加入卡尔曼滤波，但由于坐标抖动不大，效果不是很明显
    ![11.16 y坐标](https://github.com/szf01/Underpan-upper-computer/raw/master/img_storage/df4808fcfc458988658241c942bb094.jpg)
+  - 11.18 对x方向速度进行规划
+   ！ 
 ### 优化思路
   11月16日 需要优化控制算法（尝试PI控制器，或PID）、路径规划（不了解）、轨迹优化（结合摩擦系数估算最大加速度，设置加速减速曲线，减少打滑和速度突变）、机械结构优化（减少抖动、精确尺寸）
   

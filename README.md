@@ -69,7 +69,8 @@
 #### 11. 速度曲线规划
   - 说明：S型加减速曲线较为平滑，可以减少控制过程中的冲击，并使插补过程具有柔性。理论和程序实现参考[这个文章](https://blog.csdn.net/u010632165/article/details/104951091),各种资料都很多
   - 函数使用说明：调用时需要传入参数(当前时间 初速度 末速度 目标距离 目标速度 目标加速度 目标减速度 目标加加速度),可以根据需要修改返回值
-  - 函数作用：根据参数自动生成一条型S曲线，如果参数不合适，函数可以自动生成合适的最大速度，完成点到点的轨迹规划
+  - 函数作用：根据参数自动生成一条型S曲线，如果参数不合适，函数可以自动生成合适的最大速度，完成点到点的轨迹规划  但由于确定最大速度采用了二分法，故无法实时给出结果，使用时设定加加速度太小可能导致无法工作
+  - 目标速度取决于系统运动能力，目标加速度取决于系统最大加速度，目标加加速度取决于系统受冲击能力，反应了系统的柔度
   
 ### 项目文件说明
 ### 效果展示
@@ -78,11 +79,11 @@
   ![11.16 y坐标](https://github.com/szf01/Underpan-upper-computer/raw/master/img_storage/df4808fcfc458988658241c942bb094.jpg)
   - 11.18 对x方向速度进行规划
   
-  ![11.18 x速度对比](https://github.com/szf01/Underpan-Upper-Computer/blob/master/img_storage/S_test_vx.png)
+  ![11.18 x](https://github.com/szf01/Underpan-Upper-Computer/blob/master/img_storage/S_curve_2_x.png)
   
-  ![11.18 y速度对比](https://github.com/szf01/Underpan-Upper-Computer/blob/master/img_storage/S_test_vy.png)
-### 优化思路
+  ![11.18 y](https://github.com/szf01/Underpan-Upper-Computer/blob/master/img_storage/S_curve_2_y.png)
+### 优化思路与进展
   - 11月16日 需要优化控制算法（尝试PI控制器，或PID）、路径规划（不了解）、轨迹优化（结合摩擦系数估算最大加速度，设置加速减速曲线，减少打滑和速度突变）、机械结构优化（减少抖动、精确尺寸）
-  - 11月18日 采用S型速度曲线对速度进行规划，可以根据实际场地和需求，调整参数，减少速度突变与打滑。但此仓库中的项目还未调好参数
+  - 11月18日 采用S型速度曲线对速度进行规划，可以根据实际场地和需求，调整参数，减少速度突变与打滑
   
   

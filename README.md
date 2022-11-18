@@ -78,8 +78,9 @@
   ![11.16 y坐标](https://github.com/szf01/Underpan-upper-computer/raw/master/img_storage/df4808fcfc458988658241c942bb094.jpg)
   - 11.18 对x方向速度进行规划
   
-  ![11.18 x速度对比](https://github.com/szf01/Underpan-Upper-Computer/blob/master/img_storage/S%E6%9B%B2%E7%BA%BF%E6%B5%8B%E8%AF%95vx%E5%AF%B9%E6%AF%94.png.png）
-  ![11.18 y速度对比]()
+  ![11.18 x速度对比](https://github.com/szf01/Underpan-UpperComputer/raw/master/img_storage/S%E6%9B%B2%E7%BA%BF%E6%B5%8B%E8%AF%95vx%E5%AF%B9%E6%AF%94.png)
+  
+  ![11.18 y速度对比](https://github.com/szf01/Underpan-UpperComputer/raw/master/img_storage/S%E6%9B%B2%E7%BA%BF%E6%B5%8B%E8%AF%95vy%E5%AF%B9%E6%AF%94.png)
 ### 优化思路
   - 11月16日 需要优化控制算法（尝试PI控制器，或PID）、路径规划（不了解）、轨迹优化（结合摩擦系数估算最大加速度，设置加速减速曲线，减少打滑和速度突变）、机械结构优化（减少抖动、精确尺寸）
   - 11月18日 采用S型速度曲线对速度进行规划，可以根据实际场地和需求，调整参数，减少速度突变与打滑。但此仓库中的项目还未调好参数

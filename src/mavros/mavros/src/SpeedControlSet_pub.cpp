@@ -592,8 +592,8 @@ int main(int argc,char *argv[])
     // ShowPath_ref();
 
     //计算
-    double t_reverse = S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,0.004).t_sum;
-    double x_reverse = S_type_Speed_Curve_Planning(t_reverse,0,0,4,0.25,0.1,0.2,0.004).s_cur;
+    double t_reverse = S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,1).t_sum;
+    double x_reverse = S_type_Speed_Curve_Planning(t_reverse,0,0,4,0.25,0.1,0.2,1).s_cur;
     //组织被发布消息
     ros::Rate r(50);//两次sleep之间0.02s
     while(ros::ok())
@@ -614,10 +614,10 @@ int main(int argc,char *argv[])
         if(t*0.02 < t_reverse)
         {
             //ref
-            ref.vx_set_sub = S_type_Speed_Curve_Planning(t*0.02,0,0,4,0.25,0.1,0.2,0.004).v_cur;
+            ref.vx_set_sub = S_type_Speed_Curve_Planning(t*0.02,0,0,4,0.25,0.1,0.2,1).v_cur;
             ref.vy_set_sub = 0.5*PI*cos(PI*ref.x_set_sub)*ref.vx_set_sub;
             ref.vw_set_sub = 0;
-            ref.x_set_sub = S_type_Speed_Curve_Planning(t*0.02,0,0,4,0.25,0.1,0.2,0.004).s_cur;
+            ref.x_set_sub = S_type_Speed_Curve_Planning(t*0.02,0,0,4,0.25,0.1,0.2,1).s_cur;
             ref.y_set_sub = 0.5*sin(PI*ref.x_set_sub);
             ref_publisher.publish(ref);
             //pub
@@ -636,14 +636,14 @@ int main(int argc,char *argv[])
         else if(t*0.02 >= t_reverse && t*0.02 < (t_reverse*2))
         {
             //ref
-            ref.vx_set_sub = - S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,0.004).v_cur;
-            ref.vy_set_sub = 0.5*PI*cos(PI*ref.x_set_sub)*ref.vx_set_sub;
+            ref.vx_set_sub = - S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,1).v_cur;
+            ref.vy_set_sub = - 0.5*PI*cos(PI*ref.x_set_sub)*ref.vx_set_sub;
             ref.vw_set_sub = 0;
-            ref.x_set_sub =x_reverse - S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,0.004).s_cur;
-            ref.y_set_sub = 0.5*sin(PI*(x_reverse - ref.x_set_sub));
+            ref.x_set_sub =x_reverse - S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,1).s_cur;
+            ref.y_set_sub = - 0.5*sin(PI*(ref.x_set_sub));
             ref_publisher.publish(ref);
             //pub
-            pub.vx_set_sub = -(ref.vx_set_sub + P_pose_x * (pose[0] - ref.x_set_sub));
+            pub.vx_set_sub = ref.vx_set_sub + P_pose_x * (pose[0] - ref.x_set_sub);
             pub.vy_set_sub = ref.vy_set_sub 
                             + P_pose_y * (pose[1] - ref.y_set_sub);
             pub.vw_set_sub = 0 + P_pose_z * (orientation.z - 0);

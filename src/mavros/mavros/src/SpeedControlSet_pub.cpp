@@ -138,9 +138,9 @@ void efk_Callback(const geometry_msgs::PoseWithCovarianceStampedConstPtr& efk)
  * @param v_start 初速度
  * @param v_end 末速度
  * @param s_target 目标距离
- * @param v_target 目标速度
- * @param a_target 目标加速度
- * @param d_target 目标减速度
+ * @param v_target 最大速度
+ * @param a_target 最大加速度
+ * @param d_target 最大减速度
  * @param j_max 目标加加速度(小于系统能受到的最大冲击，反映了系统的柔性，柔性越大，过冲越大)
  */
 
@@ -591,8 +591,8 @@ int main(int argc,char *argv[])
     // 发布参考路径
     // ShowPath_ref();
 
-    //计算
-    double t_reverse = S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,1).t_sum;
+    //计算S曲线信息
+    double t_reverse = S_type_Speed_Curve_Planning(0,0,0,4,0.25,0.1,0.2,1).t_sum;
     double x_reverse = S_type_Speed_Curve_Planning(t_reverse,0,0,4,0.25,0.1,0.2,1).s_cur;
     //组织被发布消息
     ros::Rate r(50);//两次sleep之间0.02s
@@ -664,7 +664,6 @@ int main(int argc,char *argv[])
 
         r.sleep();
         ros::spinOnce();
-
 
     } 
 }

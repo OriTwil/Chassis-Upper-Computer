@@ -121,17 +121,17 @@ void odomCallback(const nav_msgs::Odometry::ConstPtr& odom)
     // orientation.z = odom -> pose.pose.orientation.z;
 
 }
-// void efk_Callback(const geometry_msgs::PoseWithCovarianceStampedConstPtr& efk)
-// {
-//     //获取当前里程计数据
-//     pose[0] = efk -> pose.pose.position.x;
-//     pose[1] = efk -> pose.pose.position.y;
-//     pose[2] = efk -> pose.pose.position.z;
-//     ROS_INFO("pose_x = %f",pose[0]);
-//     //获取四元数
-//     orientation.z = efk -> pose.pose.orientation.z;
+void efk_Callback(const geometry_msgs::PoseWithCovarianceStampedConstPtr& efk)
+{
+    //获取当前里程计数据
+    pose[0] = efk -> pose.pose.position.x;
+    pose[1] = efk -> pose.pose.position.y;
+    pose[2] = efk -> pose.pose.position.z;
+    ROS_INFO("pose_x = %f",pose[0]);
+    //获取四元数
+    orientation.z = efk -> pose.pose.orientation.z;
 
-// }
+}
 void Poseture_Callback(const mavros_msgs::PostureConstPtr& poseture)
 {
     pose[0] = poseture -> pos_x_state;
@@ -575,10 +575,10 @@ int main(int argc,char *argv[])
 
     //订阅t265里程计话题信息，并发布
     path_pub = speed_control_nh.advertise<nav_msgs::Path>("trajectory", 10, true);
-    // odomSub = speed_control_nh.subscribe<nav_msgs::Odometry>("/camera/odom/sample", 10, odomCallback); 
+    odomSub = speed_control_nh.subscribe<nav_msgs::Odometry>("/camera/odom/sample", 10, odomCallback); 
 
     //订阅扩展卡尔曼滤波后的话题
-    // path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback);
+    path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback);
 
     //订阅xbox
     xbox_sub = speed_control_nh.subscribe<geometry_msgs::Twist>("xbox",10,xboxCallback);

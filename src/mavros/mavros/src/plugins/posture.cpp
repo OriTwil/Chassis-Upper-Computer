@@ -62,12 +62,12 @@ private:
 		//posture
 		auto mavros_msg_posture = boost::make_shared<mavros_msgs::Posture>();
 		mavros_msg_posture -> header.stamp = ros::Time::now();
-		mavros_msg_posture -> pos_x_state = mavlink_posture.pos_x;
-		mavros_msg_posture -> pos_y_state = mavlink_posture.pos_y;
-        mavros_msg_posture -> w_z_state = mavlink_posture.w_z;
-        mavros_msg_posture -> xangle_state = mavlink_posture.xangle;
-        mavros_msg_posture -> yangle_state = mavlink_posture.yangle;
-        mavros_msg_posture -> zangle_state = mavlink_posture.zangle;
+		mavros_msg_posture -> pos_x_state = mavlink_posture.pos_x * 0.001;
+		mavros_msg_posture -> pos_y_state = mavlink_posture.pos_y * 0.001;
+        mavros_msg_posture -> w_z_state = mavlink_posture.w_z * 0.001;
+        mavros_msg_posture -> xangle_state = mavlink_posture.xangle * 0.001;
+        mavros_msg_posture -> yangle_state = mavlink_posture.yangle * 0.001;
+        mavros_msg_posture -> zangle_state = mavlink_posture.zangle * 0.001;
 
         pos_publisher.publish(mavros_msg_posture);
 	}

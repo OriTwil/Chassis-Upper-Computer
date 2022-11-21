@@ -29,14 +29,15 @@
 #include<robot_pose_ekf/GetStatusRequest.h>
 #include <stdio.h>
 #include <math.h>
+#include "mavros_msgs/Posture.h"
 
 #define  FP64 double
 #define PI 3.141592653
 #define P_speed_y -0
-#define P_pose_y -1.31
-#define P_speed_x -2
-#define P_pose_x 0
-#define P_pose_z 1.7
+#define P_pose_y -0.45
+#define P_speed_x -0
+#define P_pose_x -0.4
+#define P_pose_z 1
 
 /**
  * @brief 实例化发布者、订阅者对象
@@ -49,6 +50,7 @@ ros::Publisher ref_publisher;
 ros::Subscriber xbox_sub;
 ros::Subscriber odomSub;
 ros::Subscriber path_ekf;
+ros::Subscriber posture_sub;
 /**
  * @brief 创建变量
  * 
@@ -119,18 +121,23 @@ void odomCallback(const nav_msgs::Odometry::ConstPtr& odom)
     // orientation.z = odom -> pose.pose.orientation.z;
 
 }
-void efk_Callback(const geometry_msgs::PoseWithCovarianceStampedConstPtr& efk)
+// void efk_Callback(const geometry_msgs::PoseWithCovarianceStampedConstPtr& efk)
+// {
+//     //获取当前里程计数据
+//     pose[0] = efk -> pose.pose.position.x;
+//     pose[1] = efk -> pose.pose.position.y;
+//     pose[2] = efk -> pose.pose.position.z;
+//     ROS_INFO("pose_x = %f",pose[0]);
+//     //获取四元数
+//     orientation.z = efk -> pose.pose.orientation.z;
+
+// }
+void Poseture_Callback(const mavros_msgs::PostureConstPtr& poseture)
 {
-    //获取当前里程计数据
-    pose[0] = efk -> pose.pose.position.x;
-    pose[1] = efk -> pose.pose.position.y;
-    pose[2] = efk -> pose.pose.position.z;
-    ROS_INFO("pose_x = %f",pose[0]);
-    //获取四元数
-    orientation.z = efk -> pose.pose.orientation.z;
-
+    pose[0] = poseture -> pos_x_state;
+    pose[1] = poseture -> pos_y_state;
+    orientation.z = poseture -> zangle_state;
 }
-
 /**
  * @brief S型曲线 速度规划函数
  * 
@@ -568,14 +575,15 @@ int main(int argc,char *argv[])
 
     //订阅t265里程计话题信息，并发布
     path_pub = speed_control_nh.advertise<nav_msgs::Path>("trajectory", 10, true);
-    odomSub = speed_control_nh.subscribe<nav_msgs::Odometry>("/camera/odom/sample", 10, odomCallback); 
+    // odomSub = speed_control_nh.subscribe<nav_msgs::Odometry>("/camera/odom/sample", 10, odomCallback); 
 
     //订阅扩展卡尔曼滤波后的话题
-    path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback);
+    // path_ekf = speed_control_nh.subscribe<geometry_msgs::PoseWithCovarianceStamped>("robot_pose_ekf/odom_combined",10,efk_Callback);
 
     //订阅xbox
     xbox_sub = speed_control_nh.subscribe<geometry_msgs::Twist>("xbox",10,xboxCallback);
-   
+    //订阅码盘
+    posture_sub = speed_control_nh.subscribe<mavros_msgs::Posture>("/mavros/posture/posture", 10,Poseture_Callback);
     //初始化被发布消息
     pub.vw_set_sub= 0;
     pub.vx_set_sub = 0;

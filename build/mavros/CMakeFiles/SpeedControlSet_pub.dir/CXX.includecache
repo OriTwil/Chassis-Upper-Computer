@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/Posture.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+
 /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/SpeedControlSet.h
 ros/service_traits.h
 -
@@ -127,6 +145,8 @@ stdio.h
 -
 math.h
 -
+mavros_msgs/Posture.h
+/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/mavros_msgs/Posture.h
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string

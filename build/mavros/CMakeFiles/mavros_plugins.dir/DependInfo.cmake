@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/mission_protocol_base.cpp" "/home/szf/ROS/catkin_ws_3/build/mavros/CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o"
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/nav_controller_output.cpp" "/home/szf/ROS/catkin_ws_3/build/mavros/CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o"
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/param.cpp" "/home/szf/ROS/catkin_ws_3/build/mavros/CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/posture.cpp" "/home/szf/ROS/catkin_ws_3/build/mavros/CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o"
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/rallypoint.cpp" "/home/szf/ROS/catkin_ws_3/build/mavros/CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o"
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/rc_io.cpp" "/home/szf/ROS/catkin_ws_3/build/mavros/CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o"
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/safety_area.cpp" "/home/szf/ROS/catkin_ws_3/build/mavros/CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o"

@@ -2524,6 +2524,33 @@ src/plugins/param.cpp.s:
 	$(MAKE) -f CMakeFiles/mavros_plugins.dir/build.make CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.s
 .PHONY : src/plugins/param.cpp.s
 
+src/plugins/posture.o: src/plugins/posture.cpp.o
+
+.PHONY : src/plugins/posture.o
+
+# target to build an object file
+src/plugins/posture.cpp.o:
+	$(MAKE) -f CMakeFiles/mavros_plugins.dir/build.make CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o
+.PHONY : src/plugins/posture.cpp.o
+
+src/plugins/posture.i: src/plugins/posture.cpp.i
+
+.PHONY : src/plugins/posture.i
+
+# target to preprocess a source file
+src/plugins/posture.cpp.i:
+	$(MAKE) -f CMakeFiles/mavros_plugins.dir/build.make CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.i
+.PHONY : src/plugins/posture.cpp.i
+
+src/plugins/posture.s: src/plugins/posture.cpp.s
+
+.PHONY : src/plugins/posture.s
+
+# target to generate assembly for a file
+src/plugins/posture.cpp.s:
+	$(MAKE) -f CMakeFiles/mavros_plugins.dir/build.make CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.s
+.PHONY : src/plugins/posture.cpp.s
+
 src/plugins/rallypoint.o: src/plugins/rallypoint.cpp.o
 
 .PHONY : src/plugins/rallypoint.o
@@ -3232,6 +3259,9 @@ help:
 	@echo "... src/plugins/param.o"
 	@echo "... src/plugins/param.i"
 	@echo "... src/plugins/param.s"
+	@echo "... src/plugins/posture.o"
+	@echo "... src/plugins/posture.i"
+	@echo "... src/plugins/posture.s"
 	@echo "... src/plugins/rallypoint.o"
 	@echo "... src/plugins/rallypoint.i"
 	@echo "... src/plugins/rallypoint.s"

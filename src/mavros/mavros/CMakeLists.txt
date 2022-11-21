@@ -156,7 +156,7 @@ add_library(mavros_plugins
   src/plugins/waypoint.cpp
   src/plugins/wind_estimation.cpp
   src/plugins/speed_control.cpp #add
-
+  src/plugins/posture.cpp #add
 )
 add_dependencies(mavros_plugins
   mavros

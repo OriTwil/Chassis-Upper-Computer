@@ -90,5 +90,7 @@
   <class name="speed_control" type="mavros::std_plugins::SpeedControlPlugin" base_class_type="mavros::plugin::PluginBase">
 		<description>Handle the speed_control messages</description>
 	</class>
-
+  <class name="posture" type="mavros::std_plugins::PosturePlugin" base_class_type="mavros::plugin::PluginBase">
+		<description>Publish the posture</description>
+	</class>
 </library>

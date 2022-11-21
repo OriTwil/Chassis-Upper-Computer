@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o"
   "CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o"
   "CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o"
+  "CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o"
   "CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o"
   "CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o"
   "CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o"

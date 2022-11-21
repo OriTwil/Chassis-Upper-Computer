@@ -1,7 +1,6 @@
 // MESSAGE SPEED_CONTROL_SET support class
 
 #pragma once
-// #include "message.hpp"
 
 namespace mavlink {
 namespace common {

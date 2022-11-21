@@ -196,6 +196,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/WheelOdomStamped.msg"
     "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlStatus.msg"
     "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlSet_sub.msg"
+    "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Posture.msg"
     )
 endif()
 

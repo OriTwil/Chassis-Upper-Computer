@@ -162,7 +162,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_extras.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_extras.so"
-         OLD_RPATH "/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib:/home/szf/ROS/catkin_ws_3/devel/.private/libmavconn/lib:/opt/ros/noetic/lib:"
+         OLD_RPATH "/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib:/opt/ros/noetic/lib:/home/szf/ROS/catkin_ws_3/devel/.private/libmavconn/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_extras.so")
@@ -185,7 +185,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mavros_extras/visualization")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mavros_extras/visualization"
-         OLD_RPATH "/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib:/home/szf/ROS/catkin_ws_3/devel/.private/libmavconn/lib:/opt/ros/noetic/lib:"
+         OLD_RPATH "/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib:/opt/ros/noetic/lib:/home/szf/ROS/catkin_ws_3/devel/.private/libmavconn/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mavros_extras/visualization")
@@ -205,7 +205,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mavros_extras/servo_state_publisher")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mavros_extras/servo_state_publisher"
-         OLD_RPATH "/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib:/home/szf/ROS/catkin_ws_3/devel/.private/libmavconn/lib:/opt/ros/noetic/lib:"
+         OLD_RPATH "/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib:/opt/ros/noetic/lib:/home/szf/ROS/catkin_ws_3/devel/.private/libmavconn/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mavros_extras/servo_state_publisher")

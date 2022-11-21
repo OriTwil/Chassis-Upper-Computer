@@ -13,6 +13,7 @@
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointClear.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_VehicleInfoGet.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_StreamRate.dir
+/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_SetMavFrame.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_GlobalPositionTarget.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_MessageInterval.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/mavros_msgs_generate_messages_cpp.dir
@@ -116,7 +117,6 @@
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_RadioStatus.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/install.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_RTKBaseline.dir
-/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_SetMavFrame.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_DebugValue.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_Tunnel.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_WheelOdomStamped.dir
@@ -131,13 +131,14 @@
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_Trajectory.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_WaypointReached.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_SpeedControlStatus.dir
+/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_Posture.dir
+/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_FileList.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_CommandAck.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_BatteryStatus.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_GPSRAW.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_CommandBool.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_CommandLong.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_CommandTriggerControl.dir
-/home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_FileList.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_FileMakeDir.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/mavros_msgs_generate_messages.dir
 /home/szf/ROS/catkin_ws_3/build/mavros_msgs/CMakeFiles/_mavros_msgs_generate_messages_check_deps_TerrainReport.dir

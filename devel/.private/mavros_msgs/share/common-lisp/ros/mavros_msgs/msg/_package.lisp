@@ -91,6 +91,8 @@
    "PLAYTUNEV2"
    "<POSITIONTARGET>"
    "POSITIONTARGET"
+   "<POSTURE>"
+   "POSTURE"
    "<RCIN>"
    "RCIN"
    "<RCOUT>"

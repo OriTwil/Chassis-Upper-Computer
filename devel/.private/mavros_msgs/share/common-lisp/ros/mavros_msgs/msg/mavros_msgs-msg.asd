@@ -97,6 +97,8 @@
     (:file "_package_PlayTuneV2" :depends-on ("_package"))
     (:file "PositionTarget" :depends-on ("_package_PositionTarget"))
     (:file "_package_PositionTarget" :depends-on ("_package"))
+    (:file "Posture" :depends-on ("_package_Posture"))
+    (:file "_package_Posture" :depends-on ("_package"))
     (:file "RCIn" :depends-on ("_package_RCIn"))
     (:file "_package_RCIn" :depends-on ("_package"))
     (:file "RCOut" :depends-on ("_package_RCOut"))

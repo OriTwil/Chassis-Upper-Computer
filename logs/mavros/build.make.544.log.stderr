@@ -1,0 +1,17 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K In member function ‘[01m[Kvirtual void mavros::std_plugins::SpeedControlPlugin::initialize(mavros::UAS&)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:33:81:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kros::Subscriber[m[K’ and ‘[01m[Kros::Publisher[m[K’)
+   33 |   pos_publisher = speed_control_nh.advertise<mavros_msgs::Posture>("posture", 10[01;31m[K)[m[K;
+      |                                                                                 [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/node_handle.h:33[m[K,
+                 from [01m[K/opt/ros/noetic/include/diagnostic_updater/diagnostic_updater.h:42[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:23[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/subscriber.h:46:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kros::Subscriber& ros::Subscriber::operator=(const ros::Subscriber&)[m[K’
+   46 | class ROSCPP_DECL [01;36m[KSubscriber[m[K
+      |                   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/subscriber.h:52:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kros::Publisher[m[K’ to ‘[01m[Kconst ros::Subscriber&[m[K’
+   52 |   Subscriber& operator=([01;36m[Kconst Subscriber& other[m[K) = default;
+      |                         [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+make[2]: *** [CMakeFiles/mavros_plugins.dir/build.make:453：CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:562：CMakeFiles/mavros_plugins.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

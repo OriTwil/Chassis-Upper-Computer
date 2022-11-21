@@ -73,6 +73,7 @@ file(REMOVE_RECURSE
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/ParamValue.h"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/PlayTuneV2.h"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/PositionTarget.h"
+  "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/Posture.h"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/RCIn.h"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/RCOut.h"
   "/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/RTCM.h"

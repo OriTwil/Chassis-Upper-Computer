@@ -43,6 +43,7 @@ from ._Param import *
 from ._ParamValue import *
 from ._PlayTuneV2 import *
 from ._PositionTarget import *
+from ._Posture import *
 from ._RCIn import *
 from ._RCOut import *
 from ._RTCM import *

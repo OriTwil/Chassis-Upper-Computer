@@ -565,6 +565,7 @@
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_collision.hpp
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.h
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_high_latency2.hpp
+/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_log_request_list.h
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_scaled_pressure.h
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_param_value.h
@@ -589,6 +590,7 @@
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_memory_vect.h
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_mission_item.h
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_terrain_request.hpp
+/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_change_operator_control.h
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_play_tune.hpp
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_high_latency.h
@@ -1067,6 +1069,7 @@
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v1.0/common/mavlink_msg_mission_request.h
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v1.0/common/mavlink_msg_memory_vect.h
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v1.0/common/mavlink_msg_mission_item.h
+/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v1.0/common/mavlink_msg_posture.h
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v1.0/common/mavlink_msg_change_operator_control.h
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v1.0/common/mavlink_msg_high_latency.h
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v1.0/common/mavlink_msg_high_latency2.h

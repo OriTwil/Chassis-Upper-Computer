@@ -1,0 +1,31 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K In member function ‘[01m[Kvirtual void mavros::std_plugins::SpeedControlPlugin::initialize(mavros::UAS&)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:32:59:[m[K [01;31m[Kerror: [m[K‘[01m[KPosture[m[K’ is not a member of ‘[01m[Kmavros_msgs[m[K’
+   32 |   pos_publisher = speed_control_nh.advertise<mavros_msgs::[01;31m[KPosture[m[K>("posture",10);
+      |                                                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:32:59:[m[K [01;31m[Kerror: [m[K‘[01m[KPosture[m[K’ is not a member of ‘[01m[Kmavros_msgs[m[K’
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:32:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [8], int)[m[K’
+   32 |   pos_publisher = speed_control_nh.advertise<mavros_msgs::Posture>("posture",10[01;31m[K)[m[K;
+      |                                                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/diagnostic_updater/diagnostic_updater.h:42[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:23[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K’
+  249 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:32:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |   pos_publisher = speed_control_nh.advertise<mavros_msgs::Posture>("posture",10[01;31m[K)[m[K;
+      |                                                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/diagnostic_updater/diagnostic_updater.h:42[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:23[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K’
+  315 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:32:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |   pos_publisher = speed_control_nh.advertise<mavros_msgs::Posture>("posture",10[01;31m[K)[m[K;
+      |                                                                                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/mavros_plugins.dir/build.make:453：CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:562：CMakeFiles/mavros_plugins.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

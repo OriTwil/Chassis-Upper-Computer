@@ -1,0 +1,56 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:67:124:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   67 |  void handle_speed_control(const mavlink::mavlink_message_t *msg, mavlink::common::msg::SPEED_CONTROL_STATUS &speed_control[01;31m[K)[m[K
+      |                                                                                                                            [01;31m[K^[m[K
+      |                                                                                                                             [32m[K;[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:69:3:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   69 |   [01;31m[Kauto[m[K speed_control_msg = boost::make_shared<mavros_msgs::SpeedControlStatus>();
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:70:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_control_msg[m[K’ does not name a type
+   70 |   [01;31m[Kspeed_control_msg[m[K->header.stamp = ros::Time::now();
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:71:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_control_msg[m[K’ does not name a type
+   71 |   [01;31m[Kspeed_control_msg[m[K->vx_state = speed_control.vx_state;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:72:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_control_msg[m[K’ does not name a type
+   72 |   [01;31m[Kspeed_control_msg[m[K->vy_state = speed_control.vy_state;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:73:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_control_msg[m[K’ does not name a type
+   73 |   [01;31m[Kspeed_control_msg[m[K->vx_state = speed_control.vw_state;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:75:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_pub[m[K’ does not name a type
+   75 |   [01;31m[Kcontrol_pub[m[K.publish(speed_control_msg);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:80:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   80 |  }
+      |   [01;31m[K^[m[K
+      |   [32m[K;[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K In member function ‘[01m[Kvirtual void mavros::std_plugins::SpeedControlPlugin::initialize(mavros::UAS&)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:30:81:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_cb_service[m[K’ is not a member of ‘[01m[Kmavros::std_plugins::SpeedControlPlugin[m[K’
+   30 |   send_service = speed_control_nh.advertiseService("send", &SpeedControlPlugin::[01;31m[Ksend_cb_service[m[K, this);
+      |                                                                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:31:121:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_callback_subscribe[m[K’ is not a member of ‘[01m[Kmavros::std_plugins::SpeedControlPlugin[m[K’
+   31 |   send_subscriber = speed_control_nh.subscribe<mavros_msgs::SpeedControlSet_sub>("send_topic", 10, &SpeedControlPlugin::[01;31m[Ksend_callback_subscribe[m[K, this);
+      |                                                                                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:25[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K In function ‘[01m[Kbool mavros::std_plugins::send_cb_service(mavros_msgs::SpeedControlSet::Request&, mavros_msgs::SpeedControlSet::Response&)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:101:11:[m[K [01;31m[Kerror: [m[K‘[01m[Km_uas[m[K’ was not declared in this scope
+  101 |   UAS_FCU([01;31m[Km_uas[m[K)->send_message_ignore_drop(msg);
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_uas.h:43:4:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KUAS_FCU[m[K’
+   43 |  (([01;36m[Kuasobjptr[m[K)->fcu_link)
+      |    [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K In function ‘[01m[Kvoid mavros::std_plugins::send_callback_subscribe(const ConstPtr&)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:112:11:[m[K [01;31m[Kerror: [m[K‘[01m[Km_uas[m[K’ was not declared in this scope
+  112 |   UAS_FCU([01;31m[Km_uas[m[K)->send_message_ignore_drop(msg);
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_uas.h:43:4:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KUAS_FCU[m[K’
+   43 |  (([01;36m[Kuasobjptr[m[K)->fcu_link)
+      |    [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K At global scope:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:117:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  117 | [01;31m[K}[m[K // namespace mavros
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/mavros_plugins.dir/build.make:453：CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:562：CMakeFiles/mavros_plugins.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

@@ -857,6 +857,8 @@ sstream
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 ./mavlink_msg_speed_control_status.hpp
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
+./mavlink_msg_posture.hpp
+/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 ./mavlink_msg_wheel_distance.hpp
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_wheel_distance.hpp
 ./mavlink_msg_winch_status.hpp
@@ -1189,6 +1191,8 @@ sstream
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_global_int.hpp
 
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_local_ned.hpp
+
+/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_power_status.hpp
 
@@ -1810,6 +1814,24 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
+/home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/Posture.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+
 /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/SpeedControlSet.h
 ros/service_traits.h
 -
@@ -2039,6 +2061,8 @@ mavros_msgs/SpeedControlSet.h
 -
 mavros_msgs/SpeedControlSet_sub.h
 /home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/mavros_msgs/SpeedControlSet_sub.h
+mavros_msgs/Posture.h
+/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/mavros_msgs/Posture.h
 pluginlib/class_list_macros.h
 -
 

@@ -857,6 +857,8 @@ sstream
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 ./mavlink_msg_speed_control_status.hpp
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
+./mavlink_msg_posture.hpp
+/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 ./mavlink_msg_wheel_distance.hpp
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_wheel_distance.hpp
 ./mavlink_msg_winch_status.hpp
@@ -1189,6 +1191,8 @@ sstream
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_global_int.hpp
 
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_local_ned.hpp
+
+/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_power_status.hpp
 

@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "mavros_msgs: 66 messages, 38 services")
+message(STATUS "mavros_msgs: 67 messages, 38 services")
 
 set(MSG_I_FLAGS "-Imavros_msgs:/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg;-Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg")
 
@@ -34,7 +34,7 @@ add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/AttitudeTarget.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/AttitudeTarget.msg" "std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/AttitudeTarget.msg" "geometry_msgs/Vector3:std_msgs/Header:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/BatteryStatus.msg" NAME_WE)
@@ -54,7 +54,7 @@ add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg" "std_msgs/Header:geometry_msgs/Quaternion:geographic_msgs/GeoPoint"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg" "std_msgs/Header:geographic_msgs/GeoPoint:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/CommandCode.msg" NAME_WE)
@@ -79,7 +79,7 @@ add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfo.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfo.msg" "std_msgs/Header:mavros_msgs/ESCInfoItem"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfo.msg" "mavros_msgs/ESCInfoItem:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfoItem.msg" NAME_WE)
@@ -89,7 +89,7 @@ add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatus.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatus.msg" "std_msgs/Header:mavros_msgs/ESCStatusItem"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatus.msg" "mavros_msgs/ESCStatusItem:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatusItem.msg" NAME_WE)
@@ -124,7 +124,7 @@ add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/GlobalPositionTarget.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/GlobalPositionTarget.msg" "std_msgs/Header:geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/GlobalPositionTarget.msg" "geometry_msgs/Vector3:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/GPSINPUT.msg" NAME_WE)
@@ -159,22 +159,22 @@ add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg" "std_msgs/Header:geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg" "geometry_msgs/Vector3:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg" "std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Vector3:geographic_msgs/GeoPoint"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg" "geometry_msgs/Vector3:std_msgs/Header:geographic_msgs/GeoPoint:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg" "geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Vector3:geometry_msgs/Point:geographic_msgs/GeoPoint"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg" "geometry_msgs/Vector3:std_msgs/Header:geographic_msgs/GeoPoint:geometry_msgs/Point:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/LandingTarget.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/LandingTarget.msg" "std_msgs/Header:geometry_msgs/Point:geometry_msgs/Quaternion:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/LandingTarget.msg" "geometry_msgs/Point:geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Pose"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/LogData.msg" NAME_WE)
@@ -224,7 +224,7 @@ add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Param.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Param.msg" "std_msgs/Header:mavros_msgs/ParamValue"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Param.msg" "mavros_msgs/ParamValue:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ParamValue.msg" NAME_WE)
@@ -239,7 +239,7 @@ add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg" "std_msgs/Header:geometry_msgs/Point:geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg" "geometry_msgs/Point:geometry_msgs/Vector3:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/RCIn.msg" NAME_WE)
@@ -294,7 +294,7 @@ add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Trajectory.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Trajectory.msg" "std_msgs/Header:geometry_msgs/Point:geometry_msgs/Vector3:mavros_msgs/PositionTarget"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Trajectory.msg" "mavros_msgs/PositionTarget:geometry_msgs/Point:geometry_msgs/Vector3:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Tunnel.msg" NAME_WE)
@@ -314,7 +314,7 @@ add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Vibration.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Vibration.msg" "std_msgs/Header:geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Vibration.msg" "geometry_msgs/Vector3:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Waypoint.msg" NAME_WE)
@@ -345,6 +345,11 @@ add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlSet_sub.msg" NAME_WE)
 add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlSet_sub.msg" ""
+)
+
+get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Posture.msg" NAME_WE)
+add_custom_target(_mavros_msgs_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mavros_msgs" "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Posture.msg" "std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/srv/CommandAck.srv" NAME_WE)
@@ -564,7 +569,7 @@ _generate_msg_cpp(mavros_msgs
 _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/AttitudeTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_cpp(mavros_msgs
@@ -588,7 +593,7 @@ _generate_msg_cpp(mavros_msgs
 _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_cpp(mavros_msgs
@@ -618,7 +623,7 @@ _generate_msg_cpp(mavros_msgs
 _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfo.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfoItem.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfoItem.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_cpp(mavros_msgs
@@ -630,7 +635,7 @@ _generate_msg_cpp(mavros_msgs
 _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatusItem.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatusItem.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_cpp(mavros_msgs
@@ -672,7 +677,7 @@ _generate_msg_cpp(mavros_msgs
 _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/GlobalPositionTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_cpp(mavros_msgs
@@ -714,25 +719,25 @@ _generate_msg_cpp(mavros_msgs
 _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/LandingTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_cpp(mavros_msgs
@@ -792,7 +797,7 @@ _generate_msg_cpp(mavros_msgs
 _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Param.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ParamValue.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ParamValue.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_cpp(mavros_msgs
@@ -810,7 +815,7 @@ _generate_msg_cpp(mavros_msgs
 _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_cpp(mavros_msgs
@@ -876,7 +881,7 @@ _generate_msg_cpp(mavros_msgs
 _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Trajectory.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_cpp(mavros_msgs
@@ -900,7 +905,7 @@ _generate_msg_cpp(mavros_msgs
 _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Vibration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_cpp(mavros_msgs
@@ -937,6 +942,12 @@ _generate_msg_cpp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlSet_sub.msg"
   "${MSG_I_FLAGS}"
   ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
+)
+_generate_msg_cpp(mavros_msgs
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Posture.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavros_msgs
 )
 
@@ -1314,6 +1325,8 @@ get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_ms
 add_dependencies(mavros_msgs_generate_messages_cpp _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlSet_sub.msg" NAME_WE)
 add_dependencies(mavros_msgs_generate_messages_cpp _mavros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Posture.msg" NAME_WE)
+add_dependencies(mavros_msgs_generate_messages_cpp _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/srv/CommandAck.srv" NAME_WE)
 add_dependencies(mavros_msgs_generate_messages_cpp _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/srv/CommandBool.srv" NAME_WE)
@@ -1421,7 +1434,7 @@ _generate_msg_eus(mavros_msgs
 _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/AttitudeTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_eus(mavros_msgs
@@ -1445,7 +1458,7 @@ _generate_msg_eus(mavros_msgs
 _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_eus(mavros_msgs
@@ -1475,7 +1488,7 @@ _generate_msg_eus(mavros_msgs
 _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfo.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfoItem.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfoItem.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_eus(mavros_msgs
@@ -1487,7 +1500,7 @@ _generate_msg_eus(mavros_msgs
 _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatusItem.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatusItem.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_eus(mavros_msgs
@@ -1529,7 +1542,7 @@ _generate_msg_eus(mavros_msgs
 _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/GlobalPositionTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_eus(mavros_msgs
@@ -1571,25 +1584,25 @@ _generate_msg_eus(mavros_msgs
 _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/LandingTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_eus(mavros_msgs
@@ -1649,7 +1662,7 @@ _generate_msg_eus(mavros_msgs
 _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Param.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ParamValue.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ParamValue.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_eus(mavros_msgs
@@ -1667,7 +1680,7 @@ _generate_msg_eus(mavros_msgs
 _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_eus(mavros_msgs
@@ -1733,7 +1746,7 @@ _generate_msg_eus(mavros_msgs
 _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Trajectory.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_eus(mavros_msgs
@@ -1757,7 +1770,7 @@ _generate_msg_eus(mavros_msgs
 _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Vibration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_eus(mavros_msgs
@@ -1794,6 +1807,12 @@ _generate_msg_eus(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlSet_sub.msg"
   "${MSG_I_FLAGS}"
   ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
+)
+_generate_msg_eus(mavros_msgs
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Posture.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mavros_msgs
 )
 
@@ -2171,6 +2190,8 @@ get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_ms
 add_dependencies(mavros_msgs_generate_messages_eus _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlSet_sub.msg" NAME_WE)
 add_dependencies(mavros_msgs_generate_messages_eus _mavros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Posture.msg" NAME_WE)
+add_dependencies(mavros_msgs_generate_messages_eus _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/srv/CommandAck.srv" NAME_WE)
 add_dependencies(mavros_msgs_generate_messages_eus _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/srv/CommandBool.srv" NAME_WE)
@@ -2278,7 +2299,7 @@ _generate_msg_lisp(mavros_msgs
 _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/AttitudeTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_lisp(mavros_msgs
@@ -2302,7 +2323,7 @@ _generate_msg_lisp(mavros_msgs
 _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_lisp(mavros_msgs
@@ -2332,7 +2353,7 @@ _generate_msg_lisp(mavros_msgs
 _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfo.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfoItem.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfoItem.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_lisp(mavros_msgs
@@ -2344,7 +2365,7 @@ _generate_msg_lisp(mavros_msgs
 _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatusItem.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatusItem.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_lisp(mavros_msgs
@@ -2386,7 +2407,7 @@ _generate_msg_lisp(mavros_msgs
 _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/GlobalPositionTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_lisp(mavros_msgs
@@ -2428,25 +2449,25 @@ _generate_msg_lisp(mavros_msgs
 _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/LandingTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_lisp(mavros_msgs
@@ -2506,7 +2527,7 @@ _generate_msg_lisp(mavros_msgs
 _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Param.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ParamValue.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ParamValue.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_lisp(mavros_msgs
@@ -2524,7 +2545,7 @@ _generate_msg_lisp(mavros_msgs
 _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_lisp(mavros_msgs
@@ -2590,7 +2611,7 @@ _generate_msg_lisp(mavros_msgs
 _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Trajectory.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_lisp(mavros_msgs
@@ -2614,7 +2635,7 @@ _generate_msg_lisp(mavros_msgs
 _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Vibration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_lisp(mavros_msgs
@@ -2651,6 +2672,12 @@ _generate_msg_lisp(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlSet_sub.msg"
   "${MSG_I_FLAGS}"
   ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
+)
+_generate_msg_lisp(mavros_msgs
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Posture.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavros_msgs
 )
 
@@ -3028,6 +3055,8 @@ get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_ms
 add_dependencies(mavros_msgs_generate_messages_lisp _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlSet_sub.msg" NAME_WE)
 add_dependencies(mavros_msgs_generate_messages_lisp _mavros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Posture.msg" NAME_WE)
+add_dependencies(mavros_msgs_generate_messages_lisp _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/srv/CommandAck.srv" NAME_WE)
 add_dependencies(mavros_msgs_generate_messages_lisp _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/srv/CommandBool.srv" NAME_WE)
@@ -3135,7 +3164,7 @@ _generate_msg_nodejs(mavros_msgs
 _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/AttitudeTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_nodejs(mavros_msgs
@@ -3159,7 +3188,7 @@ _generate_msg_nodejs(mavros_msgs
 _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_nodejs(mavros_msgs
@@ -3189,7 +3218,7 @@ _generate_msg_nodejs(mavros_msgs
 _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfo.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfoItem.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfoItem.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_nodejs(mavros_msgs
@@ -3201,7 +3230,7 @@ _generate_msg_nodejs(mavros_msgs
 _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatusItem.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatusItem.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_nodejs(mavros_msgs
@@ -3243,7 +3272,7 @@ _generate_msg_nodejs(mavros_msgs
 _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/GlobalPositionTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_nodejs(mavros_msgs
@@ -3285,25 +3314,25 @@ _generate_msg_nodejs(mavros_msgs
 _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/LandingTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_nodejs(mavros_msgs
@@ -3363,7 +3392,7 @@ _generate_msg_nodejs(mavros_msgs
 _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Param.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ParamValue.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ParamValue.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_nodejs(mavros_msgs
@@ -3381,7 +3410,7 @@ _generate_msg_nodejs(mavros_msgs
 _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_nodejs(mavros_msgs
@@ -3447,7 +3476,7 @@ _generate_msg_nodejs(mavros_msgs
 _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Trajectory.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_nodejs(mavros_msgs
@@ -3471,7 +3500,7 @@ _generate_msg_nodejs(mavros_msgs
 _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Vibration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_nodejs(mavros_msgs
@@ -3508,6 +3537,12 @@ _generate_msg_nodejs(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlSet_sub.msg"
   "${MSG_I_FLAGS}"
   ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
+)
+_generate_msg_nodejs(mavros_msgs
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Posture.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mavros_msgs
 )
 
@@ -3885,6 +3920,8 @@ get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_ms
 add_dependencies(mavros_msgs_generate_messages_nodejs _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlSet_sub.msg" NAME_WE)
 add_dependencies(mavros_msgs_generate_messages_nodejs _mavros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Posture.msg" NAME_WE)
+add_dependencies(mavros_msgs_generate_messages_nodejs _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/srv/CommandAck.srv" NAME_WE)
 add_dependencies(mavros_msgs_generate_messages_nodejs _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/srv/CommandBool.srv" NAME_WE)
@@ -3992,7 +4029,7 @@ _generate_msg_py(mavros_msgs
 _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/AttitudeTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_py(mavros_msgs
@@ -4016,7 +4053,7 @@ _generate_msg_py(mavros_msgs
 _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/CameraImageCaptured.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_py(mavros_msgs
@@ -4046,7 +4083,7 @@ _generate_msg_py(mavros_msgs
 _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfo.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfoItem.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCInfoItem.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_py(mavros_msgs
@@ -4058,7 +4095,7 @@ _generate_msg_py(mavros_msgs
 _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatus.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatusItem.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ESCStatusItem.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_py(mavros_msgs
@@ -4100,7 +4137,7 @@ _generate_msg_py(mavros_msgs
 _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/GlobalPositionTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_py(mavros_msgs
@@ -4142,25 +4179,25 @@ _generate_msg_py(mavros_msgs
 _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilSensor.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HilStateQuaternion.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geographic_msgs/cmake/../msg/GeoPoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/LandingTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_py(mavros_msgs
@@ -4220,7 +4257,7 @@ _generate_msg_py(mavros_msgs
 _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Param.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ParamValue.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/ParamValue.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_py(mavros_msgs
@@ -4238,7 +4275,7 @@ _generate_msg_py(mavros_msgs
 _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_py(mavros_msgs
@@ -4304,7 +4341,7 @@ _generate_msg_py(mavros_msgs
 _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Trajectory.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg"
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/PositionTarget.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_py(mavros_msgs
@@ -4328,7 +4365,7 @@ _generate_msg_py(mavros_msgs
 _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Vibration.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 _generate_msg_py(mavros_msgs
@@ -4365,6 +4402,12 @@ _generate_msg_py(mavros_msgs
   "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlSet_sub.msg"
   "${MSG_I_FLAGS}"
   ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
+)
+_generate_msg_py(mavros_msgs
+  "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Posture.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavros_msgs
 )
 
@@ -4741,6 +4784,8 @@ add_dependencies(mavros_msgs_generate_messages_py _mavros_msgs_generate_messages
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlStatus.msg" NAME_WE)
 add_dependencies(mavros_msgs_generate_messages_py _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/SpeedControlSet_sub.msg" NAME_WE)
+add_dependencies(mavros_msgs_generate_messages_py _mavros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/Posture.msg" NAME_WE)
 add_dependencies(mavros_msgs_generate_messages_py _mavros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/srv/CommandAck.srv" NAME_WE)
 add_dependencies(mavros_msgs_generate_messages_py _mavros_msgs_generate_messages_check_deps_${_filename})

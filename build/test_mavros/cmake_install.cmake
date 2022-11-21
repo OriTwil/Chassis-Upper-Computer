@@ -159,7 +159,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_sitl_test.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_sitl_test.so"
-         OLD_RPATH "/home/szf/ROS/catkin_ws_3/devel/.private/libmavconn/lib:/opt/ros/noetic/lib:/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib:"
+         OLD_RPATH "/opt/ros/noetic/lib:/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib:/home/szf/ROS/catkin_ws_3/devel/.private/libmavconn/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_sitl_test.so")
@@ -182,7 +182,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_mavros/sitl_test_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_mavros/sitl_test_node"
-         OLD_RPATH "/home/szf/ROS/catkin_ws_3/devel/.private/test_mavros/lib:/home/szf/ROS/catkin_ws_3/devel/.private/libmavconn/lib:/opt/ros/noetic/lib:/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib:"
+         OLD_RPATH "/home/szf/ROS/catkin_ws_3/devel/.private/test_mavros/lib:/opt/ros/noetic/lib:/home/szf/ROS/catkin_ws_3/devel/.private/mavros/lib:/home/szf/ROS/catkin_ws_3/devel/.private/libmavconn/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_mavros/sitl_test_node")

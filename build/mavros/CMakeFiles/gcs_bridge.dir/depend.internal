@@ -249,6 +249,7 @@ CMakeFiles/gcs_bridge.dir/src/gcs_bridge.cpp.o
  /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_play_tune_v2.hpp
  /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_global_int.hpp
  /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_local_ned.hpp
+ /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
  /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_power_status.hpp
  /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_radio_status.hpp
  /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_raw_imu.hpp

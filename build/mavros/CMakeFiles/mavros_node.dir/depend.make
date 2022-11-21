@@ -248,6 +248,7 @@ CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/deve
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_play_tune_v2.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_global_int.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_local_ned.hpp
+CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_power_status.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_radio_status.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_raw_imu.hpp

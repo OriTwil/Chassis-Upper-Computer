@@ -90,6 +90,7 @@ mavros/mavros_msgs
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/HilSensor.js /home/szf/ROS/catkin_ws_3/devel/share/gennodejs/ros/mavros_msgs/msg/HilSensor.js
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/GPSRAW.js /home/szf/ROS/catkin_ws_3/devel/share/gennodejs/ros/mavros_msgs/msg/GPSRAW.js
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/RCIn.js /home/szf/ROS/catkin_ws_3/devel/share/gennodejs/ros/mavros_msgs/msg/RCIn.js
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/Posture.js /home/szf/ROS/catkin_ws_3/devel/share/gennodejs/ros/mavros_msgs/msg/Posture.js
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/ESCTelemetryItem.js /home/szf/ROS/catkin_ws_3/devel/share/gennodejs/ros/mavros_msgs/msg/ESCTelemetryItem.js
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/HilGPS.js /home/szf/ROS/catkin_ws_3/devel/share/gennodejs/ros/mavros_msgs/msg/HilGPS.js
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/gennodejs/ros/mavros_msgs/msg/WheelOdomStamped.js /home/szf/ROS/catkin_ws_3/devel/share/gennodejs/ros/mavros_msgs/msg/WheelOdomStamped.js
@@ -165,6 +166,7 @@ mavros/mavros_msgs
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/CommandCode.l /home/szf/ROS/catkin_ws_3/devel/share/roseus/ros/mavros_msgs/msg/CommandCode.l
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/ESCStatusItem.l /home/szf/ROS/catkin_ws_3/devel/share/roseus/ros/mavros_msgs/msg/ESCStatusItem.l
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/CellularStatus.l /home/szf/ROS/catkin_ws_3/devel/share/roseus/ros/mavros_msgs/msg/CellularStatus.l
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/Posture.l /home/szf/ROS/catkin_ws_3/devel/share/roseus/ros/mavros_msgs/msg/Posture.l
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/NavControllerOutput.l /home/szf/ROS/catkin_ws_3/devel/share/roseus/ros/mavros_msgs/msg/NavControllerOutput.l
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/ParamValue.l /home/szf/ROS/catkin_ws_3/devel/share/roseus/ros/mavros_msgs/msg/ParamValue.l
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/GlobalPositionTarget.l /home/szf/ROS/catkin_ws_3/devel/share/roseus/ros/mavros_msgs/msg/GlobalPositionTarget.l
@@ -368,9 +370,11 @@ mavros/mavros_msgs
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/GPSRAW.lisp /home/szf/ROS/catkin_ws_3/devel/share/common-lisp/ros/mavros_msgs/msg/GPSRAW.lisp
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/RCIn.lisp /home/szf/ROS/catkin_ws_3/devel/share/common-lisp/ros/mavros_msgs/msg/RCIn.lisp
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/VFR_HUD.lisp /home/szf/ROS/catkin_ws_3/devel/share/common-lisp/ros/mavros_msgs/msg/VFR_HUD.lisp
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/Posture.lisp /home/szf/ROS/catkin_ws_3/devel/share/common-lisp/ros/mavros_msgs/msg/Posture.lisp
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/_package_ADSBVehicle.lisp /home/szf/ROS/catkin_ws_3/devel/share/common-lisp/ros/mavros_msgs/msg/_package_ADSBVehicle.lisp
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/WaypointList.lisp /home/szf/ROS/catkin_ws_3/devel/share/common-lisp/ros/mavros_msgs/msg/WaypointList.lisp
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HomePosition.lisp /home/szf/ROS/catkin_ws_3/devel/share/common-lisp/ros/mavros_msgs/msg/HomePosition.lisp
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/_package_Posture.lisp /home/szf/ROS/catkin_ws_3/devel/share/common-lisp/ros/mavros_msgs/msg/_package_Posture.lisp
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/_package_State.lisp /home/szf/ROS/catkin_ws_3/devel/share/common-lisp/ros/mavros_msgs/msg/_package_State.lisp
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/TimesyncStatus.lisp /home/szf/ROS/catkin_ws_3/devel/share/common-lisp/ros/mavros_msgs/msg/TimesyncStatus.lisp
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/msg/HilGPS.lisp /home/szf/ROS/catkin_ws_3/devel/share/common-lisp/ros/mavros_msgs/msg/HilGPS.lisp
@@ -461,6 +465,7 @@ mavros/mavros_msgs
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/CommandLong.h /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/CommandLong.h
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/Tunnel.h /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/Tunnel.h
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/CommandInt.h /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/CommandInt.h
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/Posture.h /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/Posture.h
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/CommandAckRequest.h /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/CommandAckRequest.h
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/LogRequestListResponse.h /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/LogRequestListResponse.h
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/include/mavros_msgs/ActuatorControl.h /home/szf/ROS/catkin_ws_3/devel/include/mavros_msgs/ActuatorControl.h
@@ -694,6 +699,7 @@ mavros/mavros_msgs
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_VehicleInfo.py /home/szf/ROS/catkin_ws_3/devel/lib/python3/dist-packages/mavros_msgs/msg/_VehicleInfo.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_ActuatorControl.py /home/szf/ROS/catkin_ws_3/devel/lib/python3/dist-packages/mavros_msgs/msg/_ActuatorControl.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_ParamValue.py /home/szf/ROS/catkin_ws_3/devel/lib/python3/dist-packages/mavros_msgs/msg/_ParamValue.py
+/home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_Posture.py /home/szf/ROS/catkin_ws_3/devel/lib/python3/dist-packages/mavros_msgs/msg/_Posture.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_BatteryStatus.py /home/szf/ROS/catkin_ws_3/devel/lib/python3/dist-packages/mavros_msgs/msg/_BatteryStatus.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_RTCM.py /home/szf/ROS/catkin_ws_3/devel/lib/python3/dist-packages/mavros_msgs/msg/_RTCM.py
 /home/szf/ROS/catkin_ws_3/devel/.private/mavros_msgs/lib/python3/dist-packages/mavros_msgs/msg/_WaypointReached.py /home/szf/ROS/catkin_ws_3/devel/lib/python3/dist-packages/mavros_msgs/msg/_WaypointReached.py

@@ -859,6 +859,8 @@ sstream
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 ./mavlink_msg_speed_control_status.hpp
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
+./mavlink_msg_posture.hpp
+/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 ./mavlink_msg_wheel_distance.hpp
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_wheel_distance.hpp
 ./mavlink_msg_winch_status.hpp
@@ -1191,6 +1193,8 @@ sstream
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_global_int.hpp
 
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_local_ned.hpp
+
+/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 
 /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_power_status.hpp
 
@@ -1994,6 +1998,26 @@ mavconn/thread_utils.h
 mavros_msgs/mavlink_convert.h
 -
 mavconn/mavlink_dialect.h
+-
+ros/console.h
+-
+
+/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/enum_sensor_orientation.cpp
+unordered_map
+-
+mavros/utils.h
+-
+mavros/frame_tf.h
+-
+ros/console.h
+-
+
+/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/lib/enum_to_string.cpp
+array
+-
+unordered_map
+-
+mavros/utils.h
 -
 ros/console.h
 -

@@ -1,0 +1,28 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:[m[K In member function ‘[01m[Kvirtual mavros::plugin::PluginBase::Subscriptions mavros::std_plugins::SpeedControlPlugin::get_subscriptions()[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:46:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmavros::std_plugins::SpeedControlPlugin::make_handler(void (mavros::std_plugins::SpeedControlPlugin::*)(const mavlink_message_t*, mavlink::common::msg::SPEED_CONTROL_STATUS&, mavlink::common::msg::POSTURE&))[m[K’
+   46 |    make_handler(&SpeedControlPlugin::handle_speed_control[01;31m[K)[m[K,
+      |                                                          [01;31m[K^[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:87:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _C> mavros::plugin::PluginBase::HandlerInfo mavros::plugin::PluginBase::make_handler(mavlink::msgid_t, void (_C::*)(const mavlink_message_t*, mavconn::Framing))[m[K’
+   87 |  HandlerInfo [01;36m[Kmake_handler[m[K(const mavlink::msgid_t id, void (_C::*fn)(const mavlink::mavlink_message_t *msg, const mavconn::Framing framing)) {
+      |              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:87:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:46:58:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+   46 |    make_handler(&SpeedControlPlugin::handle_speed_control[01;36m[K)[m[K,
+      |                                                          [01;36m[K^[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:9[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:100:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _C, class _T> mavros::plugin::PluginBase::HandlerInfo mavros::plugin::PluginBase::make_handler(void (_C::*)(const mavlink_message_t*, _T&))[m[K’
+  100 |  HandlerInfo [01;36m[Kmake_handler[m[K(void (_C::*fn)(const mavlink::mavlink_message_t*, _T &)) {
+      |              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:100:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:46:58:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+   46 |    make_handler(&SpeedControlPlugin::handle_speed_control[01;36m[K)[m[K,
+      |                                                          [01;36m[K^[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:47:3:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{<expression error>}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kmavros::plugin::PluginBase::Subscriptions[m[K’ {aka ‘[01m[Kstd::vector<std::tuple<unsigned int, const char*, long unsigned int, std::function<void(const mavlink::__mavlink_message*, mavconn::Framing)> > >[m[K’}
+   47 |   [01;31m[K}[m[K;
+      |   [01;31m[K^[m[K
+      |   [01;31m[K|[m[K
+      |   [01;31m[K<brace-enclosed initializer list>[m[K
+make[2]: *** [CMakeFiles/mavros_plugins.dir/build.make:453：CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:562：CMakeFiles/mavros_plugins.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

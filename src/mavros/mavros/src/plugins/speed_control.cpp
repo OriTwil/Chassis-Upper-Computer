@@ -10,6 +10,7 @@
 #include <mavros_msgs/SpeedControlStatus.h>
 #include <mavros_msgs/SpeedControlSet.h>
 #include "mavros_msgs/SpeedControlSet_sub.h"
+#include "mavros_msgs/Posture.h"
 
 namespace mavros {
 namespace std_plugins {
@@ -29,7 +30,7 @@ public:
 		control_pub = speed_control_nh.advertise<mavros_msgs::SpeedControlStatus>("status", 10);
 		send_service = speed_control_nh.advertiseService("send", &SpeedControlPlugin::send_cb_service, this);
 		send_subscriber = speed_control_nh.subscribe<mavros_msgs::SpeedControlSet_sub>("send_topic", 10, &SpeedControlPlugin::send_callback_subscribe, this);
-
+		pos_publisher = speed_control_nh.advertise<mavros_msgs::Posture>("posture", 10);
 	}
 
     /**
@@ -54,6 +55,7 @@ private:
 	ros::Publisher control_pub;
 	ros::ServiceServer send_service;
 	ros::Subscriber send_subscriber;
+	ros::Publisher pos_publisher;
  
 	/**
 	 * @brief rx handlers 接收到mavlink包后调用此函数，将mavlink数据包解析为mavros中的自定义消息，并发布到话题
@@ -72,6 +74,12 @@ private:
 		speed_control_msg->vx_state = speed_control.vw_state;
 
 		control_pub.publish(speed_control_msg);
+		//posture
+		auto mavros_msg_posture = boost::make_shared<mavros_msgs::Posture>();
+		mavros_msg_posture->header.stamp = ros::Time::now();
+		// mavros_msg_posture->pos_x_state = mavlink_posture.
+		// mavros_msg_posture -> 
+
 	}
  
 	/**

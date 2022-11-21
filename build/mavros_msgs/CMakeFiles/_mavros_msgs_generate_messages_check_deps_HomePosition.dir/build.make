@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/szf/ROS/catkin_ws_3/build/mavros_msgs
 include CMakeFiles/_mavros_msgs_generate_messages_check_deps_HomePosition.dir/progress.make
 
 CMakeFiles/_mavros_msgs_generate_messages_check_deps_HomePosition:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Vector3:geometry_msgs/Point:geographic_msgs/GeoPoint
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/szf/ROS/catkin_ws_3/src/mavros/mavros_msgs/msg/HomePosition.msg geometry_msgs/Vector3:std_msgs/Header:geographic_msgs/GeoPoint:geometry_msgs/Point:geometry_msgs/Quaternion
 
 _mavros_msgs_generate_messages_check_deps_HomePosition: CMakeFiles/_mavros_msgs_generate_messages_check_deps_HomePosition
 _mavros_msgs_generate_messages_check_deps_HomePosition: CMakeFiles/_mavros_msgs_generate_messages_check_deps_HomePosition.dir/build.make

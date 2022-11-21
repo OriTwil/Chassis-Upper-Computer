@@ -11,6 +11,7 @@ let GPSRAW = require('./GPSRAW.js');
 let WheelOdomStamped = require('./WheelOdomStamped.js');
 let ESCStatusItem = require('./ESCStatusItem.js');
 let ExtendedState = require('./ExtendedState.js');
+let Posture = require('./Posture.js');
 let OnboardComputerStatus = require('./OnboardComputerStatus.js');
 let RTCM = require('./RTCM.js');
 let RCIn = require('./RCIn.js');
@@ -79,6 +80,7 @@ module.exports = {
   WheelOdomStamped: WheelOdomStamped,
   ESCStatusItem: ESCStatusItem,
   ExtendedState: ExtendedState,
+  Posture: Posture,
   OnboardComputerStatus: OnboardComputerStatus,
   RTCM: RTCM,
   RCIn: RCIn,

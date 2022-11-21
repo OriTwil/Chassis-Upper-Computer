@@ -248,6 +248,7 @@ CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/sz
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_play_tune_v2.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_global_int.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_local_ned.hpp
+CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_power_status.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_radio_status.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_raw_imu.hpp

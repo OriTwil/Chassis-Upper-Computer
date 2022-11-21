@@ -249,6 +249,7 @@ CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_play_tune_v2.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_global_int.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_local_ned.hpp
+CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_power_status.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_radio_status.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_raw_imu.hpp
@@ -653,6 +654,7 @@ CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/incl
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_play_tune_v2.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_global_int.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_local_ned.hpp
+CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_power_status.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_radio_status.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_raw_imu.hpp
@@ -1062,6 +1064,7 @@ CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_play_tune_v2.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_global_int.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_local_ned.hpp
+CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_power_status.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_radio_status.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_raw_imu.hpp
@@ -1470,6 +1473,7 @@ CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/ma
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_play_tune_v2.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_global_int.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_local_ned.hpp
+CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_power_status.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_radio_status.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_raw_imu.hpp
@@ -1878,6 +1882,7 @@ CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/ma
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_play_tune_v2.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_global_int.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_position_target_local_ned.hpp
+CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_power_status.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_radio_status.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_raw_imu.hpp

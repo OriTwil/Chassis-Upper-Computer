@@ -18270,6 +18270,85 @@ TEST(common_interop, SPEED_CONTROL_STATUS)
 }
 #endif
 
+TEST(common, POSTURE)
+{
+    mavlink::mavlink_message_t msg;
+    mavlink::MsgMap map1(msg);
+    mavlink::MsgMap map2(msg);
+
+    mavlink::common::msg::POSTURE packet_in{};
+    packet_in.pos_x = 17.0;
+    packet_in.pos_y = 45.0;
+    packet_in.zangle = 73.0;
+    packet_in.xangle = 101.0;
+    packet_in.yangle = 129.0;
+    packet_in.w_z = 157.0;
+
+    mavlink::common::msg::POSTURE packet1{};
+    mavlink::common::msg::POSTURE packet2{};
+
+    packet1 = packet_in;
+
+    //std::cout << packet1.to_yaml() << std::endl;
+
+    packet1.serialize(map1);
+
+    mavlink::mavlink_finalize_message(&msg, 1, 1, packet1.MIN_LENGTH, packet1.LENGTH, packet1.CRC_EXTRA);
+
+    packet2.deserialize(map2);
+
+    EXPECT_EQ(packet1.pos_x, packet2.pos_x);
+    EXPECT_EQ(packet1.pos_y, packet2.pos_y);
+    EXPECT_EQ(packet1.zangle, packet2.zangle);
+    EXPECT_EQ(packet1.xangle, packet2.xangle);
+    EXPECT_EQ(packet1.yangle, packet2.yangle);
+    EXPECT_EQ(packet1.w_z, packet2.w_z);
+}
+
+#ifdef TEST_INTEROP
+TEST(common_interop, POSTURE)
+{
+    mavlink_message_t msg;
+
+    // to get nice print
+    memset(&msg, 0, sizeof(msg));
+
+    mavlink_posture_t packet_c {
+         17.0, 45.0, 73.0, 101.0, 129.0, 157.0
+    };
+
+    mavlink::common::msg::POSTURE packet_in{};
+    packet_in.pos_x = 17.0;
+    packet_in.pos_y = 45.0;
+    packet_in.zangle = 73.0;
+    packet_in.xangle = 101.0;
+    packet_in.yangle = 129.0;
+    packet_in.w_z = 157.0;
+
+    mavlink::common::msg::POSTURE packet2{};
+
+    mavlink_msg_posture_encode(1, 1, &msg, &packet_c);
+
+    // simulate message-handling callback
+    [&packet2](const mavlink_message_t *cmsg) {
+        MsgMap map2(cmsg);
+
+        packet2.deserialize(map2);
+    } (&msg);
+
+    EXPECT_EQ(packet_in.pos_x, packet2.pos_x);
+    EXPECT_EQ(packet_in.pos_y, packet2.pos_y);
+    EXPECT_EQ(packet_in.zangle, packet2.zangle);
+    EXPECT_EQ(packet_in.xangle, packet2.xangle);
+    EXPECT_EQ(packet_in.yangle, packet2.yangle);
+    EXPECT_EQ(packet_in.w_z, packet2.w_z);
+
+#ifdef PRINT_MSG
+    PRINT_MSG(msg);
+#endif
+}
+#endif
+
 TEST(common, WHEEL_DISTANCE)
 {
     mavlink::mavlink_message_t msg;

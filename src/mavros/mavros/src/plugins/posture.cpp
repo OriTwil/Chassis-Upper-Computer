@@ -1,6 +1,6 @@
 /**
- * @brief SpeedControls plugin 插件功能主要为实现mavlink数据包与mavros自定义消息之间的转化
- * @file speed_control.cpp
+ * @brief Posture plugin 插件功能主要为实现mavlink数据包与mavros自定义消息之间的转化
+ * @file posture.cpp
  * @author szf
  *
  * @addtogroup plugin
@@ -12,7 +12,7 @@
 namespace mavros {
 namespace std_plugins {
 /**
- * @brief Speed Control plugin
+ * @brief Posture plugin
  */
 class PosturePlugin : public plugin::PluginBase {
 public:
@@ -52,7 +52,7 @@ private:
 	/**
 	 * @brief rx handlers 接收到mavlink包后调用此函数，将mavlink数据包解析为mavros中的自定义消息，并发布到话题
 	 * 
-	 * @attention common::msg::SPEED_CONTROL_STATUS为自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息
+	 * @attention mavlink::common::msg::POSTURE为自动生成的消息头文件中所定义的，也是依据此来解析收到的mavlink消息
 	 * @param msg 
 	 * @param speed_control 
 	 */

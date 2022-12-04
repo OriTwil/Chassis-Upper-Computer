@@ -1,0 +1,4 @@
+Symlinking /home/szf/ROS/catkin_ws_3/devel/share/pose_utils/cmake/pose_utilsConfig.cmake
+Symlinking /home/szf/ROS/catkin_ws_3/devel/share/pose_utils/cmake/pose_utilsConfig-version.cmake
+Symlinking /home/szf/ROS/catkin_ws_3/devel/lib/libpose_utils.so
+Symlinking /home/szf/ROS/catkin_ws_3/devel/lib/pkgconfig/pose_utils.pc

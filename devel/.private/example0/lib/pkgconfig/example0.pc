@@ -1,0 +1,8 @@
+prefix=/home/szf/ROS/catkin_ws_3/devel/.private/example0
+
+Name: example0
+Description: Description of example0
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

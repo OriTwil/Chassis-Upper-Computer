@@ -1,0 +1,189 @@
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_TrajectoryMatrix[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_Odometry[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_Corrections[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_SwarmInfo[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_SwarmCommand[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_StatusData[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_AuxCommand[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_Replan[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_SpatialTemporalTrajectory[0m
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_Bspline[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_ReplanCheck[0m
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_StatusData
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_Gains[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_OutputData[0m
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_SwarmInfo
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_TrajectoryMatrix
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_SwarmCommand
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_Replan
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_Odometry
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_Corrections
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_SpatialTemporalTrajectory
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_AuxCommand
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_PPROutputData[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_Serial[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_SwarmOdometry[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_PolynomialTrajectory[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_PositionCommand[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_SO3Command[0m
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_OptimalTimeAllocator[0m
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_ReplanCheck
+[35m[1mScanning dependencies of target _quadrotor_msgs_generate_messages_check_deps_TRPYCommand[0m
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_Bspline
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_Gains
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_OutputData
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_Serial
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_PPROutputData
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_SwarmOdometry
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_SO3Command
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_OptimalTimeAllocator
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_PositionCommand
+[  0%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_PolynomialTrajectory
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target _quadrotor_msgs_generate_messages_check_deps_TRPYCommand
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target quadrotor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target quadrotor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target quadrotor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target quadrotor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target quadrotor_msgs_generate_messages_py[0m
+[  5%] [34m[1mGenerating C++ code from quadrotor_msgs/Corrections.msg[0m
+[  5%] [34m[1mGenerating Javascript code from quadrotor_msgs/OutputData.msg[0m
+[  5%] [34m[1mGenerating Javascript code from quadrotor_msgs/Gains.msg[0m
+[  5%] [34m[1mGenerating Javascript code from quadrotor_msgs/Corrections.msg[0m
+[  5%] [34m[1mGenerating Lisp code from quadrotor_msgs/Corrections.msg[0m
+[  7%] [34m[1mGenerating C++ code from quadrotor_msgs/Gains.msg[0m
+[  7%] [34m[1mGenerating C++ code from quadrotor_msgs/AuxCommand.msg[0m
+[  7%] [34m[1mGenerating Lisp code from quadrotor_msgs/AuxCommand.msg[0m
+[  7%] [34m[1mGenerating Javascript code from quadrotor_msgs/AuxCommand.msg[0m
+[  8%] [34m[1mGenerating Lisp code from quadrotor_msgs/Gains.msg[0m
+[ 10%] [34m[1mGenerating Python from MSG quadrotor_msgs/AuxCommand[0m
+[ 10%] [34m[1mGenerating EusLisp code from quadrotor_msgs/AuxCommand.msg[0m
+[ 11%] [34m[1mGenerating Lisp code from quadrotor_msgs/OutputData.msg[0m
+[ 12%] [34m[1mGenerating Python from MSG quadrotor_msgs/Corrections[0m
+[ 13%] [34m[1mGenerating Python from MSG quadrotor_msgs/Gains[0m
+[ 15%] [34m[1mGenerating Javascript code from quadrotor_msgs/PositionCommand.msg[0m
+[ 15%] [34m[1mGenerating Javascript code from quadrotor_msgs/PPROutputData.msg[0m
+[ 15%] [34m[1mGenerating Python from MSG quadrotor_msgs/OutputData[0m
+[ 16%] [34m[1mGenerating Javascript code from quadrotor_msgs/Serial.msg[0m
+[ 17%] [34m[1mGenerating Javascript code from quadrotor_msgs/SO3Command.msg[0m
+[ 18%] [34m[1mGenerating Lisp code from quadrotor_msgs/PositionCommand.msg[0m
+[ 19%] [34m[1mGenerating EusLisp code from quadrotor_msgs/Corrections.msg[0m
+[ 20%] [34m[1mGenerating EusLisp code from quadrotor_msgs/Gains.msg[0m
+[ 21%] [34m[1mGenerating C++ code from quadrotor_msgs/OutputData.msg[0m
+[ 22%] [34m[1mGenerating C++ code from quadrotor_msgs/PositionCommand.msg[0m
+[ 23%] [34m[1mGenerating Python from MSG quadrotor_msgs/PositionCommand[0m
+[ 24%] [34m[1mGenerating C++ code from quadrotor_msgs/PPROutputData.msg[0m
+[ 26%] [34m[1mGenerating Javascript code from quadrotor_msgs/StatusData.msg[0m
+[ 26%] [34m[1mGenerating EusLisp code from quadrotor_msgs/OutputData.msg[0m
+[ 27%] [34m[1mGenerating Lisp code from quadrotor_msgs/PPROutputData.msg[0m
+[ 29%] [34m[1mGenerating Lisp code from quadrotor_msgs/Serial.msg[0m
+[ 30%] [34m[1mGenerating Javascript code from quadrotor_msgs/Odometry.msg[0m
+[ 31%] [34m[1mGenerating Javascript code from quadrotor_msgs/TRPYCommand.msg[0m
+[ 31%] [34m[1mGenerating Lisp code from quadrotor_msgs/SO3Command.msg[0m
+[ 31%] [34m[1mGenerating C++ code from quadrotor_msgs/Serial.msg[0m
+[ 31%] [34m[1mGenerating EusLisp code from quadrotor_msgs/PositionCommand.msg[0m
+[ 32%] [34m[1mGenerating Lisp code from quadrotor_msgs/StatusData.msg[0m
+[ 33%] [34m[1mGenerating EusLisp code from quadrotor_msgs/PPROutputData.msg[0m
+[ 34%] [34m[1mGenerating Lisp code from quadrotor_msgs/TRPYCommand.msg[0m
+[ 35%] [34m[1mGenerating Javascript code from quadrotor_msgs/PolynomialTrajectory.msg[0m
+[ 35%] [34m[1mGenerating Lisp code from quadrotor_msgs/Odometry.msg[0m
+[ 36%] [34m[1mGenerating EusLisp code from quadrotor_msgs/Serial.msg[0m
+[ 37%] [34m[1mGenerating Lisp code from quadrotor_msgs/PolynomialTrajectory.msg[0m
+[ 38%] [34m[1mGenerating EusLisp code from quadrotor_msgs/SO3Command.msg[0m
+[ 39%] [34m[1mGenerating Javascript code from quadrotor_msgs/OptimalTimeAllocator.msg[0m
+[ 40%] [34m[1mGenerating Lisp code from quadrotor_msgs/OptimalTimeAllocator.msg[0m
+[ 43%] [34m[1mGenerating Python from MSG quadrotor_msgs/PPROutputData[0m
+[ 43%] [34m[1mGenerating Python from MSG quadrotor_msgs/Serial[0m
+[ 44%] [34m[1mGenerating Python from MSG quadrotor_msgs/SO3Command[0m
+[ 45%] [34m[1mGenerating Python from MSG quadrotor_msgs/StatusData[0m
+[ 45%] [34m[1mGenerating Lisp code from quadrotor_msgs/TrajectoryMatrix.msg[0m
+[ 46%] [34m[1mGenerating Lisp code from quadrotor_msgs/ReplanCheck.msg[0m
+[ 47%] [34m[1mGenerating Javascript code from quadrotor_msgs/TrajectoryMatrix.msg[0m
+[ 48%] [34m[1mGenerating EusLisp code from quadrotor_msgs/StatusData.msg[0m
+[ 49%] [34m[1mGenerating C++ code from quadrotor_msgs/SO3Command.msg[0m
+[ 50%] [34m[1mGenerating C++ code from quadrotor_msgs/StatusData.msg[0m
+[ 52%] [34m[1mGenerating C++ code from quadrotor_msgs/Odometry.msg[0m
+[ 52%] [34m[1mGenerating C++ code from quadrotor_msgs/TRPYCommand.msg[0m
+[ 53%] [34m[1mGenerating C++ code from quadrotor_msgs/PolynomialTrajectory.msg[0m
+[ 54%] [34m[1mGenerating C++ code from quadrotor_msgs/OptimalTimeAllocator.msg[0m
+[ 55%] [34m[1mGenerating Lisp code from quadrotor_msgs/SpatialTemporalTrajectory.msg[0m
+[ 56%] [34m[1mGenerating Javascript code from quadrotor_msgs/ReplanCheck.msg[0m
+[ 58%] [34m[1mGenerating EusLisp code from quadrotor_msgs/TRPYCommand.msg[0m
+[ 59%] [34m[1mGenerating C++ code from quadrotor_msgs/TrajectoryMatrix.msg[0m
+[ 59%] [34m[1mGenerating Lisp code from quadrotor_msgs/Bspline.msg[0m
+[ 60%] [34m[1mGenerating Javascript code from quadrotor_msgs/SpatialTemporalTrajectory.msg[0m
+[ 61%] [34m[1mGenerating Lisp code from quadrotor_msgs/SwarmCommand.msg[0m
+[ 62%] [34m[1mGenerating C++ code from quadrotor_msgs/ReplanCheck.msg[0m
+[ 63%] [34m[1mGenerating Lisp code from quadrotor_msgs/Replan.msg[0m
+[ 64%] [34m[1mGenerating Python from MSG quadrotor_msgs/TRPYCommand[0m
+[ 64%] [34m[1mGenerating C++ code from quadrotor_msgs/SpatialTemporalTrajectory.msg[0m
+[ 65%] [34m[1mGenerating Python from MSG quadrotor_msgs/Odometry[0m
+[ 66%] [34m[1mGenerating Lisp code from quadrotor_msgs/SwarmOdometry.msg[0m
+[ 66%] [34m[1mGenerating Lisp code from quadrotor_msgs/SwarmInfo.msg[0m
+[ 66%] [34m[1mGenerating EusLisp code from quadrotor_msgs/Odometry.msg[0m
+[ 67%] [34m[1mGenerating C++ code from quadrotor_msgs/Bspline.msg[0m
+[ 68%] [34m[1mGenerating Javascript code from quadrotor_msgs/Bspline.msg[0m
+[ 68%] [34m[1mGenerating Javascript code from quadrotor_msgs/SwarmCommand.msg[0m
+[ 69%] [34m[1mGenerating Javascript code from quadrotor_msgs/Replan.msg[0m
+[ 70%] [34m[1mGenerating Python from MSG quadrotor_msgs/PolynomialTrajectory[0m
+[ 72%] [34m[1mGenerating Javascript code from quadrotor_msgs/SwarmOdometry.msg[0m
+[ 73%] [34m[1mGenerating Javascript code from quadrotor_msgs/SwarmInfo.msg[0m
+[ 73%] Built target quadrotor_msgs_generate_messages_lisp
+[ 74%] [34m[1mGenerating C++ code from quadrotor_msgs/SwarmCommand.msg[0m
+[ 75%] [34m[1mGenerating Python from MSG quadrotor_msgs/OptimalTimeAllocator[0m
+[ 77%] [34m[1mGenerating Python from MSG quadrotor_msgs/TrajectoryMatrix[0m
+[ 77%] [34m[1mGenerating Python from MSG quadrotor_msgs/ReplanCheck[0m
+[ 77%] [34m[1mGenerating Python from MSG quadrotor_msgs/SpatialTemporalTrajectory[0m
+[ 78%] [34m[1mGenerating EusLisp code from quadrotor_msgs/PolynomialTrajectory.msg[0m
+[ 79%] [34m[1mGenerating Python from MSG quadrotor_msgs/Bspline[0m
+[ 80%] [34m[1mGenerating EusLisp code from quadrotor_msgs/OptimalTimeAllocator.msg[0m
+[ 80%] Built target quadrotor_msgs_generate_messages_nodejs
+[ 81%] [34m[1mGenerating Python from MSG quadrotor_msgs/SwarmCommand[0m
+[ 82%] [34m[1mGenerating C++ code from quadrotor_msgs/Replan.msg[0m
+[ 83%] [34m[1mGenerating Python from MSG quadrotor_msgs/Replan[0m
+[ 83%] [34m[1mGenerating C++ code from quadrotor_msgs/SwarmOdometry.msg[0m
+[ 84%] [34m[1mGenerating EusLisp code from quadrotor_msgs/TrajectoryMatrix.msg[0m
+[ 86%] [34m[1mGenerating Python from MSG quadrotor_msgs/SwarmOdometry[0m
+[ 87%] [34m[1mGenerating C++ code from quadrotor_msgs/SwarmInfo.msg[0m
+[ 88%] [34m[1mGenerating Python from MSG quadrotor_msgs/SwarmInfo[0m
+[ 89%] [34m[1mGenerating EusLisp code from quadrotor_msgs/ReplanCheck.msg[0m
+[ 90%] [34m[1mGenerating EusLisp code from quadrotor_msgs/SpatialTemporalTrajectory.msg[0m
+[ 91%] [34m[1mGenerating EusLisp code from quadrotor_msgs/Bspline.msg[0m
+[ 91%] [34m[1mGenerating EusLisp code from quadrotor_msgs/SwarmCommand.msg[0m
+[ 92%] [34m[1mGenerating EusLisp code from quadrotor_msgs/Replan.msg[0m
+[ 94%] [34m[1mGenerating EusLisp code from quadrotor_msgs/SwarmInfo.msg[0m
+[ 94%] [34m[1mGenerating EusLisp code from quadrotor_msgs/SwarmOdometry.msg[0m
+[ 94%] Built target quadrotor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target encode_msgs[0m
+[ 95%] [34m[1mGenerating EusLisp manifest code for quadrotor_msgs[0m
+[35m[1mScanning dependencies of target decode_msgs[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/encode_msgs.dir/src/encode_msgs.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/decode_msgs.dir/src/decode_msgs.cpp.o[0m
+[ 97%] [34m[1mGenerating Python msg __init__.py for quadrotor_msgs[0m
+[ 97%] Built target quadrotor_msgs_generate_messages_py
+[ 97%] Built target quadrotor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target quadrotor_msgs_generate_messages[0m
+[ 97%] Built target quadrotor_msgs_generate_messages
+[ 98%] [32m[1mLinking CXX shared library /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/libencode_msgs.so[0m
+[ 98%] Built target encode_msgs
+[100%] [32m[1mLinking CXX shared library /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/libdecode_msgs.so[0m
+[100%] Built target decode_msgs

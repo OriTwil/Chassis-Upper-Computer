@@ -78,7 +78,12 @@
         "csignal": "cpp",
         "iomanip": "cpp",
         "typeindex": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "valarray": "cpp",
+        "core": "cpp",
+        "geometry": "cpp",
+        "lu": "cpp",
+        "*.txx": "cpp"
     },
     "ros.distro": "noetic"
 }

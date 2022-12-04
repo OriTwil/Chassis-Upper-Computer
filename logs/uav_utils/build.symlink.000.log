@@ -1,0 +1,3 @@
+Symlinking /home/szf/ROS/catkin_ws_3/devel/share/uav_utils/cmake/uav_utilsConfig.cmake
+Symlinking /home/szf/ROS/catkin_ws_3/devel/share/uav_utils/cmake/uav_utilsConfig-version.cmake
+Symlinking /home/szf/ROS/catkin_ws_3/devel/lib/pkgconfig/uav_utils.pc

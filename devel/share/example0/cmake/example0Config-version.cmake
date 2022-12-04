@@ -1,0 +1,1 @@
+/home/szf/ROS/catkin_ws_3/devel/.private/example0/share/example0/cmake/example0Config-version.cmake

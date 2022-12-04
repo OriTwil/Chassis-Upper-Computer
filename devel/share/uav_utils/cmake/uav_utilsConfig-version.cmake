@@ -1,0 +1,1 @@
+/home/szf/ROS/catkin_ws_3/devel/.private/uav_utils/share/uav_utils/cmake/uav_utilsConfig-version.cmake

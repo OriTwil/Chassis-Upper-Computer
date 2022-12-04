@@ -1,0 +1,8 @@
+prefix=/home/szf/ROS/catkin_ws_3/devel/.private/pose_utils
+
+Name: pose_utils
+Description: Description of pose_utils
+Version: 0.1.0
+Cflags: -I/home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/pose_utils/include
+Libs: -L${prefix}/lib -lpose_utils
+Requires: 

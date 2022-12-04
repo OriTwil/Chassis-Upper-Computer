@@ -1,0 +1,8 @@
+prefix=/home/szf/ROS/catkin_ws_3/devel/.private/cmake_utils
+
+Name: cmake_utils
+Description: Description of cmake_utils
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/home/szf/ROS/catkin_ws_3/devel/.private/catkin_simple/lib/pkgconfig/catkin_simple.pc

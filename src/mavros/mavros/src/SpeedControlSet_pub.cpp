@@ -66,6 +66,7 @@ geometry_msgs::Quaternion orientation_ref; //暂时没用到
 mavros_msgs::SpeedControlSet_sub pub;      //自定义的mavros消息
 mavros_msgs::SpeedControlSet_sub ref;
 bool safe = true; //用来设置急刹车
+bool flag = true; //设置初始时刻
 float speed[3];
 float pose[3]; //用来接收T265卡尔曼滤波后的里程计数据，做闭环控制
 int t = 0;     //时间
@@ -659,43 +660,67 @@ int main(int argc, char *argv[])
         } */
 
     //创建轨迹生成对象
-    AmTraj amTrajOpt(1024.0, 32.0, 1.0, 2.0, 2.0, 32, 0.02);
+    AmTraj amTrajOpt(1024.0, 32.0, 1.0, 0.6, 0.3, 32, 0.02);
 
     //轨迹规划
 
-    Eigen::Vector3d iV(2.0, 1.0, 0.0), fV(0.0, 0.0, 0.0);
-    Eigen::Vector3d iA(0.0, 0.0, 2.0), fA(0.0, 0.0, 0.0); //规定航点处的速度和加速度
+    Eigen::Vector3d iV(-0.015, -0.01, 0.0), fV(0.0, 0.0, 0.0);
+    Eigen::Vector3d iA(0.0, 0.0, 0.0), fA(0.0, 0.0, 0.0); //规定航点处的速度和加速度
 
     std::vector<Eigen::Vector3d> wPs;
     wPs.emplace_back(0.0, 0.0, 0.0);
-    wPs.emplace_back(4.0, 2.0, 1.0);
-    wPs.emplace_back(9.0, 7.0, 5.0);
-    wPs.emplace_back(1.0, 3.0, 2.0); //规定轨迹的固定航点
+    wPs.emplace_back(0.8, 0.0, 0.0);
+    wPs.emplace_back(1.6, -0.8, 0.0);
+    wPs.emplace_back(0.8, -1.0, 0.0);
+    wPs.emplace_back(0.0, -0.8, 0.0);
+    wPs.emplace_back(0.0, 0.0, 0.0);//规定轨迹的固定航点
 
     Trajectory traj = amTrajOpt.genOptimalTrajDTC(wPs, iV, iA, fV, fA); //生成轨迹
+    ros::Time begin = ros::Time::now();
 
-    ros::Time begin = ros::Time::now();//初始时刻
+    ROS_WARN("total duration:%lf", traj.getTotalDuration());
 
-    ros::Rate r(100);//100Hz
+    ros::Rate r(60);//Hz
     while (ros::ok)
     {
+        if(flag == true)
+        {
+            begin = ros::Time::now();//初始时刻
+            flag = false;
+        }
+
         ros::Duration time = ros::Time::now() - begin;//时间
 
         pub.vw_set_sub = 0;
-        pub.vx_set_sub = traj.getVel(time.toSec())(1);
-        pub.vy_set_sub = traj.getVel(time.toSec())(2);
-        pub.x_set_sub = traj.getPos(time.toSec())(1);
-        pub.y_set_sub = traj.getPos(time.toSec())(2);
+        pub.vx_set_sub = traj.getVel(time.toSec())(0);
+        pub.vy_set_sub = traj.getVel(time.toSec())(1);
+        pub.x_set_sub = traj.getPos(time.toSec())(0);
+        pub.y_set_sub = traj.getPos(time.toSec())(1);
+/*         pub.vx_set_sub = 0.5;
+        pub.vy_set_sub = 0;
+        pub.x_set_sub = 0;
+        pub.y_set_sub = 0; */
 
+        ROS_INFO("time = %lf",time.toSec());
         send_publisher.publish(pub);
-
-        if (time.toSec() > traj.getTotalDuration())
+        
+        if (time.toSec() > traj.getTotalDuration() && time.toSec() < traj.getTotalDuration() + 0.15 )
         {
             pub.vw_set_sub = 0;
             pub.vx_set_sub = 0;
             pub.vy_set_sub = 0;
 
-            ROS_INFO("stop!");
+            send_publisher.publish(pub);
+            ROS_INFO("stop!!vx_set = %lf",pub.vx_set_sub);
+        }
+        else if(time.toSec() > traj.getTotalDuration() && time.toSec() + 0.15)
+        {
+            pub.vw_set_sub = 0;
+            pub.vx_set_sub = 0;
+            pub.vy_set_sub = 0;
+
+            send_publisher.publish(pub);
+            ROS_INFO("stop!!vx_set = %lf",pub.vx_set_sub);
             break;
         }
 

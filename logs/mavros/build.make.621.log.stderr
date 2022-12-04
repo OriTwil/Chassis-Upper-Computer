@@ -1,0 +1,144 @@
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/posture.cpp:19[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:67:90:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_message_t[m[K’ has not been declared
+   67 | static inline uint16_t mavlink_msg_posture_pack(uint8_t system_id, uint8_t component_id, [01;31m[Kmavlink_message_t[m[K* msg,
+      |                                                                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_posture_pack(uint8_t, uint8_t, int*, float, float, float, float, float, float)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:72:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_mav_put_float[m[K’ was not declared in this scope
+   72 |     [01;31m[K_mav_put_float[m[K(buf, 0, pos_x);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/../message.hpp:16[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/common.hpp:16[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:26[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/posture.cpp:17[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/../mavlink_types.h:158:56:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpayload64[m[K’ in ‘[01m[K* msg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  158 | #define _MAV_PAYLOAD_NON_CONST(msg) ((char *)(&((msg)->[01;31m[Kpayload64[m[K[0])))
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/../mavlink_types.h:158:56:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K_MAV_PAYLOAD_NON_CONST[m[K’
+  158 | #define _MAV_PAYLOAD_NON_CONST(msg) ((char *)(&((msg)->[01;36m[Kpayload64[m[K[0])))
+      |                                                        [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/posture.cpp:19[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:92:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmsgid[m[K’ in ‘[01m[K* msg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   92 |     msg->[01;31m[Kmsgid[m[K = MAVLINK_MSG_ID_POSTURE;
+      |          [01;31m[K^~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:93:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_finalize_message[m[K’ was not declared in this scope; did you mean ‘[01m[Kmavlink::mavlink_finalize_message[m[K’?
+   93 |     return [01;31m[Kmavlink_finalize_message[m[K(msg, system_id, component_id, MAVLINK_MSG_ID_POSTURE_MIN_LEN, MAVLINK_MSG_ID_POSTURE_LEN, MAVLINK_MSG_ID_POSTURE_CRC);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |            [32m[Kmavlink::mavlink_finalize_message[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/../message.hpp:33[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/common.hpp:16[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:26[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/posture.cpp:17[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/../mavlink_helpers.h:286:25:[m[K [01;36m[Knote: [m[K‘[01m[Kmavlink::mavlink_finalize_message[m[K’ declared here
+  286 | MAVLINK_HELPER uint16_t [01;36m[Kmavlink_finalize_message[m[K(mavlink_message_t* msg, uint8_t system_id, uint8_t component_id,
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/posture.cpp:19[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K At global scope:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:111:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_message_t[m[K’ has not been declared
+  111 |                                [01;31m[Kmavlink_message_t[m[K* msg,
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_posture_pack_chan(uint8_t, uint8_t, uint8_t, int*, float, float, float, float, float, float)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:116:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_mav_put_float[m[K’ was not declared in this scope
+  116 |     [01;31m[K_mav_put_float[m[K(buf, 0, pos_x);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/../message.hpp:16[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/common.hpp:16[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:26[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/posture.cpp:17[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/../mavlink_types.h:158:56:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpayload64[m[K’ in ‘[01m[K* msg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  158 | #define _MAV_PAYLOAD_NON_CONST(msg) ((char *)(&((msg)->[01;31m[Kpayload64[m[K[0])))
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/../mavlink_types.h:158:56:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K_MAV_PAYLOAD_NON_CONST[m[K’
+  158 | #define _MAV_PAYLOAD_NON_CONST(msg) ((char *)(&((msg)->[01;36m[Kpayload64[m[K[0])))
+      |                                                        [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/posture.cpp:19[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:136:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmsgid[m[K’ in ‘[01m[K* msg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  136 |     msg->[01;31m[Kmsgid[m[K = MAVLINK_MSG_ID_POSTURE;
+      |          [01;31m[K^~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:137:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_finalize_message_chan[m[K’ was not declared in this scope; did you mean ‘[01m[Kmavlink::mavlink_finalize_message_chan[m[K’?
+  137 |     return [01;31m[Kmavlink_finalize_message_chan[m[K(msg, system_id, component_id, chan, MAVLINK_MSG_ID_POSTURE_MIN_LEN, MAVLINK_MSG_ID_POSTURE_LEN, MAVLINK_MSG_ID_POSTURE_CRC);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |            [32m[Kmavlink::mavlink_finalize_message_chan[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/../message.hpp:33[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/common.hpp:16[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:26[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/libmavconn/include/mavconn/interface.h:37[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/include/mavros/mavros_plugin.h:24[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/posture.cpp:17[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/../mavlink_helpers.h:276:25:[m[K [01;36m[Knote: [m[K‘[01m[Kmavlink::mavlink_finalize_message_chan[m[K’ declared here
+  276 | MAVLINK_HELPER uint16_t [01;36m[Kmavlink_finalize_message_chan[m[K(mavlink_message_t* msg, uint8_t system_id, uint8_t component_id,
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/posture.cpp:19[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K At global scope:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:148:92:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_message_t[m[K’ has not been declared
+  148 | static inline uint16_t mavlink_msg_posture_encode(uint8_t system_id, uint8_t component_id, [01;31m[Kmavlink_message_t[m[K* msg, const mavlink_posture_t* posture)
+      |                                                                                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:162:111:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_message_t[m[K’ has not been declared
+  162 | static inline uint16_t mavlink_msg_posture_encode_chan(uint8_t system_id, uint8_t component_id, uint8_t chan, [01;31m[Kmavlink_message_t[m[K* msg, const mavlink_posture_t* posture)
+      |                                                                                                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:263:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_message_t[m[K’ does not name a type; did you mean ‘[01m[Kmavlink_posture_t[m[K’?
+  263 | static inline float mavlink_msg_posture_get_pos_x(const [01;31m[Kmavlink_message_t[m[K* msg)
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                         [32m[Kmavlink_posture_t[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K In function ‘[01m[Kfloat mavlink_msg_posture_get_pos_x(const int*)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:265:12:[m[K [01;31m[Kerror: [m[K‘[01m[K_MAV_RETURN_float[m[K’ was not declared in this scope
+  265 |     return [01;31m[K_MAV_RETURN_float[m[K(msg,  0);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K At global scope:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:273:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_message_t[m[K’ does not name a type; did you mean ‘[01m[Kmavlink_posture_t[m[K’?
+  273 | static inline float mavlink_msg_posture_get_pos_y(const [01;31m[Kmavlink_message_t[m[K* msg)
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                         [32m[Kmavlink_posture_t[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K In function ‘[01m[Kfloat mavlink_msg_posture_get_pos_y(const int*)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:275:12:[m[K [01;31m[Kerror: [m[K‘[01m[K_MAV_RETURN_float[m[K’ was not declared in this scope
+  275 |     return [01;31m[K_MAV_RETURN_float[m[K(msg,  4);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K At global scope:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:283:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_message_t[m[K’ does not name a type; did you mean ‘[01m[Kmavlink_posture_t[m[K’?
+  283 | static inline float mavlink_msg_posture_get_zangle(const [01;31m[Kmavlink_message_t[m[K* msg)
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                          [32m[Kmavlink_posture_t[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K In function ‘[01m[Kfloat mavlink_msg_posture_get_zangle(const int*)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:285:12:[m[K [01;31m[Kerror: [m[K‘[01m[K_MAV_RETURN_float[m[K’ was not declared in this scope
+  285 |     return [01;31m[K_MAV_RETURN_float[m[K(msg,  8);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K At global scope:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:293:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_message_t[m[K’ does not name a type; did you mean ‘[01m[Kmavlink_posture_t[m[K’?
+  293 | static inline float mavlink_msg_posture_get_xangle(const [01;31m[Kmavlink_message_t[m[K* msg)
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                          [32m[Kmavlink_posture_t[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K In function ‘[01m[Kfloat mavlink_msg_posture_get_xangle(const int*)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:295:12:[m[K [01;31m[Kerror: [m[K‘[01m[K_MAV_RETURN_float[m[K’ was not declared in this scope
+  295 |     return [01;31m[K_MAV_RETURN_float[m[K(msg,  12);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K At global scope:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:303:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_message_t[m[K’ does not name a type; did you mean ‘[01m[Kmavlink_posture_t[m[K’?
+  303 | static inline float mavlink_msg_posture_get_yangle(const [01;31m[Kmavlink_message_t[m[K* msg)
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                          [32m[Kmavlink_posture_t[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K In function ‘[01m[Kfloat mavlink_msg_posture_get_yangle(const int*)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:305:12:[m[K [01;31m[Kerror: [m[K‘[01m[K_MAV_RETURN_float[m[K’ was not declared in this scope
+  305 |     return [01;31m[K_MAV_RETURN_float[m[K(msg,  16);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K At global scope:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:313:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_message_t[m[K’ does not name a type; did you mean ‘[01m[Kmavlink_posture_t[m[K’?
+  313 | static inline float mavlink_msg_posture_get_w_z(const [01;31m[Kmavlink_message_t[m[K* msg)
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                       [32m[Kmavlink_posture_t[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K In function ‘[01m[Kfloat mavlink_msg_posture_get_w_z(const int*)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:315:12:[m[K [01;31m[Kerror: [m[K‘[01m[K_MAV_RETURN_float[m[K’ was not declared in this scope
+  315 |     return [01;31m[K_MAV_RETURN_float[m[K(msg,  20);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:[m[K At global scope:
+[01m[K/home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_posture.h:324:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavlink_message_t[m[K’ does not name a type; did you mean ‘[01m[Kmavlink_posture_t[m[K’?
+  324 | static inline void mavlink_msg_posture_decode(const [01;31m[Kmavlink_message_t[m[K* msg, mavlink_posture_t* posture)
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                     [32m[Kmavlink_posture_t[m[K
+make[2]: *** [CMakeFiles/mavros_plugins.dir/build.make:466：CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:562：CMakeFiles/mavros_plugins.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

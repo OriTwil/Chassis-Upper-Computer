@@ -1,3 +1,11 @@
+/*
+ * @Author: szf01 2176529058@qq.com
+ * @Date: 2022-11-21 15:45:32
+ * @LastEditors: szf01 2176529058@qq.com
+ * @LastEditTime: 2022-12-04 22:56:27
+ * @FilePath: /catkin_ws_3/src/mavros/mavros/src/plugins/posture.cpp
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 /**
  * @brief Posture plugin 插件功能主要为实现mavlink数据包与mavros自定义消息之间的转化
  * @file posture.cpp
@@ -7,6 +15,7 @@
  */
  
 #include <mavros/mavros_plugin.h>
+#include "mavlink/v2.0/common/mavlink_msg_posture.hpp"
 #include "mavros_msgs/Posture.h"
 
 namespace mavros {

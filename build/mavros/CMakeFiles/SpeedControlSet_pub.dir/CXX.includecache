@@ -167,6 +167,10 @@ mavros_msgs/Posture.h
 /home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/mavros_msgs/Posture.h
 amtraj/am_traj.hpp
 /home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/amtraj/am_traj.hpp
+ros/time.h
+-
+ros/duration.h
+-
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string

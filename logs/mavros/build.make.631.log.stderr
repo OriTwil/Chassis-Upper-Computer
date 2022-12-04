@@ -1,0 +1,41 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:687:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope
+  687 |         ros::Duration time = ros::Time::now() - [01;31m[Kbegin[m[K;//时间
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:687:49:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/usr/include/c++/9/bits/range_access.h:105:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::begin[m[K’
+  105 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&);
+      |                                     [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/boost/mpl/list/aux_/begin_end.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/mpl/list/list0.hpp:27[m[K,
+                 from [01m[K/usr/include/boost/mpl/list/list10.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/mpl/list/list20.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/mpl/list.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/math/policies/policy.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/usr/include/boost/mpl/begin_end_fwd.hpp:22:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mpl::begin[m[K’
+   22 | template< typename Sequence > struct [01;36m[Kbegin[m[K;
+      |                                      [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/boost/range/functions.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/SpeedControlSet_pub.cpp:9[m[K:
+[01m[K/usr/include/boost/range/begin.hpp:114:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::range_adl_barrier::begin[m[K’
+  114 | inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type [01;36m[Kbegin[m[K( const T& r )
+      |                                                             [01;36m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/SpeedControlSet_pub.dir/build.make:63：CMakeFiles/SpeedControlSet_pub.dir/src/SpeedControlSet_pub.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:535：CMakeFiles/SpeedControlSet_pub.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

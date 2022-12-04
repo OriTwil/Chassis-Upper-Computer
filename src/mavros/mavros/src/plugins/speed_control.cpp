@@ -101,8 +101,10 @@ private:
 		msg.vx_set = req.vx_set;
 		msg.vy_set = req.vy_set;
 		msg.vw_set = req.vw_set;
+		
 		//响应发送成功
 		responce.send_success = true;
+		
 		//调用mavlink消息发送API
 		UAS_FCU(m_uas)->send_message_ignore_drop(msg);
 		return true;

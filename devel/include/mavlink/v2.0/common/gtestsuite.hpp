@@ -18136,19 +18136,22 @@ TEST(common_interop, CAN_FILTER_MODIFY)
 }
 #endif
 
-TEST(common, SPEED_CONTROL_SET)
+TEST(common, CONTROL_SET)
 {
     mavlink::mavlink_message_t msg;
     mavlink::MsgMap map1(msg);
     mavlink::MsgMap map2(msg);
 
-    mavlink::common::msg::SPEED_CONTROL_SET packet_in{};
+    mavlink::common::msg::CONTROL_SET packet_in{};
     packet_in.vx_set = 17.0;
     packet_in.vy_set = 45.0;
     packet_in.vw_set = 73.0;
+    packet_in.x_set = 101.0;
+    packet_in.y_set = 129.0;
+    packet_in.w_set = 157.0;
 
-    mavlink::common::msg::SPEED_CONTROL_SET packet1{};
-    mavlink::common::msg::SPEED_CONTROL_SET packet2{};
+    mavlink::common::msg::CONTROL_SET packet1{};
+    mavlink::common::msg::CONTROL_SET packet2{};
 
     packet1 = packet_in;
 
@@ -18163,28 +18166,34 @@ TEST(common, SPEED_CONTROL_SET)
     EXPECT_EQ(packet1.vx_set, packet2.vx_set);
     EXPECT_EQ(packet1.vy_set, packet2.vy_set);
     EXPECT_EQ(packet1.vw_set, packet2.vw_set);
+    EXPECT_EQ(packet1.x_set, packet2.x_set);
+    EXPECT_EQ(packet1.y_set, packet2.y_set);
+    EXPECT_EQ(packet1.w_set, packet2.w_set);
 }
 
 #ifdef TEST_INTEROP
-TEST(common_interop, SPEED_CONTROL_SET)
+TEST(common_interop, CONTROL_SET)
 {
     mavlink_message_t msg;
 
     // to get nice print
     memset(&msg, 0, sizeof(msg));
 
-    mavlink_speed_control_set_t packet_c {
-         17.0, 45.0, 73.0
+    mavlink_control_set_t packet_c {
+         17.0, 45.0, 73.0, 101.0, 129.0, 157.0
     };
 
-    mavlink::common::msg::SPEED_CONTROL_SET packet_in{};
+    mavlink::common::msg::CONTROL_SET packet_in{};
     packet_in.vx_set = 17.0;
     packet_in.vy_set = 45.0;
     packet_in.vw_set = 73.0;
+    packet_in.x_set = 101.0;
+    packet_in.y_set = 129.0;
+    packet_in.w_set = 157.0;
 
-    mavlink::common::msg::SPEED_CONTROL_SET packet2{};
+    mavlink::common::msg::CONTROL_SET packet2{};
 
-    mavlink_msg_speed_control_set_encode(1, 1, &msg, &packet_c);
+    mavlink_msg_control_set_encode(1, 1, &msg, &packet_c);
 
     // simulate message-handling callback
     [&packet2](const mavlink_message_t *cmsg) {
@@ -18196,6 +18205,9 @@ TEST(common_interop, SPEED_CONTROL_SET)
     EXPECT_EQ(packet_in.vx_set, packet2.vx_set);
     EXPECT_EQ(packet_in.vy_set, packet2.vy_set);
     EXPECT_EQ(packet_in.vw_set, packet2.vw_set);
+    EXPECT_EQ(packet_in.x_set, packet2.x_set);
+    EXPECT_EQ(packet_in.y_set, packet2.y_set);
+    EXPECT_EQ(packet_in.w_set, packet2.w_set);
 
 #ifdef PRINT_MSG
     PRINT_MSG(msg);

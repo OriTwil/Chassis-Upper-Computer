@@ -130,6 +130,7 @@ CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/deve
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -282,7 +283,6 @@ CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/deve
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp

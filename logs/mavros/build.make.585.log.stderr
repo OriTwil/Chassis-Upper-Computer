@@ -1,0 +1,7 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/plugins/speed_control.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kcommon/mavlink_msg_speed_control_status.hpp: 没有那个文件或目录
+   15 | #include [01;31m[K"common/mavlink_msg_speed_control_status.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mavros_plugins.dir/build.make:453：CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:562：CMakeFiles/mavros_plugins.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

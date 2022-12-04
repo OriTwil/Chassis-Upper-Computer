@@ -606,70 +606,77 @@ int main(int argc,char *argv[])
     ros::Rate r(50);//两次sleep之间0.02s
     while(ros::ok())
     {
-        //时间
-        t++;
-        //紧急刹车
-        if(safe != true)
-        {
-            pub.vw_set_sub = 0;
-            pub.vx_set_sub = 0;
-            pub.vy_set_sub = 0;
-            send_publisher.publish(pub);
-            ROS_INFO("emergency braking!");
-            break;
-        }
-        //前半程
-        if(t*0.02 < t_reverse)
-        {
-            //ref
-            ref.vx_set_sub = S_type_Speed_Curve_Planning(t*0.02,0,0,4,0.25,0.1,0.2,1).v_cur;
-            ref.vy_set_sub = 0.5*PI*cos(PI*ref.x_set_sub)*ref.vx_set_sub;
-            ref.vw_set_sub = 0;
-            ref.x_set_sub = S_type_Speed_Curve_Planning(t*0.02,0,0,4,0.25,0.1,0.2,1).s_cur;
-            ref.y_set_sub = 0.5*sin(PI*ref.x_set_sub);
-            ref_publisher.publish(ref);
-            //pub
-            pub.vx_set_sub = ref.vx_set_sub + P_pose_x * (pose[0] - ref.x_set_sub);//还未调参
-            pub.vy_set_sub = ref.vy_set_sub
-                            + P_pose_y * (pose[1] - ref.y_set_sub);//闭环控制,修正估计 最优估计
-            pub.vw_set_sub = 0 + P_pose_z * (orientation.z - 0);
+        // //时间
+        // t++;
+        // //紧急刹车
+        // if(safe != true)
+        // {
+        //     pub.vw_set_sub = 0;
+        //     pub.vx_set_sub = 0;
+        //     pub.vy_set_sub = 0;
+        //     send_publisher.publish(pub);
+        //     ROS_INFO("emergency braking!");
+        //     break;
+        // }
+        // //前半程
+        // if(t*0.02 < t_reverse)
+        // {
+        //     //ref
+        //     ref.vx_set_sub = S_type_Speed_Curve_Planning(t*0.02,0,0,4,0.25,0.1,0.2,1).v_cur;
+        //     ref.vy_set_sub = 0.5*PI*cos(PI*ref.x_set_sub)*ref.vx_set_sub;
+        //     ref.vw_set_sub = 0;
+        //     ref.x_set_sub = S_type_Speed_Curve_Planning(t*0.02,0,0,4,0.25,0.1,0.2,1).s_cur;
+        //     ref.y_set_sub = 0.5*sin(PI*ref.x_set_sub);
+        //     ref_publisher.publish(ref);
+        //     //pub
+        //     pub.vx_set_sub = ref.vx_set_sub + P_pose_x * (pose[0] - ref.x_set_sub);//还未调参
+        //     pub.vy_set_sub = ref.vy_set_sub
+        //                     + P_pose_y * (pose[1] - ref.y_set_sub);//闭环控制,修正估计 最优估计
+        //     pub.vw_set_sub = 0 + P_pose_z * (orientation.z - 0);
 
-            //发布速度控制底盘
-            send_publisher.publish(pub);
-            ROS_INFO("control successfully!");
-            ROS_INFO("x_reverse = %lf",x_reverse);
-        }
+        //     //发布速度控制底盘
+        //     send_publisher.publish(pub);
+        //     ROS_INFO("control successfully!");
+        //     ROS_INFO("x_reverse = %lf",x_reverse);
+        // }
 
-        //后半程
-        else if(t*0.02 >= t_reverse && t*0.02 < (t_reverse*2))
-        {
-            //ref
-            ref.vx_set_sub = - S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,1).v_cur;
-            ref.vy_set_sub = - 0.5*PI*cos(PI*ref.x_set_sub)*ref.vx_set_sub;
-            ref.vw_set_sub = 0;
-            ref.x_set_sub =x_reverse - S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,1).s_cur;
-            ref.y_set_sub = - 0.5*sin(PI*(ref.x_set_sub));
-            ref_publisher.publish(ref);
-            //pub
-            pub.vx_set_sub = ref.vx_set_sub + P_pose_x * (pose[0] - ref.x_set_sub);
-            pub.vy_set_sub = ref.vy_set_sub 
-                            + P_pose_y * (pose[1] - ref.y_set_sub);
-            pub.vw_set_sub = 0 + P_pose_z * (orientation.z - 0);
-            //发布速度控制底盘
-            send_publisher.publish(pub);
-            ROS_INFO("control successfully!");
-        }
-        //完成任务后停车
-        if(t*0.02 >= (t_reverse * 2))
-        {
-            pub.vw_set_sub = 0;
-            pub.vx_set_sub = 0;
-            pub.vy_set_sub = 0;
-            send_publisher.publish(pub);
-            ROS_INFO("control end!,t = %d,t_reverse = %lf,x_reverse = %lf",t,t_reverse,x_reverse);
-            break;
-        }
+        // //后半程
+        // else if(t*0.02 >= t_reverse && t*0.02 < (t_reverse*2))
+        // {
+        //     //ref
+        //     ref.vx_set_sub = - S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,1).v_cur;
+        //     ref.vy_set_sub = - 0.5*PI*cos(PI*ref.x_set_sub)*ref.vx_set_sub;
+        //     ref.vw_set_sub = 0;
+        //     ref.x_set_sub =x_reverse - S_type_Speed_Curve_Planning(t*0.02 - t_reverse,0,0,4,0.25,0.1,0.2,1).s_cur;
+        //     ref.y_set_sub = - 0.5*sin(PI*(ref.x_set_sub));
+        //     ref_publisher.publish(ref);
+        //     //pub
+        //     pub.vx_set_sub = ref.vx_set_sub + P_pose_x * (pose[0] - ref.x_set_sub);
+        //     pub.vy_set_sub = ref.vy_set_sub 
+        //                     + P_pose_y * (pose[1] - ref.y_set_sub);
+        //     pub.vw_set_sub = 0 + P_pose_z * (orientation.z - 0);
+        //     //发布速度控制底盘
+        //     send_publisher.publish(pub);
+        //     ROS_INFO("control successfully!");
+        // }
+        // //完成任务后停车
+        // if(t*0.02 >= (t_reverse * 2))
+        // {
+        //     pub.vw_set_sub = 0;
+        //     pub.vx_set_sub = 0;
+        //     pub.vy_set_sub = 0;
+        //     send_publisher.publish(pub);
+        //     ROS_INFO("control end!,t = %d,t_reverse = %lf,x_reverse = %lf",t,t_reverse,x_reverse);
+        //     break;
+        // }
+        pub.vw_set_sub = 0;
+        pub.vx_set_sub = 0;
+        pub.vy_set_sub = 0;
+        pub.x_set_sub = 0;
+        pub.y_set_sub = 0;
+        send_publisher.publish(pub);
 
+        ROS_INFO("stop!");
         r.sleep();
         ros::spinOnce();
 

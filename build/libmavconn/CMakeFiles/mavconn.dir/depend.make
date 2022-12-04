@@ -131,6 +131,7 @@ CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -283,7 +284,6 @@ CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -536,6 +536,7 @@ CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/incl
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -688,7 +689,6 @@ CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/incl
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavconn.dir/src/interface.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -946,6 +946,7 @@ CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -1098,7 +1099,6 @@ CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavconn.dir/src/serial.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -1355,6 +1355,7 @@ CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/ma
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -1507,7 +1508,6 @@ CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/ma
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavconn.dir/src/tcp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -1764,6 +1764,7 @@ CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/ma
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -1916,7 +1917,6 @@ CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/ma
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavconn.dir/src/udp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp

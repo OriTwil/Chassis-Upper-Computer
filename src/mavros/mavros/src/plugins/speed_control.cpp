@@ -8,9 +8,11 @@
  
 #include <mavros/mavros_plugin.h>
 #include <mavros_msgs/SpeedControlStatus.h>
-#include <mavros_msgs/SpeedControlSet.h>
+#include "mavros_msgs/SpeedControlSet.h"
 #include "mavros_msgs/SpeedControlSet_sub.h"
 #include "mavros_msgs/Posture.h"
+#include "mavlink/v2.0/common/mavlink_msg_control_set.hpp"
+#include "mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp"
 
 namespace mavros {
 namespace std_plugins {
@@ -93,7 +95,7 @@ private:
  
 	bool send_cb_service(mavros_msgs::SpeedControlSet::Request &req , mavros_msgs::SpeedControlSet::Response &responce)
 	{
-		mavlink::common::msg::SPEED_CONTROL_SET msg;
+		mavlink::common::msg::CONTROL_SET msg;
 		//将server收到的request赋值给mavlink消息
 		msg.vx_set = req.vx_set;
 		msg.vy_set = req.vy_set;
@@ -107,11 +109,14 @@ private:
 
 	void send_callback_subscribe(const mavros_msgs::SpeedControlSet_sub::ConstPtr& speed_p)
 	{
-		mavlink::common::msg::SPEED_CONTROL_SET msg;
+		mavlink::common::msg::CONTROL_SET msg;
 		msg.vw_set = speed_p->vw_set_sub;
 		msg.vy_set = speed_p->vy_set_sub;
 		msg.vx_set = speed_p->vx_set_sub;
-		ROS_INFO("send_callback succcess!");
+
+		msg.x_set = speed_p->x_set_sub;
+		msg.y_set = speed_p->y_set_sub;
+		// ROS_INFO("send_callback succcess!");
 		UAS_FCU(m_uas)->send_message_ignore_drop(msg);
 
 	} 

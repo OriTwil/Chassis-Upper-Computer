@@ -130,6 +130,7 @@ CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/sz
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -282,7 +283,6 @@ CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/sz
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/SpeedControlSet_client.dir/src/SpeedControlSet_client.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp

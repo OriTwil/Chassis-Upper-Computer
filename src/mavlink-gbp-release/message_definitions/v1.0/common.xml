@@ -7344,11 +7344,14 @@
       <field type="uint8_t" name="num_ids">number of IDs in filter list</field>
       <field type="uint16_t[16]" name="ids">filter IDs, length num_ids</field>
     </message>
-    <message id="9" name="SPEED_CONTROL_SET">
-    <description>Speed control system set param mavlink message</description>
-    <field type="float" name="vx_set">float</field>
-    <field type="float" name="vy_set">float</field>
-    <field type="float" name="vw_set">float</field>
+    <message id="9" name="CONTROL_SET">
+    <description>接收来自上位机的消息</description>
+    <field type="float" name="vx_set">x 方向速度</field>
+    <field type="float" name="vy_set">y 方向速度</field>
+    <field type="float" name="vw_set">z 方向角速度</field>
+    <field type="float" name="x_set">x 方向速度</field>
+    <field type="float" name="y_set">y 方向速度</field>
+    <field type="float" name="w_set">z 方向角速度</field>
     </message>
     <message id="10" name="SPEED_CONTROL_STATUS">
     <description>Speed control system mavlink message</description>

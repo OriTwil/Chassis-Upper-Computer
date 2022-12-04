@@ -130,6 +130,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_
 CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -282,7 +283,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_
 CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -931,6 +931,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/
 CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -1083,7 +1084,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/
 CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -1732,6 +1732,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_w
 CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -1884,7 +1885,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_w
 CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -2533,6 +2533,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws
 CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -2685,7 +2686,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws
 CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -3360,6 +3360,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3
 CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -3512,7 +3513,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3
 CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -4160,6 +4160,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/d
 CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -4312,7 +4313,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/d
 CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -4997,6 +4997,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_w
 CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -5149,7 +5150,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_w
 CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -5809,6 +5809,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/c
 CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -5961,7 +5962,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/c
 CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -6619,6 +6619,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/d
 CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -6771,7 +6772,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/d
 CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/hil.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -7427,6 +7427,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/cat
 CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -7579,7 +7580,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/cat
 CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -8235,6 +8235,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/d
 CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -8387,7 +8388,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/d
 CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -9038,6 +9038,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/ca
 CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -9190,7 +9191,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/ca
 CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -9847,6 +9847,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/ca
 CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -9999,7 +10000,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/ca
 CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -10648,6 +10648,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf
 CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -10800,7 +10801,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf
 CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -11452,6 +11452,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf
 CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -11604,7 +11605,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf
 CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -12253,6 +12253,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3
 CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -12405,7 +12406,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3
 CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -13067,6 +13067,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws
 CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -13219,7 +13220,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws
 CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/posture.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -13868,6 +13868,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin
 CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -14020,7 +14021,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin
 CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -14680,6 +14680,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3
 CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -14832,7 +14833,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3
 CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -15483,6 +15483,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catki
 CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -15635,7 +15636,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catki
 CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/safety_area.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -16286,6 +16286,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/ca
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -16438,7 +16439,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/ca
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -17094,6 +17094,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -17246,7 +17247,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -17908,6 +17908,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -18060,7 +18061,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -18722,6 +18722,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catk
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -18874,7 +18875,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catk
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -19532,6 +19532,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/R
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -19684,7 +19685,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/R
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -20350,6 +20350,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -20502,7 +20503,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -21161,6 +21161,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/cat
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -21313,7 +21314,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/cat
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/speed_control.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -21967,6 +21967,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -22119,7 +22120,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -22789,6 +22789,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_w
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -22941,7 +22942,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_w
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -23593,6 +23593,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws
 CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -23745,7 +23746,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws
 CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/vfr_hud.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -24395,6 +24395,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_w
 CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -24547,7 +24548,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_w
 CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp
@@ -25211,6 +25211,7 @@ CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/c
 CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_command_long.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_information.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_component_metadata.hpp
+CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_control_system_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_current_event_sequence.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_data_stream.hpp
@@ -25363,7 +25364,6 @@ CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/c
 CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_setup_signing.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_sim_state.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_smart_battery_info.hpp
-CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_set.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_speed_control_status.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_statustext.hpp
 CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o: /home/szf/ROS/catkin_ws_3/devel/include/mavlink/v2.0/common/mavlink_msg_storage_information.hpp

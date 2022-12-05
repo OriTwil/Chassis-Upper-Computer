@@ -37,7 +37,8 @@
   
  #### 7. 运动控制代码
   - 路径：~/catkin_ws/src/mavros/mavros/src/
-  - 代码内容：可参考SpeedControlSet_pub.cpp（写的不太好）
+  - 代码内容：可参考SpeedControlSet_pub.cpp
+  - 注意发消息的频率不能太高
   
  #### 8. 测试
   - 测试环境：大疆A板(含自定义mavlink 2.0消息收发，与上位机mavlink消息id对应)、ROS、Ubuntu

@@ -2,7 +2,7 @@
  * @Author: szf01 2176529058@qq.com
  * @Date: 2022-11-21 15:45:32
  * @LastEditors: szf01 2176529058@qq.com
- * @LastEditTime: 2022-12-04 22:56:27
+ * @LastEditTime: 2022-12-05 20:48:00
  * @FilePath: /catkin_ws_3/src/mavros/mavros/src/plugins/posture.cpp
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -71,12 +71,12 @@ private:
 		//posture
 		auto mavros_msg_posture = boost::make_shared<mavros_msgs::Posture>();
 		mavros_msg_posture -> header.stamp = ros::Time::now();
-		mavros_msg_posture -> pos_x_state = mavlink_posture.pos_x * 0.001;
-		mavros_msg_posture -> pos_y_state = mavlink_posture.pos_y * 0.001;
-        mavros_msg_posture -> w_z_state = mavlink_posture.w_z * 0.001;
-        mavros_msg_posture -> xangle_state = mavlink_posture.xangle * 0.001;
-        mavros_msg_posture -> yangle_state = mavlink_posture.yangle * 0.001;
-        mavros_msg_posture -> zangle_state = mavlink_posture.zangle * 0.001;
+		mavros_msg_posture -> pos_x_state = mavlink_posture.pos_x ;
+		mavros_msg_posture -> pos_y_state = mavlink_posture.pos_y ;
+        mavros_msg_posture -> w_z_state = mavlink_posture.w_z ;
+        mavros_msg_posture -> xangle_state = mavlink_posture.xangle ;
+        mavros_msg_posture -> yangle_state = mavlink_posture.yangle ;
+        mavros_msg_posture -> zangle_state = mavlink_posture.zangle ;
 
         pos_publisher.publish(mavros_msg_posture);
 	}

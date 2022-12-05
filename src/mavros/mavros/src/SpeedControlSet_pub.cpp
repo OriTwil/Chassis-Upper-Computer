@@ -669,18 +669,27 @@ int main(int argc, char *argv[])
 
     std::vector<Eigen::Vector3d> wPs;
     wPs.emplace_back(0.0, 0.0, 0.0);
+    wPs.emplace_back(0.5, 0.0, 0.0);
+    wPs.emplace_back(0.0, 0.0, 0.0);
+    wPs.emplace_back(0.5, 0.0, 0.0);
+    wPs.emplace_back(0.0, 0.0, 0.0);
+    wPs.emplace_back(0.5, 0.0, 0.0);
+    wPs.emplace_back(0.0, 0.0, 0.0);
+    wPs.emplace_back(0.5, 0.0, 0.0);
+    wPs.emplace_back(0.0, 0.0, 0.0);
+/*     wPs.emplace_back(0.0, 0.0, 0.0);
     wPs.emplace_back(0.8, 0.0, 0.0);
     wPs.emplace_back(1.6, -0.8, 0.0);
     wPs.emplace_back(0.8, -1.0, 0.0);
     wPs.emplace_back(0.0, -0.8, 0.0);
-    wPs.emplace_back(0.0, 0.0, 0.0);//规定轨迹的固定航点
+    wPs.emplace_back(0.0, 0.0, 0.0); *///规定轨迹的固定航点
 
     Trajectory traj = amTrajOpt.genOptimalTrajDTC(wPs, iV, iA, fV, fA); //生成轨迹
     ros::Time begin = ros::Time::now();
 
     ROS_WARN("total duration:%lf", traj.getTotalDuration());
 
-    ros::Rate r(60);//Hz
+    ros::Rate r(50);//Hz
     while (ros::ok)
     {
         if(flag == true)
@@ -701,7 +710,8 @@ int main(int argc, char *argv[])
         pub.x_set_sub = 0;
         pub.y_set_sub = 0; */
 
-        ROS_INFO("time = %lf",time.toSec());
+        ROS_WARN("time = %lf, x = %lf ,y = %lf",time.toSec(),pub.x_set_sub,pub.y_set_sub);
+        ROS_INFO("vx = %lf , vy = %lf",pub.vx_set_sub,pub.vy_set_sub);
         send_publisher.publish(pub);
         
         if (time.toSec() > traj.getTotalDuration() && time.toSec() < traj.getTotalDuration() + 0.15 )

@@ -660,7 +660,7 @@ int main(int argc, char *argv[])
         } */
 
     //创建轨迹生成对象
-    AmTraj amTrajOpt(1024.0, 32.0, 1.0, 0.6, 0.3, 32, 0.02);
+    AmTraj amTrajOpt(1024.0, 32.0, 1.0, 1.5, 0.6, 32, 0.02);
 
     //轨迹规划
 
@@ -669,14 +669,19 @@ int main(int argc, char *argv[])
 
     std::vector<Eigen::Vector3d> wPs;
     wPs.emplace_back(0.0, 0.0, 0.0);
-    wPs.emplace_back(0.5, 0.0, 0.0);
+    wPs.emplace_back(0.9, 0.5, 0.0);
+    wPs.emplace_back(2.5, -0.5, 0.0);
+    wPs.emplace_back(4.1, 0.5, 0.0);
+    wPs.emplace_back(4.7, 0.0, 0.0);
+    wPs.emplace_back(4.1, -0.5, 0.0);
+    wPs.emplace_back(2.5, 0.5, 0.0);
+    wPs.emplace_back(0.9, -0.5, 0.0);
+    wPs.emplace_back(0.0, 0.0, 0.0);    
+/*     wPs.emplace_back(0.0, 0.0, 0.0);
+    wPs.emplace_back(0.8, 0.0, 0.0);
     wPs.emplace_back(0.0, 0.0, 0.0);
-    wPs.emplace_back(0.5, 0.0, 0.0);
-    wPs.emplace_back(0.0, 0.0, 0.0);
-    wPs.emplace_back(0.5, 0.0, 0.0);
-    wPs.emplace_back(0.0, 0.0, 0.0);
-    wPs.emplace_back(0.5, 0.0, 0.0);
-    wPs.emplace_back(0.0, 0.0, 0.0);
+    wPs.emplace_back(0.8, 0.0, 0.0);
+    wPs.emplace_back(0.0, 0.0, 0.0); */
 /*     wPs.emplace_back(0.0, 0.0, 0.0);
     wPs.emplace_back(0.8, 0.0, 0.0);
     wPs.emplace_back(1.6, -0.8, 0.0);

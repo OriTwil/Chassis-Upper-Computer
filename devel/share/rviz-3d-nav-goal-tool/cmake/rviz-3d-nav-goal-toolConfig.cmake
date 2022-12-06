@@ -1,0 +1,1 @@
+/home/szf/ROS/catkin_ws_3/devel/.private/rviz-3d-nav-goal-tool/share/rviz-3d-nav-goal-tool/cmake/rviz-3d-nav-goal-toolConfig.cmake

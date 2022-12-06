@@ -54,7 +54,7 @@ ros::Subscriber xbox_sub;
 ros::Subscriber odomSub;
 ros::Subscriber path_ekf;
 ros::Subscriber posture_sub;
-
+ros::Subscriber traj_rviz_sub;
 /**
  * @brief 创建变量
  *
@@ -69,7 +69,8 @@ bool safe = true; //用来设置急刹车
 bool flag = true; //设置初始时刻
 float speed[3];
 float pose[3]; //用来接收T265卡尔曼滤波后的里程计数据，做闭环控制
-int t = 0;     //时间
+int t = 0;
+int point_count = 1;     //时间
 typedef struct
 {
     /* data */
@@ -77,6 +78,8 @@ typedef struct
     double s_cur;
     double t_sum;
 } current;
+
+std::vector<Eigen::Vector3d> wPs;//航点
 
 /**
  * @brief callbacks
@@ -150,7 +153,93 @@ void Poseture_Callback(const mavros_msgs::PostureConstPtr &poseture)
  * @param d_target 最大减速度
  * @param j_max 目标加加速度(小于系统能受到的最大冲击，反映了系统的柔性，柔性越大，过冲越大)
  */
+void PointCallBack(const geometry_msgs::PoseStamped::ConstPtr &point_msg)
+{
+    float x = point_msg->pose.position.x;
+    float y = point_msg->pose.position.y;
+    float z = point_msg->pose.position.z;
 
+    if(point_count==5)
+    {
+        // wPs.emplace_back(0.0, 0.0, 0.0);
+        wPs.pop_back();
+        wPs.pop_back();
+        wPs.pop_back();
+        wPs.pop_back();
+        point_count = 1;
+    }
+    if(point_count<=4)
+    {
+        wPs.emplace_back(x,y,z);
+        point_count ++;
+    }
+    std::cout<<"Receive x = "<<x<<"y = "<<y<<"z = "<<z<<std::endl;
+    std::cout<<"count = "<<point_count<<std::endl;
+
+    // AmTraj amTrajOpt(config.weightT, config.weightAcc, config.weightJerk,config.maxVelRate, config.maxAccRate, config.iterations, config.epsilon);
+    //创建轨迹生成对象
+    AmTraj amTrajOpt(1024.0, 32.0, 1.0, 1.5, 0.8, 32, 0.02);
+    Eigen::Vector3d iV(-0.015, -0.01, 0.0), fV(0.0, 0.0, 0.0);
+    Eigen::Vector3d iA(0.0, 0.0, 0.0), fA(0.0, 0.0, 0.0); //规定航点处的速度和加速度
+
+    if(point_count==5)
+    {
+        int time_count = 0;
+        Trajectory traj = amTrajOpt.genOptimalTrajDTC(wPs, iV, iA, fV, fA); //生成轨迹
+        ros::Time begin = ros::Time::now();
+
+        ROS_WARN("total duration:%lf", traj.getTotalDuration());
+
+        ros::Rate r(50);//Hz
+        while (ros::ok)
+        {
+            if(flag == true)
+            {
+                begin = ros::Time::now();//初始时刻
+                flag = false;
+            }
+
+            ros::Duration time = ros::Time::now() - begin;//时间
+
+            pub.vw_set_sub = 0;
+            pub.vx_set_sub = traj.getVel(time.toSec())(0);
+            pub.vy_set_sub = traj.getVel(time.toSec())(1);
+            pub.x_set_sub = traj.getPos(time.toSec())(0);
+            pub.y_set_sub = traj.getPos(time.toSec())(1);
+    /*         pub.vx_set_sub = 0.5;
+            pub.vy_set_sub = 0;
+            pub.x_set_sub = 0;
+            pub.y_set_sub = 0; */
+
+            ROS_WARN("time = %lf, x = %lf ,y = %lf",time.toSec(),pub.x_set_sub,pub.y_set_sub);
+            ROS_INFO("vx = %lf , vy = %lf",pub.vx_set_sub,pub.vy_set_sub);
+            send_publisher.publish(pub);
+            
+            if (time.toSec() > traj.getTotalDuration() && time.toSec() < traj.getTotalDuration() + 0.15 )
+            {
+                pub.vw_set_sub = 0;
+                pub.vx_set_sub = 0;
+                pub.vy_set_sub = 0;
+
+                send_publisher.publish(pub);
+                ROS_INFO("stop!!vx_set = %lf",pub.vx_set_sub);
+            }
+            else if(time.toSec() > traj.getTotalDuration() && time.toSec() + 0.15)
+            {
+                pub.vw_set_sub = 0;
+                pub.vx_set_sub = 0;
+                pub.vy_set_sub = 0;
+
+                send_publisher.publish(pub);
+                ROS_INFO("stop!!vx_set = %lf",pub.vx_set_sub);
+                break;
+            }
+
+            r.sleep();
+        }
+    }
+
+}
 current S_type_Speed_Curve_Planning(double t, FP64 v_start, FP64 v_end, FP64 s_target, FP64 v_target, FP64 a_target, FP64 d_target, FP64 j_max)
 {
     /****************************  定义相关变量   ***********************/
@@ -563,6 +652,9 @@ int main(int argc, char *argv[])
     xbox_sub = speed_control_nh.subscribe<geometry_msgs::Twist>("xbox", 10, xboxCallback);
     //订阅码盘
     posture_sub = speed_control_nh.subscribe<mavros_msgs::Posture>("/mavros/posture/posture", 10, Poseture_Callback);
+
+    //订阅rviz
+    traj_rviz_sub = speed_control_nh.subscribe<geometry_msgs::PoseStamped>("/goal",10,PointCallBack);
     //初始化被发布消息
     pub.vw_set_sub = 0;
     pub.vx_set_sub = 0;
@@ -583,7 +675,9 @@ int main(int argc, char *argv[])
     //计算S曲线信息
     double t_reverse = S_type_Speed_Curve_Planning(0, 0, 0, 4, 0.25, 0.1, 0.2, 1).t_sum;
     double x_reverse = S_type_Speed_Curve_Planning(t_reverse, 0, 0, 4, 0.25, 0.1, 0.2, 1).s_cur;
-
+    ros::spin();
+    
+    return 0;
     //组织被发布消息
     /*     ros::Rate r(50); //两次sleep之间0.02s
         while (ros::ok())
@@ -659,16 +753,7 @@ int main(int argc, char *argv[])
             ros::spinOnce();
         } */
 
-    //创建轨迹生成对象
-    AmTraj amTrajOpt(1024.0, 32.0, 1.0, 1.5, 0.6, 32, 0.02);
-
-    //轨迹规划
-
-    Eigen::Vector3d iV(-0.015, -0.01, 0.0), fV(0.0, 0.0, 0.0);
-    Eigen::Vector3d iA(0.0, 0.0, 0.0), fA(0.0, 0.0, 0.0); //规定航点处的速度和加速度
-
-    std::vector<Eigen::Vector3d> wPs;
-    wPs.emplace_back(0.0, 0.0, 0.0);
+/*     wPs.emplace_back(0.0, 0.0, 0.0);
     wPs.emplace_back(0.9, 0.5, 0.0);
     wPs.emplace_back(2.5, -0.5, 0.0);
     wPs.emplace_back(4.1, 0.5, 0.0);
@@ -676,69 +761,5 @@ int main(int argc, char *argv[])
     wPs.emplace_back(4.1, -0.5, 0.0);
     wPs.emplace_back(2.5, 0.5, 0.0);
     wPs.emplace_back(0.9, -0.5, 0.0);
-    wPs.emplace_back(0.0, 0.0, 0.0);    
-/*     wPs.emplace_back(0.0, 0.0, 0.0);
-    wPs.emplace_back(0.8, 0.0, 0.0);
-    wPs.emplace_back(0.0, 0.0, 0.0);
-    wPs.emplace_back(0.8, 0.0, 0.0);
-    wPs.emplace_back(0.0, 0.0, 0.0); */
-/*     wPs.emplace_back(0.0, 0.0, 0.0);
-    wPs.emplace_back(0.8, 0.0, 0.0);
-    wPs.emplace_back(1.6, -0.8, 0.0);
-    wPs.emplace_back(0.8, -1.0, 0.0);
-    wPs.emplace_back(0.0, -0.8, 0.0);
-    wPs.emplace_back(0.0, 0.0, 0.0); *///规定轨迹的固定航点
-
-    Trajectory traj = amTrajOpt.genOptimalTrajDTC(wPs, iV, iA, fV, fA); //生成轨迹
-    ros::Time begin = ros::Time::now();
-
-    ROS_WARN("total duration:%lf", traj.getTotalDuration());
-
-    ros::Rate r(50);//Hz
-    while (ros::ok)
-    {
-        if(flag == true)
-        {
-            begin = ros::Time::now();//初始时刻
-            flag = false;
-        }
-
-        ros::Duration time = ros::Time::now() - begin;//时间
-
-        pub.vw_set_sub = 0;
-        pub.vx_set_sub = traj.getVel(time.toSec())(0);
-        pub.vy_set_sub = traj.getVel(time.toSec())(1);
-        pub.x_set_sub = traj.getPos(time.toSec())(0);
-        pub.y_set_sub = traj.getPos(time.toSec())(1);
-/*         pub.vx_set_sub = 0.5;
-        pub.vy_set_sub = 0;
-        pub.x_set_sub = 0;
-        pub.y_set_sub = 0; */
-
-        ROS_WARN("time = %lf, x = %lf ,y = %lf",time.toSec(),pub.x_set_sub,pub.y_set_sub);
-        ROS_INFO("vx = %lf , vy = %lf",pub.vx_set_sub,pub.vy_set_sub);
-        send_publisher.publish(pub);
-        
-        if (time.toSec() > traj.getTotalDuration() && time.toSec() < traj.getTotalDuration() + 0.15 )
-        {
-            pub.vw_set_sub = 0;
-            pub.vx_set_sub = 0;
-            pub.vy_set_sub = 0;
-
-            send_publisher.publish(pub);
-            ROS_INFO("stop!!vx_set = %lf",pub.vx_set_sub);
-        }
-        else if(time.toSec() > traj.getTotalDuration() && time.toSec() + 0.15)
-        {
-            pub.vw_set_sub = 0;
-            pub.vx_set_sub = 0;
-            pub.vy_set_sub = 0;
-
-            send_publisher.publish(pub);
-            ROS_INFO("stop!!vx_set = %lf",pub.vx_set_sub);
-            break;
-        }
-
-        r.sleep();
-    }
+    wPs.emplace_back(0.0, 0.0, 0.0); */    //手动规定轨迹的固定航点
 }

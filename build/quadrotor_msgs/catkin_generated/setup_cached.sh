@@ -8,6 +8,9 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/szf/ROS/catkin_ws_3/build/quadrotor_msgs'
+export PYTHONPATH="/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs:$ROS_PACKAGE_PATH"

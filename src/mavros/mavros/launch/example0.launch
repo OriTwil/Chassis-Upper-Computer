@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+    <node name="rviz" pkg="rviz" type="rviz" output="screen"
+           args="-d $(find mavros)/launch/traj.rviz"> 
+    </node>
+
+    <node pkg="mavros" type="example0_node" name="example0" output="screen">
+        <!-- <!- node parameters --> 
+        <rosparam file="$(find mavros)/launch/example0_params.yaml" command="load" />
+    </node> 
+
+    <include file="$(find mavros)/launch/map_server.launch"/>
+</launch>

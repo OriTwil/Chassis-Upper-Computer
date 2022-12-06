@@ -1,0 +1,20 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/traj_visualize/src/traj_plan_3D.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kam_traj/am_traj.hpp: 没有那个文件或目录
+    1 | #include [01;31m[K"am_traj/am_traj.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/szf/ROS/catkin_ws_3/src/traj_visualize/src/traj_plan.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kamtraj/am_traj.hpp: 没有那个文件或目录
+    1 | #include [01;31m[K"amtraj/am_traj.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/szf/ROS/catkin_ws_3/src/traj_visualize/src/example0_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kamtraj/am_traj.hpp: 没有那个文件或目录
+    1 | #include [01;31m[K"amtraj/am_traj.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/traj_plan_3D.dir/build.make:63：CMakeFiles/traj_plan_3D.dir/src/traj_plan_3D.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:169：CMakeFiles/traj_plan_3D.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/traj_plan.dir/build.make:63：CMakeFiles/traj_plan.dir/src/traj_plan.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:574：CMakeFiles/traj_plan.dir/all] 错误 2
+make[2]: *** [CMakeFiles/example0_node.dir/build.make:63：CMakeFiles/example0_node.dir/src/example0_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:196：CMakeFiles/example0_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

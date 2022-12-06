@@ -1,0 +1,23 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/t3_nav_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcommon_include.h: 没有那个文件或目录
+    5 | #include [01;31m[K"common_include.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/t3_nav_node.dir/build.make:63：CMakeFiles/t3_nav_node.dir/src/t3_nav_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:2228：CMakeFiles/t3_nav_node.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/traj_plan_3D.cpp:[m[K In constructor ‘[01m[KTrajPlan_3D::TrajPlan_3D()[m[K’:
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/traj_plan_3D.cpp:263:22:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kros::Subscriber[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’)
+  263 |     motion_sub = nh_.[01;31m[Ksubscribe[m[K
+      |                      [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/node_handle.h:33[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/traj_plan_3D.cpp:3[m[K:
+[01m[K/opt/ros/noetic/include/ros/subscriber.h:46:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kros::Subscriber& ros::Subscriber::operator=(const ros::Subscriber&)[m[K’
+   46 | class ROSCPP_DECL [01;36m[KSubscriber[m[K
+      |                   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/subscriber.h:52:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kconst ros::Subscriber&[m[K’
+   52 |   Subscriber& operator=([01;36m[Kconst Subscriber& other[m[K) = default;
+      |                         [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+make[2]: *** [CMakeFiles/traj_plan_3D.dir/build.make:63：CMakeFiles/traj_plan_3D.dir/src/traj_plan_3D.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:543：CMakeFiles/traj_plan_3D.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

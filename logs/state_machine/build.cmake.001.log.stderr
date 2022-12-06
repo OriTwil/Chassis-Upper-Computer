@@ -1,0 +1,24 @@
+[31m[1mCMake Error[0m at /usr/src/googletest/CMakeLists.txt:10 (project):
+  The CMAKE_C_COMPILER:
+
+    gcc-7
+
+  is not a full path and was not found in the PATH.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+  the compiler, or to the compiler name if it is in the PATH.
+
+
+[31m[1mCMake Error[0m at /usr/src/googletest/CMakeLists.txt:10 (project):
+  The CMAKE_CXX_COMPILER:
+
+    g++-7
+
+  is not a full path and was not found in the PATH.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+

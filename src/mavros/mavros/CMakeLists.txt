@@ -194,6 +194,21 @@ target_link_libraries(SpeedControlSet_pub
   ${catkin_LIBRARIES}
 )
 
+add_executable(traj_plan src/traj_plan.cpp)
+target_link_libraries(traj_plan
+  ${catkin_LIBRARIES}
+)
+
+add_executable(traj_plan_3D src/traj_plan_3D.cpp)
+target_link_libraries(traj_plan_3D
+  ${catkin_LIBRARIES}
+)
+
+add_executable(example0_node src/example0_node.cpp)
+target_link_libraries(example0_node
+  ${catkin_LIBRARIES}
+)
+
 
 add_executable(SpeedControlSet_client src/SpeedControlSet_client.cpp)
 

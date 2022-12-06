@@ -298,6 +298,45 @@ libmavros-frame-conversions-test/fast:
 .PHONY : libmavros-frame-conversions-test/fast
 
 #=============================================================================
+# Target rules for targets named traj_plan_3D
+
+# Build rule for target.
+traj_plan_3D: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 traj_plan_3D
+.PHONY : traj_plan_3D
+
+# fast build rule for target.
+traj_plan_3D/fast:
+	$(MAKE) -f CMakeFiles/traj_plan_3D.dir/build.make CMakeFiles/traj_plan_3D.dir/build
+.PHONY : traj_plan_3D/fast
+
+#=============================================================================
+# Target rules for targets named traj_plan
+
+# Build rule for target.
+traj_plan: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 traj_plan
+.PHONY : traj_plan
+
+# fast build rule for target.
+traj_plan/fast:
+	$(MAKE) -f CMakeFiles/traj_plan.dir/build.make CMakeFiles/traj_plan.dir/build
+.PHONY : traj_plan/fast
+
+#=============================================================================
+# Target rules for targets named example0_node
+
+# Build rule for target.
+example0_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example0_node
+.PHONY : example0_node
+
+# fast build rule for target.
+example0_node/fast:
+	$(MAKE) -f CMakeFiles/example0_node.dir/build.make CMakeFiles/example0_node.dir/build
+.PHONY : example0_node/fast
+
+#=============================================================================
 # Target rules for targets named SpeedControlSet_pub
 
 # Build rule for target.
@@ -1768,6 +1807,33 @@ src/SpeedControlSet_pub.cpp.s:
 	$(MAKE) -f CMakeFiles/SpeedControlSet_pub.dir/build.make CMakeFiles/SpeedControlSet_pub.dir/src/SpeedControlSet_pub.cpp.s
 .PHONY : src/SpeedControlSet_pub.cpp.s
 
+src/example0_node.o: src/example0_node.cpp.o
+
+.PHONY : src/example0_node.o
+
+# target to build an object file
+src/example0_node.cpp.o:
+	$(MAKE) -f CMakeFiles/example0_node.dir/build.make CMakeFiles/example0_node.dir/src/example0_node.cpp.o
+.PHONY : src/example0_node.cpp.o
+
+src/example0_node.i: src/example0_node.cpp.i
+
+.PHONY : src/example0_node.i
+
+# target to preprocess a source file
+src/example0_node.cpp.i:
+	$(MAKE) -f CMakeFiles/example0_node.dir/build.make CMakeFiles/example0_node.dir/src/example0_node.cpp.i
+.PHONY : src/example0_node.cpp.i
+
+src/example0_node.s: src/example0_node.cpp.s
+
+.PHONY : src/example0_node.s
+
+# target to generate assembly for a file
+src/example0_node.cpp.s:
+	$(MAKE) -f CMakeFiles/example0_node.dir/build.make CMakeFiles/example0_node.dir/src/example0_node.cpp.s
+.PHONY : src/example0_node.cpp.s
+
 src/gcs_bridge.o: src/gcs_bridge.cpp.o
 
 .PHONY : src/gcs_bridge.o
@@ -2956,6 +3022,60 @@ src/plugins/wind_estimation.cpp.s:
 	$(MAKE) -f CMakeFiles/mavros_plugins.dir/build.make CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.s
 .PHONY : src/plugins/wind_estimation.cpp.s
 
+src/traj_plan.o: src/traj_plan.cpp.o
+
+.PHONY : src/traj_plan.o
+
+# target to build an object file
+src/traj_plan.cpp.o:
+	$(MAKE) -f CMakeFiles/traj_plan.dir/build.make CMakeFiles/traj_plan.dir/src/traj_plan.cpp.o
+.PHONY : src/traj_plan.cpp.o
+
+src/traj_plan.i: src/traj_plan.cpp.i
+
+.PHONY : src/traj_plan.i
+
+# target to preprocess a source file
+src/traj_plan.cpp.i:
+	$(MAKE) -f CMakeFiles/traj_plan.dir/build.make CMakeFiles/traj_plan.dir/src/traj_plan.cpp.i
+.PHONY : src/traj_plan.cpp.i
+
+src/traj_plan.s: src/traj_plan.cpp.s
+
+.PHONY : src/traj_plan.s
+
+# target to generate assembly for a file
+src/traj_plan.cpp.s:
+	$(MAKE) -f CMakeFiles/traj_plan.dir/build.make CMakeFiles/traj_plan.dir/src/traj_plan.cpp.s
+.PHONY : src/traj_plan.cpp.s
+
+src/traj_plan_3D.o: src/traj_plan_3D.cpp.o
+
+.PHONY : src/traj_plan_3D.o
+
+# target to build an object file
+src/traj_plan_3D.cpp.o:
+	$(MAKE) -f CMakeFiles/traj_plan_3D.dir/build.make CMakeFiles/traj_plan_3D.dir/src/traj_plan_3D.cpp.o
+.PHONY : src/traj_plan_3D.cpp.o
+
+src/traj_plan_3D.i: src/traj_plan_3D.cpp.i
+
+.PHONY : src/traj_plan_3D.i
+
+# target to preprocess a source file
+src/traj_plan_3D.cpp.i:
+	$(MAKE) -f CMakeFiles/traj_plan_3D.dir/build.make CMakeFiles/traj_plan_3D.dir/src/traj_plan_3D.cpp.i
+.PHONY : src/traj_plan_3D.cpp.i
+
+src/traj_plan_3D.s: src/traj_plan_3D.cpp.s
+
+.PHONY : src/traj_plan_3D.s
+
+# target to generate assembly for a file
+src/traj_plan_3D.cpp.s:
+	$(MAKE) -f CMakeFiles/traj_plan_3D.dir/build.make CMakeFiles/traj_plan_3D.dir/src/traj_plan_3D.cpp.s
+.PHONY : src/traj_plan_3D.cpp.s
+
 test/test_frame_conversions.o: test/test_frame_conversions.cpp.o
 
 .PHONY : test/test_frame_conversions.o
@@ -3057,6 +3177,9 @@ help:
 	@echo "... _run_tests_mavros"
 	@echo "... run_tests_mavros"
 	@echo "... libmavros-frame-conversions-test"
+	@echo "... traj_plan_3D"
+	@echo "... traj_plan"
+	@echo "... example0_node"
 	@echo "... SpeedControlSet_pub"
 	@echo "... mavros_plugins"
 	@echo "... robot_pose_ekf_generate_messages_nodejs"
@@ -3175,6 +3298,9 @@ help:
 	@echo "... src/SpeedControlSet_pub.o"
 	@echo "... src/SpeedControlSet_pub.i"
 	@echo "... src/SpeedControlSet_pub.s"
+	@echo "... src/example0_node.o"
+	@echo "... src/example0_node.i"
+	@echo "... src/example0_node.s"
 	@echo "... src/gcs_bridge.o"
 	@echo "... src/gcs_bridge.i"
 	@echo "... src/gcs_bridge.s"
@@ -3307,6 +3433,12 @@ help:
 	@echo "... src/plugins/wind_estimation.o"
 	@echo "... src/plugins/wind_estimation.i"
 	@echo "... src/plugins/wind_estimation.s"
+	@echo "... src/traj_plan.o"
+	@echo "... src/traj_plan.i"
+	@echo "... src/traj_plan.s"
+	@echo "... src/traj_plan_3D.o"
+	@echo "... src/traj_plan_3D.i"
+	@echo "... src/traj_plan_3D.s"
 	@echo "... test/test_frame_conversions.o"
 	@echo "... test/test_frame_conversions.i"
 	@echo "... test/test_frame_conversions.s"

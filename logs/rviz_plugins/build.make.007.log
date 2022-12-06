@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target rviz_plugins[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rviz_plugins.dir/src/multi_probmap_display.cpp.o[0m
+In file included from [01m[K/home/szf/ROS/catkin_ws_3/src/rviz_plugins/src/multi_probmap_display.cpp:53[m[K:
+[01m[K/home/szf/ROS/catkin_ws_3/src/rviz_plugins/src/multi_probmap_display.h:41:10:[m[K [01;31m[Kfatal error: [m[Kmulti_map_server/MultiOccupancyGrid.h: 没有那个文件或目录
+   41 | #include [01;31m[K<multi_map_server/MultiOccupancyGrid.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/rviz_plugins.dir/build.make:119：CMakeFiles/rviz_plugins.dir/src/multi_probmap_display.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:1907：CMakeFiles/rviz_plugins.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

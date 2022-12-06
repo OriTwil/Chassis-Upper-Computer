@@ -1,0 +1,3 @@
+CMake Error: The source directory "/home/szf/ROS/catkin_ws_3/src/rviz-3d-nav-goal-tool" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:1408：cmake_check_build_system] 错误 1

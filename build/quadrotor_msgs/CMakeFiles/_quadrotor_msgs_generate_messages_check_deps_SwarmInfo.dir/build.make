@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/szf/ROS/catkin_ws_3/build/quadrotor_msgs
 include CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_SwarmInfo.dir/progress.make
 
 CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_SwarmInfo:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/SwarmInfo.msg quadrotor_msgs/TrajectoryMatrix:std_msgs/Header
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/SwarmInfo.msg std_msgs/Header:quadrotor_msgs/TrajectoryMatrix
 
 _quadrotor_msgs_generate_messages_check_deps_SwarmInfo: CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_SwarmInfo
 _quadrotor_msgs_generate_messages_check_deps_SwarmInfo: CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_SwarmInfo.dir/build.make

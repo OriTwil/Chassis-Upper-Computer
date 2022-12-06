@@ -1,0 +1,8 @@
+prefix=/home/szf/ROS/catkin_ws_3/devel/.private/rviz-3d-nav-goal-tool
+
+Name: rviz-3d-nav-goal-tool
+Description: Description of rviz-3d-nav-goal-tool
+Version: 0.0.0
+Cflags: -I/home/szf/ROS/catkin_ws_3/src/rviz-3d-nav-goal-tool/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/home/szf/ROS/catkin_ws_3/devel/.private/traj_visualize/share/traj_visualize/cmake/traj_visualizeConfig-version.cmake

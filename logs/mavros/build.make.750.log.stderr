@@ -1,0 +1,4 @@
+make[2]: *** 没有规则可制作目标“/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/t3_nav_node.cpp”，由“CMakeFiles/t3_nav_node.dir/src/t3_nav_node.cpp.o” 需求。 停止。
+make[1]: *** [CMakeFiles/Makefile2:2228：CMakeFiles/t3_nav_node.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [Makefile:141：all] 错误 2

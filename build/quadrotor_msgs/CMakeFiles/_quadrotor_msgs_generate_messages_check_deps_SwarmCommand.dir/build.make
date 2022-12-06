@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/szf/ROS/catkin_ws_3/build/quadrotor_msgs
 include CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_SwarmCommand.dir/progress.make
 
 CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_SwarmCommand:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/SwarmCommand.msg std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Quaternion:nav_msgs/Path:geometry_msgs/Point:geometry_msgs/PoseStamped
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/SwarmCommand.msg geometry_msgs/Pose:nav_msgs/Path:geometry_msgs/Quaternion:geometry_msgs/Point:std_msgs/Header:geometry_msgs/PoseStamped
 
 _quadrotor_msgs_generate_messages_check_deps_SwarmCommand: CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_SwarmCommand
 _quadrotor_msgs_generate_messages_check_deps_SwarmCommand: CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_SwarmCommand.dir/build.make

@@ -1,0 +1,7 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/traj_plan.cpp:2:10:[m[K [01;31m[Kfatal error: [m[K/home/szf/ROS/catkin_ws_3/src/traj_visualize/include/am_traj.hpp: 没有那个文件或目录
+    2 | #include [01;31m[K"/home/szf/ROS/catkin_ws_3/src/traj_visualize/include/am_traj.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/traj_plan.dir/build.make:63：CMakeFiles/traj_plan.dir/src/traj_plan.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:537：CMakeFiles/traj_plan.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

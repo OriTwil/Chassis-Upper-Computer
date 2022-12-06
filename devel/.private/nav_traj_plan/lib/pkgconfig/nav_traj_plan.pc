@@ -1,0 +1,8 @@
+prefix=/home/szf/ROS/catkin_ws_3/devel/.private/nav_traj_plan
+
+Name: nav_traj_plan
+Description: Description of nav_traj_plan
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

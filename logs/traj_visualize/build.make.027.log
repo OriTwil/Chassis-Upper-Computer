@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/traj_plan.dir/src/traj_plan.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/szf/ROS/catkin_ws_3/devel/.private/traj_visualize/lib/traj_visualize/traj_plan[0m
+[100%] Built target traj_plan

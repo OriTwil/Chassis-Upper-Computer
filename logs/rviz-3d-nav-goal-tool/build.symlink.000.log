@@ -1,0 +1,4 @@
+Symlinking /home/szf/ROS/catkin_ws_3/devel/share/rviz-3d-nav-goal-tool/cmake/rviz-3d-nav-goal-toolConfig.cmake
+Symlinking /home/szf/ROS/catkin_ws_3/devel/share/rviz-3d-nav-goal-tool/cmake/rviz-3d-nav-goal-toolConfig-version.cmake
+Symlinking /home/szf/ROS/catkin_ws_3/devel/lib/librviz_3d_nav_goal_tool.so
+Symlinking /home/szf/ROS/catkin_ws_3/devel/lib/pkgconfig/rviz-3d-nav-goal-tool.pc

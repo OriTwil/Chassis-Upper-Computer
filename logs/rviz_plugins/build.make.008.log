@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target rviz_plugins[0m
+[ 14%] [32m[1mLinking CXX shared library /home/szf/ROS/catkin_ws_3/devel/.private/rviz_plugins/lib/librviz_plugins.so[0m
+[100%] Built target rviz_plugins

@@ -95,8 +95,8 @@ CMakeFiles/quadrotor_msgs_generate_messages_py: /home/szf/ROS/catkin_ws_3/devel/
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_OutputData.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_OutputData.py: /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/OutputData.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_OutputData.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_OutputData.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_OutputData.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_OutputData.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/quadrotor_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG quadrotor_msgs/OutputData"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/OutputData.msg -Iquadrotor_msgs:/home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p quadrotor_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg
 
@@ -123,9 +123,9 @@ CMakeFiles/quadrotor_msgs_generate_messages_py: /home/szf/ROS/catkin_ws_3/devel/
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SO3Command.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SO3Command.py: /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/SO3Command.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SO3Command.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SO3Command.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SO3Command.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SO3Command.py: /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/AuxCommand.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SO3Command.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/quadrotor_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG quadrotor_msgs/SO3Command"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/SO3Command.msg -Iquadrotor_msgs:/home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p quadrotor_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg
 
@@ -144,15 +144,15 @@ CMakeFiles/quadrotor_msgs_generate_messages_py: /home/szf/ROS/catkin_ws_3/devel/
 
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/Odometry.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/share/nav_msgs/msg/Odometry.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Odometry.py: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/quadrotor_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python from MSG quadrotor_msgs/Odometry"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/Odometry.msg -Iquadrotor_msgs:/home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p quadrotor_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg
 
@@ -196,45 +196,45 @@ CMakeFiles/quadrotor_msgs_generate_messages_py: /home/szf/ROS/catkin_ws_3/devel/
 
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmCommand.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmCommand.py: /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/SwarmCommand.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmCommand.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmCommand.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmCommand.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmCommand.py: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmCommand.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmCommand.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmCommand.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmCommand.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/quadrotor_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python from MSG quadrotor_msgs/SwarmCommand"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/SwarmCommand.msg -Iquadrotor_msgs:/home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p quadrotor_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg
 
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Replan.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Replan.py: /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/Replan.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Replan.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Replan.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Replan.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Replan.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Replan.py: /opt/ros/noetic/share/nav_msgs/msg/Path.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Replan.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Replan.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Replan.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Replan.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Replan.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_Replan.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/quadrotor_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Python from MSG quadrotor_msgs/Replan"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/Replan.msg -Iquadrotor_msgs:/home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p quadrotor_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg
 
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/SwarmOdometry.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/share/nav_msgs/msg/Odometry.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmOdometry.py: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/quadrotor_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Python from MSG quadrotor_msgs/SwarmOdometry"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/SwarmOdometry.msg -Iquadrotor_msgs:/home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p quadrotor_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg
 
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmInfo.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmInfo.py: /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/SwarmInfo.msg
-/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmInfo.py: /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/TrajectoryMatrix.msg
 /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmInfo.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg/_SwarmInfo.py: /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/TrajectoryMatrix.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/szf/ROS/catkin_ws_3/build/quadrotor_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Python from MSG quadrotor_msgs/SwarmInfo"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg/SwarmInfo.msg -Iquadrotor_msgs:/home/szf/ROS/catkin_ws_3/src/am_traj/example1/env/utils/quadrotor_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p quadrotor_msgs -o /home/szf/ROS/catkin_ws_3/devel/.private/quadrotor_msgs/lib/python3/dist-packages/quadrotor_msgs/msg
 

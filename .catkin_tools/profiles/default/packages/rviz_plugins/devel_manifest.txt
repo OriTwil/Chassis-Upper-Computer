@@ -1,0 +1,6 @@
+rviz_plugins
+/home/szf/ROS/catkin_ws_3/devel/.private/rviz_plugins/cmake.lock /home/szf/ROS/catkin_ws_3/devel/./cmake.lock
+/home/szf/ROS/catkin_ws_3/devel/.private/rviz_plugins/share/rviz_plugins/cmake/rviz_pluginsConfig.cmake /home/szf/ROS/catkin_ws_3/devel/share/rviz_plugins/cmake/rviz_pluginsConfig.cmake
+/home/szf/ROS/catkin_ws_3/devel/.private/rviz_plugins/share/rviz_plugins/cmake/rviz_pluginsConfig-version.cmake /home/szf/ROS/catkin_ws_3/devel/share/rviz_plugins/cmake/rviz_pluginsConfig-version.cmake
+/home/szf/ROS/catkin_ws_3/devel/.private/rviz_plugins/lib/librviz_plugins.so /home/szf/ROS/catkin_ws_3/devel/lib/librviz_plugins.so
+/home/szf/ROS/catkin_ws_3/devel/.private/rviz_plugins/lib/pkgconfig/rviz_plugins.pc /home/szf/ROS/catkin_ws_3/devel/lib/pkgconfig/rviz_plugins.pc

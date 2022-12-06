@@ -1,0 +1,8 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/t3_nav_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcommon_include.h: 没有那个文件或目录
+    5 | #include [01;31m[K"common_include.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/t3_nav_node.dir/build.make:63：CMakeFiles/t3_nav_node.dir/src/t3_nav_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:2228：CMakeFiles/t3_nav_node.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [Makefile:141：all] 错误 2

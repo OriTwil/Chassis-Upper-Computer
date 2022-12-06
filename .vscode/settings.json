@@ -83,7 +83,10 @@
         "core": "cpp",
         "geometry": "cpp",
         "lu": "cpp",
-        "*.txx": "cpp"
+        "*.txx": "cpp",
+        "codecvt": "cpp",
+        "iterator": "cpp",
+        "cfenv": "cpp"
     },
     "ros.distro": "noetic"
 }

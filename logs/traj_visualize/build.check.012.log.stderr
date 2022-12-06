@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /home/szf/ROS/catkin_ws_3/src/traj_visualize/CMakeLists.txt:134 (add_library):
+  Cannot find source file:
+
+    src/traj_visualize/src/traj_plan_3D.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/szf/ROS/catkin_ws_3/src/traj_visualize/CMakeLists.txt:134 (add_library):
+  No SOURCES given to target: traj_visualize
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:802：cmake_check_build_system] 错误 1

@@ -1,0 +1,8 @@
+prefix=/home/szf/ROS/catkin_ws_3/install
+
+Name: traj_visualize
+Description: Description of traj_visualize
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

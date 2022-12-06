@@ -1,0 +1,4 @@
+Linked: (/home/szf/ROS/catkin_ws_3/devel/.private/traj_visualize/share/traj_visualize/cmake/traj_visualizeConfig.cmake, /home/szf/ROS/catkin_ws_3/devel/share/traj_visualize/cmake/traj_visualizeConfig.cmake)
+Linked: (/home/szf/ROS/catkin_ws_3/devel/.private/traj_visualize/share/traj_visualize/cmake/traj_visualizeConfig-version.cmake, /home/szf/ROS/catkin_ws_3/devel/share/traj_visualize/cmake/traj_visualizeConfig-version.cmake)
+Linked: (/home/szf/ROS/catkin_ws_3/devel/.private/traj_visualize/lib/pkgconfig/traj_visualize.pc, /home/szf/ROS/catkin_ws_3/devel/lib/pkgconfig/traj_visualize.pc)
+Symlinking /home/szf/ROS/catkin_ws_3/devel/lib/traj_visualize/traj_plan

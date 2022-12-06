@@ -1,0 +1,14 @@
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/example0_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kam_traj/am_traj.hpp: 没有那个文件或目录
+    1 | #include [01;31m[K"am_traj/am_traj.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/szf/ROS/catkin_ws_3/src/mavros/mavros/src/traj_plan_3D.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kam_traj/am_traj.hpp: 没有那个文件或目录
+    1 | #include [01;31m[K"am_traj/am_traj.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+make[2]: *** [CMakeFiles/example0_node.dir/build.make:63：CMakeFiles/example0_node.dir/src/example0_node.cpp.o] 错误 1
+make[2]: *** [CMakeFiles/traj_plan_3D.dir/build.make:63：CMakeFiles/traj_plan_3D.dir/src/traj_plan_3D.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:597：CMakeFiles/example0_node.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:543：CMakeFiles/traj_plan_3D.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

@@ -1,0 +1,1 @@
+/home/szf/ROS/catkin_ws_3/devel/.private/rviz_plugins/lib/pkgconfig/rviz_plugins.pc

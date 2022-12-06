@@ -1,0 +1,8 @@
+make[2]: *** 没有规则可制作目标“/home/szf/ROS/catkin_ws_3/src/traj_visualize/src/example0_node.cpp”，由“CMakeFiles/example0_node.dir/src/example0_node.cpp.o” 需求。 停止。
+make[2]: *** 没有规则可制作目标“/home/szf/ROS/catkin_ws_3/src/traj_visualize/src/traj_plan_3D.cpp”，由“CMakeFiles/traj_plan_3D.dir/src/traj_plan_3D.cpp.o” 需求。 停止。
+make[1]: *** [CMakeFiles/Makefile2:196：CMakeFiles/example0_node.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:169：CMakeFiles/traj_plan_3D.dir/all] 错误 2
+make[2]: *** 没有规则可制作目标“/home/szf/ROS/catkin_ws_3/src/traj_visualize/src/traj_plan.cpp”，由“CMakeFiles/traj_plan.dir/src/traj_plan.cpp.o” 需求。 停止。
+make[1]: *** [CMakeFiles/Makefile2:574：CMakeFiles/traj_plan.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

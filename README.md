@@ -76,13 +76,10 @@ Upper computer for the chassis.
 ## Project File Description
 ## Effect presentation
   - 11.16 Translation: Added Kalman filtering, but since the coordinate jitter is not significant, the effect is not very obvious.
-  
-  ![11.16 y](https://github.com/szf01/Underpan-upper-computer/raw/master/img_storage/df4808fcfc458988658241c942bb094.jpg)
+  <image src="https://github.com/szf01/Underpan-upper-computer/raw/master/img_storage/df4808fcfc458988658241c942bb094.jpg" width="800" height="500">
   - 11.18 Plan the velocity in the x direction.
-  
-  ![11.18 x](https://github.com/szf01/Underpan-Upper-Computer/blob/master/img_storage/S_curve_2_x.png)
-  
-  ![11.18 y](https://github.com/szf01/Underpan-Upper-Computer/blob/master/img_storage/S_curve_2_y.png)
+  <image src="https://github.com/szf01/Underpan-Upper-Computer/blob/master/img_storage/S_curve_2_x.png" width="800" height="500">
+  <image src="https://github.com/szf01/Underpan-Upper-Computer/blob/master/img_storage/S_curve_2_y.png" width="800" height="500">
   
 ## Optimization Ideas and Progress
   - Nov. 16: Need to optimize control algorithms (try PI controllers or PID), path planning (unknown), trajectory optimization (estimate maximum acceleration, set acceleration and deceleration curves to reduce slip and speed jumps), mechanical structure optimization (reduce jitter, precise dimensions).
